@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IP-TRX-CTRL – Remote control of your HF radio · IC8TEM'S SOFTWARE FARM</title>
+<meta name="description" content="IP-TRX-CTRL – Remote control of your HF radio. Free ham radio software by Costantino Cerrotta IC8TEM.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ic8tem.github.io/programs/ip-trx-ctrl.html">
+<meta property="og:title" content="IP-TRX-CTRL – Remote control of your HF radio">
+<meta property="og:image" content="https://ic8tem.github.io/assets/cover.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101a3a'/%3E%3Cpath d='M12 48 L32 14 L52 48' fill='none' stroke='%23f2b233' stroke-width='5'/%3E%3Ccircle cx='32' cy='14' r='5' fill='%23f2b233'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="../">IC8TEM'S <span>SOFTWARE FARM</span></a>
+  <nav>
+    <a href="../#news">News</a>
+    <a href="../#programmi">Programs</a>
+    <a href="../#download">Download</a>
+    <a href="../#video">Video</a>
+    <a href="../#contatti">Contacts</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <div class="crumbs"><a href="../">Home</a> › <a href="../#programmi">Programs</a> › IP-TRX-CTRL</div>
+  <div class="btns" style="justify-content:flex-start;margin-top:14px">
+    <a class="btn pri" href="../?p=IP-TRX-CTRL#download">⬇️ Download for your system</a>
+    <a class="btn" href="https://github.com/ic8tem/IP-TRX-CTRL/releases/latest">All files (GitHub Releases)</a>
+    <a class="btn" href="https://github.com/ic8tem/IP-TRX-CTRL">GitHub</a>
+    <a class="btn" href="https://ko-fi.com/ic8tem">☕ Ko-fi</a>
+  </div>
+  <p class="note">This page is an English translation of the program's README, which on GitHub is in Italian.</p>
+  <article class="md">
+<h1>IP-TRX-CTRL</h1>
+<p>Remote control of an HF radio over the internet: two-way 8 kHz audio with AES-256 encryption, CAT control with Hamlib or TCI (also the radio audio via TCI, with no sound cards or cables), PTT (CAT, RTS, DTR, VOX, TCI), keyer with WAV messages in SSB and text macros in CW, CW waterfall and decoder, VFO B with split, TX power, access also from the browser of a phone, tablet or PC without installing anything (from 0.3.1), SWR protection (warning and transmit lock), maximum transmit time, priority to whoever is at the radio, listen-only clients, radio controls (NR, NB, Notch, ATT, preamplifier, AGC, compressor, squelch, ALC), bands, step and memories, the radio's panadapter (Icom via CI-V, SDR via TCI), mute of the server's sound cards. On the client: digital-mode programs (WSJT-X, JTDX, fldigi…) with a local rigctld and virtual audio cables, PTT pedal and mechanical CW key on a serial port. Ports opened with UPnP and checked from outside, reverse connection and audio over UDP when possible.</p>
+<p>One program for both PCs: <strong>server</strong> (the radio is connected here) and <strong>client</strong> (the operator). The roles are chosen at the first start and can be swapped.</p>
+<p>Versions: Windows 10/11 64 and 32 bit and ARM, Windows 7 SP1, 8 and 8.1 (64 and 32 bit), Linux (Debian and derivatives, Fedora, openSUSE, Arch, Slackware, Alpine, AppImage for all), Raspberry Pi 64 and 32 bit, macOS Apple Silicon and Intel.</p>
+<h2>Download</h2>
+<p>The files are on the <strong>Releases</strong> page; at the top of every release there is the table «Download the version for your system» with a direct link to each package.</p>
+<table>
+<thead>
+<tr>
+<th>Distribution</th>
+<th>File to download</th>
+<th>Updates itself</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Windows 64 bit</strong></td>
+<td><code>IP-TRX-CTRL-…-win-x64-setup.exe</code> (portable: <code>…-win-x64-portatile.zip</code>)</td>
+<td>yes</td>
+<td>Hamlib included; the setup also offers the VB-CABLE virtual audio cable for digital modes</td>
+</tr>
+<tr>
+<td><strong>Windows 32 bit</strong></td>
+<td><code>IP-TRX-CTRL-…-win-x86-setup.exe</code> (portable: <code>…-win-x86-portatile.zip</code>)</td>
+<td>yes</td>
+<td>Hamlib included</td>
+</tr>
+<tr>
+<td><strong>Windows 7 SP1, 8, 8.1</strong> (64 and 32 bit)</td>
+<td><code>IP-TRX-CTRL-…-win7-x64-setup.exe</code> or <code>…-win7-x86-setup.exe</code> (portable: <code>…-win7-x64-portatile.zip</code>, <code>…-win7-x86-portatile.zip</code>)</td>
+<td>yes</td>
+<td>from 0.3.5, with .NET 6 (the last one that runs on these Windows versions); Hamlib included. The <code>-win-</code> packages require Windows 10 or 11</td>
+</tr>
+<tr>
+<td><strong>Windows ARM</strong> (Snapdragon)</td>
+<td><code>IP-TRX-CTRL-…-win-arm64-setup.exe</code> (portable: <code>…-win-arm64-portatile.zip</code>)</td>
+<td>yes</td>
+<td>Hamlib included (x64 rigctld, run by the Windows 11 emulation)</td>
+</tr>
+<tr>
+<td><strong>Debian, Ubuntu, Mint</strong> (x86_64)</td>
+<td><code>ip-trx-ctrl_…_amd64.deb</code></td>
+<td>no, it warns</td>
+<td><code>sudo apt install ./&lt;file&gt;.deb</code> also installs Hamlib</td>
+</tr>
+<tr>
+<td><strong>Fedora, openSUSE, RHEL</strong></td>
+<td><code>ip-trx-ctrl-….x86_64.rpm</code> (or <code>.aarch64.rpm</code>, <code>.armv7hl.rpm</code>)</td>
+<td>no, it warns</td>
+<td><code>sudo dnf install ./&lt;file&gt;.rpm</code> or <code>sudo zypper install ./&lt;file&gt;.rpm</code>; Hamlib recommended (<code>hamlib</code>)</td>
+</tr>
+<tr>
+<td><strong>Arch, Manjaro, EndeavourOS, Arch Linux ARM</strong></td>
+<td><code>ip-trx-ctrl-…-x86_64.pkg.tar.zst</code> (or <code>-aarch64</code>)</td>
+<td>no, it warns</td>
+<td><code>sudo pacman -U ./&lt;file&gt;.pkg.tar.zst</code> also installs Hamlib</td>
+</tr>
+<tr>
+<td><strong>Slackware</strong> (x86_64 and ARM64)</td>
+<td><code>ip-trx-ctrl-…-x86_64-1_ic8tem.txz</code> (or <code>-aarch64-</code>)</td>
+<td>no, it warns</td>
+<td>as root <code>installpkg &lt;file&gt;.txz</code> (later versions: <code>upgradepkg</code>); Hamlib from SlackBuilds</td>
+</tr>
+<tr>
+<td><strong>Any Linux</strong> (x86_64 and ARM64)</td>
+<td><code>IP-TRX-CTRL-…-x86_64.AppImage</code> (or <code>-aarch64</code>)</td>
+<td>yes</td>
+<td>a single file: make it executable and run it; Hamlib and ALSA from the system</td>
+</tr>
+<tr>
+<td><strong>Portable Linux x86_64</strong></td>
+<td><code>IP-TRX-CTRL-…-linux-x64-portatile.tar.gz</code></td>
+<td>yes</td>
+<td>extract and run; Hamlib from the package manager</td>
+</tr>
+<tr>
+<td><strong>Linux i686</strong> (32 bit)</td>
+<td>—</td>
+<td>—</td>
+<td>not available: .NET 8, on which the program is built, doesn't exist for 32-bit PC Linux</td>
+</tr>
+<tr>
+<td><strong>Alpine Linux</strong> (musl, x86_64 and ARM64)</td>
+<td><code>IP-TRX-CTRL-…-linux-musl-x64-portatile.tar.gz</code> (or <code>-linux-musl-arm64-</code>)</td>
+<td>yes</td>
+<td><code>apk add libstdc++ fontconfig libx11 libice libsm alsa-lib hamlib</code></td>
+</tr>
+<tr>
+<td><strong>Raspberry Pi (ARM)</strong></td>
+<td><code>ip-trx-ctrl_…_arm64.deb</code> (Raspberry Pi OS 64 bit) or <code>…_armhf.deb</code> (32 bit)</td>
+<td>no, it warns</td>
+<td><code>sudo apt install ./&lt;file&gt;.deb</code> also installs Hamlib; for automatic updates use the portable <code>…-linux-arm64-</code> / <code>…-linux-arm-portatile.tar.gz</code></td>
+</tr>
+<tr>
+<td><strong>Raspberry Pi Slackware ARM64</strong></td>
+<td><code>ip-trx-ctrl-…-aarch64-1_ic8tem.txz</code> or <code>IP-TRX-CTRL-…-linux-arm64-portatile.tar.gz</code></td>
+<td>the portable one does</td>
+<td>Hamlib from SlackBuilds (<code>hamlib</code>)</td>
+</tr>
+<tr>
+<td><strong>Linux armv7l</strong></td>
+<td><code>ip-trx-ctrl_…_armhf.deb</code>, <code>ip-trx-ctrl-….armv7hl.rpm</code> or <code>IP-TRX-CTRL-…-linux-arm-portatile.tar.gz</code></td>
+<td>the portable one does</td>
+<td>32-bit ARM; Hamlib from the package manager</td>
+</tr>
+<tr>
+<td><strong>FreeBSD amd64</strong></td>
+<td>—</td>
+<td>—</td>
+<td>not available: .NET 8 has no official FreeBSD version (only community builds, not suitable for a program that controls a transmitter)</td>
+</tr>
+<tr>
+<td><strong>macOS</strong></td>
+<td><code>…-osx-arm64.dmg</code> (Apple Silicon) or <code>…-osx-x64.dmg</code> (Intel); app only: <code>…-app.zip</code></td>
+<td>yes, if the app is in Applications or another writable folder</td>
+<td>Hamlib with <code>brew install hamlib</code>; at the first start right-click the app › Open</td>
+</tr>
+</tbody>
+</table>
+<h2>Automatic updates</h2>
+<p>From <strong>0.3.2</strong> the program updates itself. At start-up and then every 6 hours it checks the latest version published here on GitHub; if it is newer, it downloads the right package for the PC, checks its size and SHA-256 fingerprint and restarts in the new version. It does so <strong>only when no session is running and nobody is transmitting</strong>: if a session is open, the new version stays ready and is installed as soon as it ends. A server left on updates and restarts by itself, with the same settings. Settings, keys, pairings and logs are not touched.</p>
+<p>These update themselves: the Windows installer and portable zip, the portable tar.gz (Linux, Raspberry Pi, Alpine), the AppImage, IP-TRX-CTRL.app on the Mac (moved to Applications or another folder the user can write to).</p>
+<p>The system package managers' packages do <strong>not</strong> update themselves: <strong>.deb</strong> (Debian, Ubuntu, Mint, Raspberry Pi OS), <strong>.rpm</strong> (Fedora, openSUSE), <strong>Arch</strong> and <strong>Slackware</strong>. They are installed by root in <code>/opt</code> and belong to the package manager: the program only shows the new-version warning, and you install it with the same command as the first time. If you want automatic updates, use the AppImage or the portable tar.gz.</p>
+<p>They can be switched off in <strong>Settings › Main window</strong> («Automatic updates» checkbox): the warning stays, with the «Update now» button. 0.3.0 and 0.3.1 don't update themselves: install 0.3.2 by hand once, and the following ones arrive by themselves. New versions of the same protocol talk to the previous ones; if one day the protocol changes, the two PCs align themselves at the first check (at start-up or within 6 hours).</p>
+<p>You can also use the <strong>browser</strong> without installing anything (from 0.3.1): see <a href="https://github.com/ic8tem/IP-TRX-CTRL/blob/main/docs/Accesso-dal-browser.md">docs/Accesso-dal-browser.md</a>.</p>
+<h2>Errors and logs</h2>
+<p>The program writes errors to <code>errori.log</code> and the connection log to <code>sessioni.log</code>, in the data folder:</p>
+<ul>
+<li>Windows: <code>%APPDATA%\IP-TRX-CTRL</code> (Win+R, type the path and press Enter)</li>
+<li>Linux and Raspberry Pi: <code>~/.config/IP-TRX-CTRL</code></li>
+<li>macOS: <code>~/.config/IP-TRX-CTRL</code></li>
+</ul>
+<p>From the program: <strong>Settings › Open data folder</strong>. To report a problem, open an <strong>Issue</strong> and attach <code>errori.log</code> (and <code>sessioni.log</code> for connection problems). Details in <code>docs/Registri-e-risoluzione-problemi.md</code>.</p>
+<p>The documentation is in the <code>docs</code> folder. The licence notes of third-party components are in <code>THIRD-PARTY-NOTICES.txt</code> and in the program's «About and licences» window.</p>
+<p>Declared use: amateur radio activity.</p>
+<h2>Compatible versions</h2>
+<p>Server and client must have versions of the same protocol:</p>
+<table>
+<thead>
+<tr>
+<th>Versions</th>
+<th>Protocol</th>
+<th>Compatible with</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.1.0 – 0.1.3</td>
+<td>1</td>
+<td>only 0.1.x</td>
+</tr>
+<tr>
+<td>0.2.0 – 0.2.8</td>
+<td>2</td>
+<td>all 0.2.x (some functions need a minimum version on both PCs)</td>
+</tr>
+<tr>
+<td>0.3.0 – 0.3.5</td>
+<td>3</td>
+<td>only 0.3.x (10-digit number, fixed server code, several clients on the server, transmit safety, panadapter; from 0.3.1 browser access; from 0.3.2 automatic updates)</td>
+</tr>
+</tbody>
+</table>
+<p>Details and automatic check: <a href="https://github.com/ic8tem/IP-TRX-CTRL/blob/main/docs/Versioni-compatibili.md">docs/Versioni-compatibili.md</a>.</p>
+<h2>Support the project</h2>
+<p>IP-TRX-CTRL is free. If you find it useful and want to support its development: <a href="https://ko-fi.com/ic8tem">ko-fi.com/ic8tem</a>.</p>
+<h2>License</h2>
+<p>IP-TRX-CTRL is free software, Copyright (C) 2026 IC8TEM, distributed under the <strong>GNU General Public License version 3 or later</strong> (<a href="https://github.com/ic8tem/IP-TRX-CTRL/blob/main/LICENSE"><code>LICENSE</code></a>), without any warranty. The licences of third-party components are in <code>THIRD-PARTY-NOTICES.txt</code>.</p>
+  </article>
+</main>
+<footer><div class="wrap"><p>Costantino Cerrotta IC8TEM · Capri, JN70CN · <a href="https://www.facebook.com/groups/1675310160982493">Facebook group</a> · <a href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a> · <a href="https://ko-fi.com/ic8tem">Ko-fi</a> · 73!</p></div></footer>
+</body>
+</html>

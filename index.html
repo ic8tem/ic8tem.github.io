@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IC8TEM'S SOFTWARE FARM – programmi gratuiti per radioamatori</title>
+<meta name="description" content="Programmi gratuiti di Costantino Cerrotta IC8TEM per radioamatori: YA-NEC, YA-MS, YAEC, E-LAYER ANALYZER, IP-TRX-CTRL. Free ham radio software for VHF/UHF, EME, meteor scatter and antennas.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ic8tem.github.io/">
+<meta property="og:title" content="IC8TEM'S SOFTWARE FARM">
+<meta property="og:description" content="Observe · Calculate · Share – programmi gratuiti per radioamatori / free ham radio software: YA-NEC, YA-MS, YAEC, E-LAYER ANALYZER, IP-TRX-CTRL.">
+<meta property="og:image" content="https://ic8tem.github.io/assets/cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101a3a'/%3E%3Cpath d='M12 48 L32 14 L52 48' fill='none' stroke='%23f2b233' stroke-width='5'/%3E%3Ccircle cx='32' cy='14' r='5' fill='%23f2b233'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="#">IC8TEM'S <span>SOFTWARE FARM</span></a>
+  <nav>
+    <a href="#news"><span data-it>Novità</span><span data-en>News</span></a>
+    <a href="#programmi"><span data-it>Programmi</span><span data-en>Programs</span></a>
+    <a href="#download">Download</a>
+    <a href="#video">Video</a>
+    <a href="#contatti"><span data-it>Contatti</span><span data-en>Contacts</span></a>
+  </nav>
+  <div class="lang"><button id="b-it" onclick="setLang('it')">IT</button><button id="b-en" onclick="setLang('en')">EN</button></div>
+</div></header>
+
+<div class="hero">
+  <img src="assets/cover.jpg" onerror="this.style.display='none'" alt="IC8TEM'S SOFTWARE FARM – Observe · Calculate · Share">
+  <div class="cap"><div class="wrap">
+    <h1>IC8TEM'S SOFTWARE FARM</h1>
+    <div class="motto">Observe · Calculate · Share</div>
+    <p data-it>Programmi gratuiti per radioamatori di Costantino Cerrotta IC8TEM (Capri, JN70CN): antenne, meteor scatter, EME, propagazione via strato E e comando a distanza della radio. Per Windows, macOS, Linux e Raspberry Pi, in 35-37 lingue, con l'aggiornamento automatico.</p>
+    <p data-en>Free ham radio software by Costantino Cerrotta IC8TEM (Capri, JN70CN): antennas, meteor scatter, EME, E-layer propagation and remote control of your radio. For Windows, macOS, Linux and Raspberry Pi, in 35-37 languages, with automatic updates.</p>
+    <div class="btns">
+      <a class="btn pri" href="#programmi"><span data-it>Scarica i programmi</span><span data-en>Download the programs</span></a>
+      <a class="btn" href="https://www.facebook.com/groups/1675310160982493"><span data-it>Gruppo Facebook</span><span data-en>Facebook group</span></a>
+      <a class="btn" href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a>
+      <a class="btn" href="https://ko-fi.com/ic8tem">☕ Ko-fi</a>
+    </div>
+  </div></div>
+</div>
+
+<main class="wrap">
+
+<section id="news">
+  <h2><span data-it>Novità</span><span data-en>News</span></h2>
+  <p class="sub" data-it>Le ultime notizie, le stesse del gruppo e della Pagina Facebook.</p>
+  <p class="sub" data-en>The latest news, the same as in the Facebook group and Page.</p>
+  <div class="news">
+
+    <article class="item">
+      <time>20/11/2026</time>
+      <h3>☄️ <span data-it>YA-MS – meteor scatter RA1WU ↔ IW2EQR al picco delle Geminidi</span><span data-en>YA-MS – meteor scatter RA1WU ↔ IW2EQR at the Geminids peak</span></h3>
+      <p data-it>Video dimostrativo (1:30): la previsione in 144 MHz fra IW2EQR (JN45NM) e RA1WU (KO47ES), 1890 km, per il 14 dicembre 2026, giorno del massimo delle Geminidi (IMO: 14:00 UTC, ZHR 150). Si vedono il calendario degli sciami, il Calcolo previsionale con gli Hot A/B e il puntamento consigliato (27° invece di 37°), l'efficienza ora per ora (finestra migliore 16–17 UTC sul lato A) e la geometria con l'attenuazione di tratta.</p>
+      <p data-en>Demo video (1:30): the 144 MHz forecast between IW2EQR (JN45NM) and RA1WU (KO47ES), 1890 km, for 14 December 2026, the day of the Geminids maximum (IMO: 14:00 UTC, ZHR 150). It shows the shower calendar, the Forecast calculation with Hot A/B and the recommended heading (27° instead of 37°), the hour by hour efficiency (best window 16–17 UTC on side A) and the geometry with the path loss.</p>
+      <div class="links"><a href="https://youtu.be/Yop2bzGTiI0">▶ Video (IT)</a><a href="https://youtu.be/LNopcQcj68E">▶ Video (EN)</a><a href="https://github.com/ic8tem/YA-MS/releases/latest">⬇️ YA-MS</a></div>
+    </article>
+
+    <article class="item">
+      <time>20/11/2026</time>
+      <h3>📡 <span data-it>YA-NEC – videocorso aggiornato alla 1.5.2</span><span data-en>YA-NEC – video course updated to 1.5.2</span></h3>
+      <p data-it>Rigirate con la 1.5.2 le lezioni 0, 1, 13, 15, 22 e 27, e nuova la lezione 28: il rilievo dell'antenna costruita e la correzione del boom al contrario. Esempio: la 10 elementi di IC8TEM su boom tondo da 30 mm, calcolata così com'è, risuona a 145,97 MHz; con Calcolatori › VHF › Correzione del boom nel verso «rilievo → modello elettrico per il NEC» torna a 144,33 MHz, ROS 1,15, 15,7 dBi. In tutto 29 lezioni, su YouTube in ordine.</p>
+      <p data-en>Lessons 0, 1, 13, 15, 22 and 27 re-recorded with 1.5.2, plus the new lesson 28: surveying a built antenna and the boom correction in reverse. Example: IC8TEM's 10-element Yagi on a 30 mm round boom, calculated as it is, resonates at 145.97 MHz; with Calculators › VHF › Boom correction in the sense «survey → electrical model for the NEC» it is back at 144.33 MHz, SWR 1.15, 15.7 dBi. 29 lessons in all, in order on YouTube.</p>
+      <div class="links"><a href="https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw">▶ <span data-it>Videocorso italiano</span><span data-en>Italian course</span></a><a href="https://www.youtube.com/playlist?list=PLFfXLoSkjiJE">▶ <span data-it>Videocorso inglese</span><span data-en>English course</span></a></div>
+    </article>
+
+    <article class="item">
+      <time>19/11/2026</time>
+      <h3>📡 YA-NEC 1.5.2</h3>
+      <p data-it>Novità: linguette riordinate (da 16 a 13: Smith nei Diagrammi, NEC/correnti, Variabili e ottimizzazione); linee, carichi e reti disegnati sui fili della Struttura 3D; legenda del terreno nel pulsante Mostra terreno; errori anche in una finestra con OK; bande radioamatoriali sul fondo dei grafici di frequenza; Terreno reale con lo stato del calcolo e la quota del sito a mano; Ottimizzatore con le Misure al millimetro (diametri commerciali, verifica NEC, lista di taglio); diagrammi, grafici e riquadri tradotti in 36 lingue. Chi ha già YA-NEC lo riceve da solo con l'aggiornamento automatico.</p>
+      <p data-en>What's new: reorganised tabs (from 16 to 13: Smith in Patterns, NEC/currents, Variables and optimization); transmission lines, loads and networks drawn on the wires of the 3D structure; ground legend under the Show ground button; errors also in an OK window; amateur bands shaded behind the frequency charts; Real terrain with calculation status and manual site height; Optimizer with Measures to the millimetre (commercial diameters, NEC check, cutting list); patterns, charts and cards translated in 36 languages. If you already have YA-NEC, it updates itself automatically.</p>
+    </article>
+
+    <article class="item">
+      <time>19/11/2026</time>
+      <h3>🖥️ <span data-it>Tutti i miei programmi, per tutti i sistemi</span><span data-en>All my programs, for every system</span></h3>
+      <p data-it>E-LAYER ANALYZER, YA-MS, YAEC, YA-NEC, IP-TRX-CTRL e quelli che verranno escono per tutte le distribuzioni possibili, con installatore e versione portatile da usare senza installare. <a href="#sistemi">I sistemi supportati</a>.</p>
+      <p data-en>E-LAYER ANALYZER, YA-MS, YAEC, YA-NEC, IP-TRX-CTRL and the ones to come are released for every possible system, with an installer and a portable version you can use without installing. <a href="#sistemi">Supported systems</a>.</p>
+    </article>
+
+  </div>
+</section>
+
+<section id="programmi">
+  <h2><span data-it>Programmi</span><span data-en>Programs</span></h2>
+  <p class="sub" data-it>Tutti gratuiti. Per gli altri sistemi (Windows 7, ARM, Raspberry Pi, .deb, .rpm…) usa la <a href="#download">ricerca del file per il tuo sistema</a> qui sotto.</p>
+  <p class="sub" data-en>All free. For other systems (Windows 7, ARM, Raspberry Pi, .deb, .rpm…) use the <a href="#download">file finder for your system</a> below.</p>
+  <div class="grid">
+
+    <div class="card">
+      <h3>YA-NEC <span class="ver">1.5.2</span></h3>
+      <div class="tag">Yet Another NEC</div>
+      <p data-it>Simulatore d'antenna NEC-2 per radioamatori: antenne filari, dipoli e trappole, direttive HF, antenne riceventi, Yagi VHF/UHF, stack e G/T, ottimizzatore, terreno reale. Apre i file NEC2, MMANA, AutoEZ/MultiNEC ed EZNEC. Videocorso in 29 lezioni.</p>
+      <p data-en>NEC-2 antenna simulator for radio amateurs: wire antennas, dipoles and traps, HF beams, receiving antennas, VHF/UHF Yagis, stacks and G/T, optimizer, real terrain. Opens NEC2, MMANA, AutoEZ/MultiNEC and EZNEC files. 29-lesson video course.</p>
+      <div class="dl">
+        <a href="https://github.com/ic8tem/YA-NEC/releases/download/v1.5.2/YA-NEC-1.5.2-windows-x64-setup.exe">⬇️ Windows 10/11</a>
+        <a href="https://github.com/ic8tem/YA-NEC/releases/download/v1.5.2/YA-NEC-1.5.2-x86_64.AppImage">⬇️ Linux</a>
+        <a href="https://github.com/ic8tem/YA-NEC/releases/download/v1.5.2/YA-NEC-1.5.2-mac-apple-silicon.dmg">⬇️ macOS Apple Silicon</a>
+        <a href="https://github.com/ic8tem/YA-NEC/releases/download/v1.5.2/YA-NEC-1.5.2-mac-intel.dmg">⬇️ macOS Intel</a>
+        <a class="all" href="https://github.com/ic8tem/YA-NEC/releases/latest"><span data-it>Tutti i sistemi</span><span data-en>All systems</span></a>
+      </div>
+      <div class="links"><a href="programs/ya-nec.html"><span data-it>Scheda completa (inglese)</span><span data-en>Full description</span></a><a href="?p=YA-NEC#download"><span data-it>Tutti i file</span><span data-en>All files</span></a><a href="https://github.com/ic8tem/YA-NEC">GitHub</a><a href="https://github.com/ic8tem/YA-NEC/wiki/Videocorso"><span data-it>Videocorso</span><span data-en>Video course (IT)</span></a><a href="https://github.com/ic8tem/YA-NEC/wiki/Videocorso-en"><span data-it>Video course (EN)</span><span data-en>Video course (EN)</span></a></div>
+    </div>
+
+    <div class="card">
+      <h3>YA-MS <span class="ver">1.8.22</span></h3>
+      <div class="tag">Yet Another MS</div>
+      <p data-it>Meteor scatter da 50 a 432 MHz: previsione ed efficienza in diretta degli sciami meteorici sulla tua tratta, quale sciame funziona adesso, puntamenti migliori (Hot A / Hot B), geometria e perdite di tratta, dati in diretta dei radar meteorici, spot MS da PSKReporter, mappa dei quadrati, documenti tecnici.</p>
+      <p data-en>Meteor scatter 50–432 MHz: forecasts and live efficiency of meteor showers on your path, which shower works right now, best headings (Hot A / Hot B), path geometry and losses, live meteor radar data, MS spots from PSKReporter, grid-square map, technical documents.</p>
+      <div class="dl">
+        <a href="https://github.com/ic8tem/YA-MS/releases/download/v1.8.22/YA-MS-1.8.22-windows-x64-setup.exe">⬇️ Windows</a>
+        <a href="https://github.com/ic8tem/YA-MS/releases/download/v1.8.22/YA-MS-1.8.22-x86_64.AppImage">⬇️ Linux</a>
+        <a href="https://github.com/ic8tem/YA-MS/releases/download/v1.8.22/YA-MS-1.8.22-mac-apple-silicon.dmg">⬇️ macOS Apple Silicon</a>
+        <a href="https://github.com/ic8tem/YA-MS/releases/download/v1.8.22/YA-MS-1.8.22-mac-intel.dmg">⬇️ macOS Intel</a>
+        <a class="all" href="https://github.com/ic8tem/YA-MS/releases/latest"><span data-it>Tutti i sistemi</span><span data-en>All systems</span></a>
+      </div>
+      <div class="links"><a href="programs/ya-ms.html"><span data-it>Scheda completa (inglese)</span><span data-en>Full description</span></a><a href="?p=YA-MS#download"><span data-it>Tutti i file</span><span data-en>All files</span></a><a href="https://github.com/ic8tem/YA-MS">GitHub</a></div>
+    </div>
+
+    <div class="card">
+      <h3>YAEC <span class="ver">1.9.5</span></h3>
+      <div class="tag">Yet Another EME Calc</div>
+      <p data-it>Per preparare i collegamenti EME: posizione della Luna dal tuo locator e finestre comuni con il corrispondente, Doppler e correzione di frequenza, degradazione (DGRD), budget del collegamento per Yagi e parabole, rumore del cielo e del Sole. «Il mio orizzonte»: il profilo reale del terreno dai dati altimetrici sulla mappa della temperatura del cielo, con il percorso della Luna e gli orari esatti in cui sorge e tramonta dietro i tuoi ostacoli. In 37 lingue.</p>
+      <p data-en>Plan your EME (Moon bounce) contacts: Moon position from your locator and common windows with the DX station, Doppler and frequency correction, degradation (DGRD), link budget for Yagis and dishes, sky and solar noise. «My horizon»: your real terrain profile from elevation data, drawn over the sky temperature map, with the Moon path and the exact times it rises and sets behind your obstacles. 37 languages.</p>
+      <div class="dl">
+        <a href="https://github.com/ic8tem/YAEC/releases/download/v1.9.5/YAEC-1.9.5-windows-x64-setup.exe">⬇️ Windows</a>
+        <a href="https://github.com/ic8tem/YAEC/releases/download/v1.9.5/YAEC-1.9.5-x86_64.AppImage">⬇️ Linux</a>
+        <a href="https://github.com/ic8tem/YAEC/releases/download/v1.9.5/YAEC-1.9.5-mac-apple-silicon.dmg">⬇️ macOS Apple Silicon</a>
+        <a href="https://github.com/ic8tem/YAEC/releases/download/v1.9.5/YAEC-1.9.5-mac-intel.dmg">⬇️ macOS Intel</a>
+        <a class="all" href="https://github.com/ic8tem/YAEC/releases/latest"><span data-it>Tutti i sistemi</span><span data-en>All systems</span></a>
+      </div>
+      <div class="links"><a href="programs/yaec.html"><span data-it>Scheda completa (inglese)</span><span data-en>Full description</span></a><a href="?p=YAEC#download"><span data-it>Tutti i file</span><span data-en>All files</span></a><a href="https://github.com/ic8tem/YAEC">GitHub</a><a href="https://github.com/ic8tem/YAEC/wiki/Manuals"><span data-it>Manuali e consigli</span><span data-en>Manuals and tips</span></a></div>
+    </div>
+
+    <div class="card">
+      <h3>E-LAYER ANALYZER <span class="ver">0.5.3</span></h3>
+      <div class="tag"><span data-it>Propagazione VHF via strato E</span><span data-en>VHF propagation via the E layer</span></div>
+      <p data-it>E-sporadico (anche multi-salto ed extracontinentale), F.A.I., meteor scatter (con YA-MS integrato) e aurora radio; ionosonde GIRO in diretta e nubi Es nel tempo. In 35 lingue, si aggiorna da solo.</p>
+      <p data-en>Sporadic-E (also multi-hop and intercontinental), FAI, meteor scatter (with YA-MS built in) and radio aurora; live GIRO ionosondes and Es clouds over time. 35 languages, updates itself.</p>
+      <div class="dl">
+        <a href="https://github.com/ic8tem/E-LAYER-ANALYZER/releases/download/v0.5.3/E-LAYER-ANALYZER-0.5.3-win-x64-setup.exe">⬇️ Windows 10/11</a>
+        <a href="https://github.com/ic8tem/E-LAYER-ANALYZER/releases/download/v0.5.3/E-LAYER-ANALYZER-0.5.3-x86_64.AppImage">⬇️ Linux</a>
+        <a href="https://github.com/ic8tem/E-LAYER-ANALYZER/releases/download/v0.5.3/E-LAYER-ANALYZER-0.5.3-osx-arm64.dmg">⬇️ macOS Apple Silicon</a>
+        <a href="https://github.com/ic8tem/E-LAYER-ANALYZER/releases/download/v0.5.3/E-LAYER-ANALYZER-0.5.3-osx-x64.dmg">⬇️ macOS Intel</a>
+        <a class="all" href="https://github.com/ic8tem/E-LAYER-ANALYZER/releases/latest"><span data-it>Tutti i sistemi (anche FreeBSD sperimentale)</span><span data-en>All systems (also experimental FreeBSD)</span></a>
+      </div>
+      <div class="links"><a href="programs/e-layer-analyzer.html"><span data-it>Scheda completa (inglese)</span><span data-en>Full description</span></a><a href="?p=E-LAYER-ANALYZER#download"><span data-it>Tutti i file</span><span data-en>All files</span></a><a href="https://github.com/ic8tem/E-LAYER-ANALYZER">GitHub</a></div>
+    </div>
+
+    <div class="card">
+      <h3>IP-TRX-CTRL <span class="ver">0.3.5</span></h3>
+      <div class="tag"><span data-it>Comando a distanza della radio HF</span><span data-en>Remote control of your HF radio</span></div>
+      <p data-it>Comando della radio HF via internet: audio bidirezionale cifrato AES-256, CAT con Hamlib o TCI, PTT, keyer e decodificatore CW, programmi digitali sul client, accesso anche dal browser del telefono. Un solo programma per i due PC: server (alla radio) e client (l'operatore).</p>
+      <p data-en>Remote control of your HF radio over the internet: two-way AES-256 encrypted audio, CAT with Hamlib or TCI, PTT, CW keyer and decoder, digital modes on the client, access from a phone browser too. One program for both PCs: server (at the radio) and client (the operator).</p>
+      <div class="dl">
+        <a href="https://github.com/ic8tem/IP-TRX-CTRL/releases/download/v0.3.5/IP-TRX-CTRL-0.3.5-win-x64-setup.exe">⬇️ Windows 10/11</a>
+        <a href="https://github.com/ic8tem/IP-TRX-CTRL/releases/download/v0.3.5/IP-TRX-CTRL-0.3.5-x86_64.AppImage">⬇️ Linux</a>
+        <a href="https://github.com/ic8tem/IP-TRX-CTRL/releases/download/v0.3.5/IP-TRX-CTRL-0.3.5-osx-arm64.dmg">⬇️ macOS Apple Silicon</a>
+        <a href="https://github.com/ic8tem/IP-TRX-CTRL/releases/download/v0.3.5/IP-TRX-CTRL-0.3.5-osx-x64.dmg">⬇️ macOS Intel</a>
+        <a class="all" href="https://github.com/ic8tem/IP-TRX-CTRL/releases/latest"><span data-it>Tutti i sistemi</span><span data-en>All systems</span></a>
+      </div>
+      <div class="links"><a href="programs/ip-trx-ctrl.html"><span data-it>Scheda completa (inglese)</span><span data-en>Full description</span></a><a href="?p=IP-TRX-CTRL#download"><span data-it>Tutti i file</span><span data-en>All files</span></a><a href="https://github.com/ic8tem/IP-TRX-CTRL">GitHub</a></div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="download">
+  <h2><span data-it>Trova il file per il tuo sistema</span><span data-en>Find the file for your system</span></h2>
+  <p class="sub" data-it>Scegli il sistema: per ogni programma compaiono i file giusti, con il collegamento diretto. Sotto c'è la tabella completa di tutte le distribuzioni, con la ricerca.</p>
+  <p class="sub" data-en>Choose your system: the right files for each program appear, with a direct link. Below is the full table of all distributions, with search.</p>
+  <div class="finder">
+    <label for="f-sys"><span data-it>Il mio sistema</span><span data-en>My system</span></label>
+    <select id="f-sys"></select>
+    <span class="note" id="f-det"></span>
+    <div class="res" id="f-res"></div>
+    <p class="note" data-it>«Si aggiorna da solo»: con installatore, portatile, app del Mac e AppImage il programma si aggiorna da solo; con i pacchetti .deb, .rpm, Arch e Slackware avvisa e si aggiorna installando il pacchetto nuovo.</p>
+    <p class="note" data-en>«Updates itself»: with the installer, the portable version, the Mac app and the AppImage the program updates itself; with .deb, .rpm, Arch and Slackware packages it warns you and you install the new package.</p>
+    <h3 style="margin:22px 0 4px"><span data-it>Tutte le distribuzioni</span><span data-en>All distributions</span></h3>
+    <input id="f-q" type="search" placeholder="Cerca: programma, sistema, tipo o nome del file (es. raspberry, deb, YAEC arm64)">
+    <div class="scroll"><table class="all"><thead><tr><th><span data-it>Programma</span><span data-en>Program</span></th><th><span data-it>Sistema</span><span data-en>System</span></th><th><span data-it>Tipo</span><span data-en>Type</span></th><th><span data-it>Si aggiorna da solo</span><span data-en>Updates itself</span></th><th>File</th></tr></thead><tbody id="f-tab"></tbody></table></div>
+    <p class="note" id="f-cnt"></p>
+  </div>
+</section>
+
+<section id="sistemi">
+  <h2><span data-it>Per tutti i sistemi</span><span data-en>For every system</span></h2>
+  <p class="sub" data-it>Installatore e versione portatile da usare senza installare.</p>
+  <p class="sub" data-en>Installer and a portable version you can use without installing.</p>
+  <div class="sys">
+    <div><b>Windows</b><br><span data-it>10/11 a 64 e 32 bit, Windows su ARM (PC Snapdragon) e anche Windows 7 SP1, 8 e 8.1</span><span data-en>10/11 64 and 32 bit, Windows on ARM (Snapdragon PCs) and also Windows 7 SP1, 8 and 8.1</span></div>
+    <div><b>macOS</b><br>Apple Silicon (M1-M4) <span data-it>e</span><span data-en>and</span> Intel</div>
+    <div><b>Linux</b><br>Debian, Ubuntu, Mint (.deb), Fedora <span data-it>e</span><span data-en>and</span> openSUSE (.rpm), Arch <span data-it>e</span><span data-en>and</span> Manjaro, Slackware, Alpine, <span data-it>AppImage per qualsiasi distribuzione</span><span data-en>AppImage for any distribution</span></div>
+    <div><b>Raspberry Pi</b><br><span data-it>Raspberry Pi OS a 64 e 32 bit e le altre schede ARM</span><span data-en>Raspberry Pi OS 64 and 32 bit and other ARM boards</span></div>
+    <div><b>FreeBSD</b><br><span data-it>In versione sperimentale (E-LAYER ANALYZER e YAEC)</span><span data-en>Experimental (E-LAYER ANALYZER and YAEC)</span></div>
+  </div>
+  <p class="note" data-it>I programmi basati su .NET non esistono per Linux a 32 bit su PC (i686) e OpenBSD, perché .NET non c'è per quei sistemi; YAEC, che gira anche con Mono, ha pure i pacchetti per Linux i686 e OpenBSD (non ancora provati). Con l'installatore di Windows, l'app del Mac, i portatili e l'AppImage il programma poi si aggiorna da solo.</p>
+  <p class="note" data-en>The .NET-based programs don't exist for 32-bit PC Linux (i686) and OpenBSD, because .NET isn't available there; YAEC, which also runs on Mono, has packages for Linux i686 and OpenBSD too (not tested yet). With the Windows installer, the Mac app, the portable versions and the AppImage the program then updates itself.</p>
+</section>
+
+<section id="video">
+  <h2>Video</h2>
+  <p class="sub" data-it>Videocorsi, presentazioni e dimostrazioni sul canale YouTube.</p>
+  <p class="sub" data-en>Video courses, presentations and demos on the YouTube channel.</p>
+  <div class="vids">
+    <a class="vid" href="https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw"><img loading="lazy" src="https://i.ytimg.com/vi/V6MMeq1KArc/hqdefault.jpg" alt=""><div>YA-NEC – <span data-it>videocorso in italiano</span><span data-en>Italian video course</span><small>29 <span data-it>lezioni</span><span data-en>lessons</span> · playlist</small></div></a>
+    <a class="vid" href="https://www.youtube.com/playlist?list=PLFfXLoSkjiJE"><img loading="lazy" src="https://i.ytimg.com/vi/gtk6b_frEJk/hqdefault.jpg" alt=""><div>YA-NEC – <span data-it>videocorso in inglese</span><span data-en>English video course</span><small>29 <span data-it>lezioni</span><span data-en>lessons</span> · playlist</small></div></a>
+    <a class="vid" href="https://youtu.be/Yop2bzGTiI0"><img loading="lazy" src="https://i.ytimg.com/vi/Yop2bzGTiI0/hqdefault.jpg" alt=""><div>YA-MS – RA1WU ↔ IW2EQR <span data-it>al picco delle Geminidi</span><span data-en>at the Geminids peak</span><small>Italiano · 1:30</small></div></a>
+    <a class="vid" href="https://youtu.be/LNopcQcj68E"><img loading="lazy" src="https://i.ytimg.com/vi/LNopcQcj68E/hqdefault.jpg" alt=""><div>YA-MS – RA1WU ↔ IW2EQR <span data-it>al picco delle Geminidi</span><span data-en>at the Geminids peak</span><small>English · 1:30</small></div></a>
+    <a class="vid" href="https://youtu.be/Bk_fE5unliE"><img loading="lazy" src="https://i.ytimg.com/vi/Bk_fE5unliE/hqdefault.jpg" alt=""><div>YA-MS – <span data-it>presentazione</span><span data-en>presentation</span><small>Italiano</small></div></a>
+    <a class="vid" href="https://youtu.be/VsdnUz_-e-U"><img loading="lazy" src="https://i.ytimg.com/vi/VsdnUz_-e-U/hqdefault.jpg" alt=""><div>YA-MS – <span data-it>presentazione</span><span data-en>presentation</span><small>English</small></div></a>
+    <a class="vid" href="https://youtu.be/uvewuHTyw3k"><img loading="lazy" src="https://i.ytimg.com/vi/uvewuHTyw3k/hqdefault.jpg" alt=""><div>YAEC – <span data-it>presentazione</span><span data-en>presentation</span><small>Italiano</small></div></a>
+    <a class="vid" href="https://youtu.be/n9ag5MjpoEU"><img loading="lazy" src="https://i.ytimg.com/vi/n9ag5MjpoEU/hqdefault.jpg" alt=""><div>YAEC – <span data-it>presentazione</span><span data-en>presentation</span><small>English</small></div></a>
+    <a class="vid" href="https://youtu.be/1mjVjKD4O9w"><img loading="lazy" src="https://i.ytimg.com/vi/1mjVjKD4O9w/hqdefault.jpg" alt=""><div>YAEC – <span data-it>primi passi</span><span data-en>getting started</span><small>Italiano</small></div></a>
+    <a class="vid" href="https://youtu.be/tTEs9VY3sEA"><img loading="lazy" src="https://i.ytimg.com/vi/tTEs9VY3sEA/hqdefault.jpg" alt=""><div>YAEC – <span data-it>come si usa</span><span data-en>how to use</span><small>English</small></div></a>
+  </div>
+</section>
+
+<section id="contatti">
+  <h2><span data-it>Community e contatti</span><span data-en>Community and contacts</span></h2>
+  <p class="sub" data-it>Novità, schermate, guide, domande, segnalazioni di errori e risultati in aria: scrivetemi nel gruppo o sulla Pagina. Se trovate problemi su un sistema, ditemelo!</p>
+  <p class="sub" data-en>News, screenshots, guides, questions, bug reports and on-air results: write to me in the group or on the Page. If something doesn't work on your system, let me know!</p>
+  <div class="contacts">
+    <a class="btn" href="https://www.facebook.com/groups/1675310160982493"><span data-it>Gruppo</span><span data-en>Group</span> IC8TEM'S SOFTWARE FARM</a>
+    <a class="btn" href="https://www.facebook.com/profile.php?id=61596361275998"><span data-it>Pagina</span><span data-en>Page</span> Ic8tem Softwares</a>
+    <a class="btn" href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q"><span data-it>Canale</span><span data-en>Channel</span> YouTube</a>
+    <a class="btn" href="https://github.com/ic8tem">GitHub</a>
+    <a class="btn" href="https://www.qrz.com/db/ic8tem">QRZ.com</a>
+    <a class="btn" href="mailto:ic8tem@gmail.com">✉️ ic8tem@gmail.com</a>
+    <a class="btn pri" href="https://ko-fi.com/ic8tem">☕ <span data-it>Sostieni il progetto</span><span data-en>Support the project</span></a>
+  </div>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+  <p data-it>Costantino Cerrotta IC8TEM · Capri, JN70CN · Sezione ARI «Valle del Liri». Tutti i programmi sono gratuiti. 73!</p>
+  <p data-en>Costantino Cerrotta IC8TEM · Capri, JN70CN · ARI «Valle del Liri» section. All programs are free. 73!</p>
+</div></footer>
+
+<script>
+function setLang(l){document.documentElement.lang=l;document.getElementById('b-it').className=l==='it'?'on':'';document.getElementById('b-en').className=l==='en'?'on':'';try{localStorage.setItem('lang',l)}catch(e){}if(window.__dlRelang)window.__dlRelang()}
+(function(){var l;try{l=localStorage.getItem('lang')}catch(e){}if(!l){var q=new URLSearchParams(location.search).get('lang');l=q||((navigator.language||'it').slice(0,2)==='it'?'it':'en')}setLang(l)})();
+</script>
+<script src="assets/downloads.js"></script>
+<script>
+(function(){
+  var L=function(){return document.documentElement.lang==='en'?2:1};
+  var sysMap={};DL_SYS.forEach(function(x){sysMap[x[0]]=x});
+  var sel=document.getElementById('f-sys'),res=document.getElementById('f-res'),tab=document.getElementById('f-tab'),q=document.getElementById('f-q'),det=document.getElementById('f-det'),cnt=document.getElementById('f-cnt');
+  var progs=['YA-NEC','YA-MS','YAEC','E-LAYER ANALYZER','IP-TRX-CTRL'];
+  var pref=['setup','dmg','appimage','portable','deb','rpm','arch','txz','app','zip'];
+  function guess(){var u=navigator.userAgent,p=(navigator.userAgentData&&navigator.userAgentData.platform)||navigator.platform||'';
+    if(/Windows/i.test(u))return /ARM64|aarch64/i.test(u)?'winarm':(/Windows NT 6\./.test(u)?'win7_64':'win64');
+    if(/Mac/i.test(p)||/Macintosh/.test(u))return 'mac_arm';
+    if(/aarch64|arm/i.test(u+p))return 'rpi64';
+    if(/Linux/i.test(u))return 'lin64';return 'win64'}
+  function kindTxt(k){return DL_KIND[k][L()-1]}
+  function auto(k){var a=DL_KIND[k][2];return '<span class="'+(a?'yes':'no')+'">'+(a?(L()==1?'sì':'yes'):(L()==1?'no, avvisa':'no, it warns'))+'</span>'}
+  function fill(){var v=sel.value;sel.innerHTML='';DL_SYS.forEach(function(x){if(x[0]==='other')return;var o=document.createElement('option');o.value=x[0];o.textContent=x[L()];sel.appendChild(o)});sel.value=v||guess();}
+  function show(){var s=sel.value;
+    var out='';progs.forEach(function(p){var f=DL.filter(function(r){return r.p===p&&r.s.indexOf(s)>=0}).sort(function(a,b){return pref.indexOf(a.k)-pref.indexOf(b.k)});
+      out+='<div class="r"><b>'+p+' <small>'+(f[0]?f[0].v:'')+'</small></b>'+(f.length?f.map(function(r){return '<a href="'+r.u+'">⬇️ '+r.f+'</a><small>'+kindTxt(r.k)+' · '+(L()==1?'si aggiorna da solo: ':'updates itself: ')+auto(r.k)+'</small>'}).join(''):'<small>'+(L()==1?'Non disponibile per questo sistema: vedi le note sotto «Per tutti i sistemi».':'Not available for this system: see the notes under «For every system».')+'</small>')+'</div>'});
+    res.innerHTML=out;}
+  function table(){var t=q.value.toLowerCase().split(/\s+/).filter(Boolean),n=0,h='';
+    DL.forEach(function(r){var sys=r.s.map(function(k){return sysMap[k][L()]}).join(' · ');var hay=(r.p+' '+r.v+' '+sys+' '+r.s.map(function(k){return sysMap[k][1]+' '+sysMap[k][2]}).join(' ')+' '+DL_KIND[r.k][0]+' '+DL_KIND[r.k][1]+' '+r.f).toLowerCase();
+      if(t.every(function(w){return hay.indexOf(w)>=0})){n++;h+='<tr><td>'+r.p+' '+r.v+'</td><td>'+sys+'</td><td>'+kindTxt(r.k)+'</td><td>'+auto(r.k)+'</td><td><a href="'+r.u+'">'+r.f+'</a></td></tr>'}});
+    tab.innerHTML=h;cnt.textContent=n+(L()==1?' file su ':' files of ')+DL.length;}
+  q.placeholder=L()==1?'Cerca: programma, sistema, tipo o nome del file (es. raspberry, deb, YAEC arm64)':'Search: program, system, type or file name (e.g. raspberry, deb, YAEC arm64)';
+  var pp=new URLSearchParams(location.search).get('p');if(pp)q.value=pp.replace('E-LAYER-ANALYZER','E-LAYER ANALYZER');
+  fill();det.textContent='';show();table();
+  sel.onchange=show;q.oninput=table;
+  window.__dlRelang=function(){fill();show();table();q.placeholder=L()==1?'Cerca: programma, sistema, tipo o nome del file (es. raspberry, deb, YAEC arm64)':'Search: program, system, type or file name (e.g. raspberry, deb, YAEC arm64)'};
+})();
+</script>
+</body>
+</html>

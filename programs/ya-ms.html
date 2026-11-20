@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YA-MS – Yet Another MS – meteor scatter · IC8TEM'S SOFTWARE FARM</title>
+<meta name="description" content="YA-MS – Yet Another MS – meteor scatter. Free ham radio software by Costantino Cerrotta IC8TEM.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ic8tem.github.io/programs/ya-ms.html">
+<meta property="og:title" content="YA-MS – Yet Another MS – meteor scatter">
+<meta property="og:image" content="https://ic8tem.github.io/assets/cover.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101a3a'/%3E%3Cpath d='M12 48 L32 14 L52 48' fill='none' stroke='%23f2b233' stroke-width='5'/%3E%3Ccircle cx='32' cy='14' r='5' fill='%23f2b233'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="../">IC8TEM'S <span>SOFTWARE FARM</span></a>
+  <nav>
+    <a href="../#news">News</a>
+    <a href="../#programmi">Programs</a>
+    <a href="../#download">Download</a>
+    <a href="../#video">Video</a>
+    <a href="../#contatti">Contacts</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <div class="crumbs"><a href="../">Home</a> › <a href="../#programmi">Programs</a> › YA-MS</div>
+  <div class="btns" style="justify-content:flex-start;margin-top:14px">
+    <a class="btn pri" href="../?p=YA-MS#download">⬇️ Download for your system</a>
+    <a class="btn" href="https://github.com/ic8tem/YA-MS/releases/latest">All files (GitHub Releases)</a>
+    <a class="btn" href="https://github.com/ic8tem/YA-MS">GitHub</a>
+    <a class="btn" href="https://ko-fi.com/ic8tem">☕ Ko-fi</a>
+  </div>
+  <p class="note">This page is the English README of the program on GitHub.</p>
+  <article class="md">
+<h1>YA-MS</h1>
+<p><a href="https://ko-fi.com/ic8tem"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-ic8tem-FF5E5B?logo=ko-fi&amp;logoColor=white" /></a></p>
+<p><strong>YA-MS</strong> computes, live and as a forecast, the efficiency of meteor showers for amateur-radio <strong>meteor scatter</strong> contacts (50–432 MHz): where the radiants are, which hot spots to use, when the path works best and how much signal arrives.
+By Costantino Cerrotta IC8TEM. Free, for Windows, Linux, Raspberry Pi and Mac. Interface, wiki and manuals in 36 languages.</p>
+<p><img alt="Forecast calculation: sky view, path map and hot spots" src="https://raw.githubusercontent.com/ic8tem/YA-MS/main/docs/screenshots/readme/en-1.png" /></p>
+<h2>What it does</h2>
+<ul>
+<li><strong>Forecast calculation</strong>: sky view with the radiants, path map with Hot A / Hot B, antenna lobe, PREV zones and best headings; a summary strip with the efficiency at the chosen moment (date and hours from −12 to +36 h).</li>
+<li><strong>Efficiency calculation</strong> hour by hour for every shower, compared with the DH9GCD formula, with the ready-made settings <em>Cautious</em> (default) and <em>As DJ5HG</em>.</li>
+<li><strong>Geometry and path loss</strong>: path loss (McKinley, ITU-R P.843) and link budget with cautious values.</li>
+<li><strong>Live data</strong>: flux of the SKiYMET meteor radars (Collm, Sodankylä) with an estimate at 50/144/432 MHz, the GRAVES radar, collection of MS spots from DX cluster, Reverse Beacon Network and PSKReporter (also MQTT), live traffic on a map.</li>
+<li><strong>Technical documents</strong>: sources with comparisons, calculation manual and efficiency explanation with all the equations.</li>
+</ul>
+<p><img alt="Hourly efficiency calculation" src="https://raw.githubusercontent.com/ic8tem/YA-MS/main/docs/screenshots/readme/en-2.png" /></p>
+<p><img alt="Meteor radar flux" src="https://raw.githubusercontent.com/ic8tem/YA-MS/main/docs/screenshots/readme/en-3.png" /></p>
+<h2>Installation</h2>
+<p>From the <strong><a href="https://github.com/ic8tem/YA-MS/releases/latest">Releases</a></strong> page:
+- <strong>Windows</strong>: <code>...-windows-x64-setup.exe</code> (32-bit: <code>...-windows-x86-setup.exe</code>, ARM/Snapdragon: <code>...-windows-arm64-setup.exe</code>) or the portable zip;
+- <strong>Linux</strong>: <code>ya-ms_..._amd64.deb</code> or <code>...-linux-x64.tar.gz</code>;
+- <strong>Fedora, openSUSE</strong>: <code>ya-ms-....x86_64.rpm</code> or <code>.aarch64.rpm</code> / <code>.armv7hl.rpm</code> (<code>sudo dnf install</code> / <code>sudo zypper install</code>);
+- <strong>Arch, Manjaro, Arch Linux ARM</strong>: <code>ya-ms-...-x86_64.pkg.tar.zst</code> / <code>-aarch64.pkg.tar.zst</code> (<code>sudo pacman -U</code>);
+- <strong>Slackware64, Slackware ARM64</strong>: <code>ya-ms-...-x86_64-1_ic8tem.txz</code> / <code>-aarch64-1_ic8tem.txz</code> (<code>installpkg</code>);
+- <strong>AppImage</strong>: <code>YA-MS-...-x86_64.AppImage</code> / <code>-aarch64.AppImage</code>;
+- <strong>Alpine Linux</strong> (musl): <code>YA-MS-...-alpine-x64.tar.gz</code> / <code>-alpine-arm64.tar.gz</code>;
+- <strong>Raspberry Pi</strong>: <code>ya-ms_..._arm64.deb</code> / <code>_armhf.deb</code> or the 64- and 32-bit tar.gz;
+- <strong>Linux ARM</strong> (e.g. Slackware ARM64, armv7l boards): <code>...-linux-arm64.tar.gz</code> or <code>...-linux-armv7l.tar.gz</code>;
+- <strong>Mac</strong>: <code>...-mac-apple-silicon.dmg</code> or <code>...-mac-intel.dmg</code> (or the app.zip).</p>
+<p>Data stay in the <code>data</code> folder next to the program. Full instructions in the <strong><a href="https://github.com/ic8tem/YA-MS/wiki">wiki</a></strong> and in <code>LEGGIMI.txt</code>.</p>
+<p>From 1.8.0 YA-MS checks GitHub for a new version by itself and updates with one click (<strong>Updates</strong> button at the bottom), keeping the <code>data</code> folder; if program files are missing it offers to download them again.</p>
+<h2>Main source</h2>
+<p>C. Cerrotta IC8TEM, G. Sartori IV3GTH, «METEOR-SCATTER. Ovvero come collegare l'Europa in VHF tutto l'anno senza tante pretese» (Meteor scatter: how to reach all of Europe on VHF all year round without great means). The other sources are listed in the program and in the wiki.</p>
+<h2>Building</h2>
+<p>The installers are produced by GitHub Actions (<code>.github/workflows/build.yml</code>) whenever the <code>release</code> branch is updated (version from the <code>VERSION</code> file). Locally: <code>dotnet publish YA-MS.csproj -c Release -r &lt;rid&gt; --self-contained true</code>. The documents in all languages are rebuilt with <code>tools/build_documenti.sh</code>.</p>
+<p>Radar data belong to their owners (University of Leipzig / IAP Kühlungsborn, Sodankylä Geophysical Observatory).</p>
+<h2>License</h2>
+<p>YA-MS is free software: you can redistribute and modify it under the terms of the GNU General Public License version 3 (<a href="https://github.com/ic8tem/YA-MS/blob/main/COPYING">COPYING</a>). It is distributed without any warranty.</p>
+<h2>Support the project</h2>
+<p>YA-MS is free. If you find it useful, you can buy me a coffee on <strong><a href="https://ko-fi.com/ic8tem">Ko-fi</a></strong>.</p>
+  </article>
+</main>
+<footer><div class="wrap"><p>Costantino Cerrotta IC8TEM · Capri, JN70CN · <a href="https://www.facebook.com/groups/1675310160982493">Facebook group</a> · <a href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a> · <a href="https://ko-fi.com/ic8tem">Ko-fi</a> · 73!</p></div></footer>
+</body>
+</html>

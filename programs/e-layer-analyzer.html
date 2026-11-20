@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-LAYER ANALYZER – VHF propagation via the E layer · IC8TEM'S SOFTWARE FARM</title>
+<meta name="description" content="E-LAYER ANALYZER – VHF propagation via the E layer. Free ham radio software by Costantino Cerrotta IC8TEM.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ic8tem.github.io/programs/e-layer-analyzer.html">
+<meta property="og:title" content="E-LAYER ANALYZER – VHF propagation via the E layer">
+<meta property="og:image" content="https://ic8tem.github.io/assets/cover.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101a3a'/%3E%3Cpath d='M12 48 L32 14 L52 48' fill='none' stroke='%23f2b233' stroke-width='5'/%3E%3Ccircle cx='32' cy='14' r='5' fill='%23f2b233'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="../">IC8TEM'S <span>SOFTWARE FARM</span></a>
+  <nav>
+    <a href="../#news">News</a>
+    <a href="../#programmi">Programs</a>
+    <a href="../#download">Download</a>
+    <a href="../#video">Video</a>
+    <a href="../#contatti">Contacts</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <div class="crumbs"><a href="../">Home</a> › <a href="../#programmi">Programs</a> › E-LAYER ANALYZER</div>
+  <div class="btns" style="justify-content:flex-start;margin-top:14px">
+    <a class="btn pri" href="../?p=E-LAYER-ANALYZER#download">⬇️ Download for your system</a>
+    <a class="btn" href="https://github.com/ic8tem/E-LAYER-ANALYZER/releases/latest">All files (GitHub Releases)</a>
+    <a class="btn" href="https://github.com/ic8tem/E-LAYER-ANALYZER">GitHub</a>
+    <a class="btn" href="https://ko-fi.com/ic8tem">☕ Ko-fi</a>
+  </div>
+  <p class="note">This page is an English translation of the program's README, which on GitHub is in Italian.</p>
+  <article class="md">
+<h1>E-LAYER ANALYZER</h1>
+<p><strong>E-LAYER ANALYZER</strong> – analysis of the VHF propagation modes that involve the E layer: sporadic-E (also multi-hop and intercontinental), FAI, meteor scatter (with the YA-MS program built in) and radio aurora.
+By Costantino Cerrotta IC8TEM. .NET 8 + Avalonia, same look as YA-MS.
+No data in AppData: everything stays in the <code>data</code> folder next to the program.</p>
+<h2>Distributions and updates</h2>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Package (Releases page)</th>
+<th>Automatic update</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows 10 and 11: 64 bit, 32 bit, ARM64 (Snapdragon)</td>
+<td><code>-win-x64-setup.exe</code>, <code>-win-x86-</code>, <code>-win-arm64-</code> or the portable zips</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Windows 7 SP1, 8 and 8.1 (64 and 32 bit, .NET 6)</td>
+<td><code>-win7-x64-setup.exe</code>, <code>-win7-x86-</code> or the portable zips <code>-win7-...</code></td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Mac Apple Silicon and Intel</td>
+<td><code>-osx-arm64.dmg</code>, <code>-osx-x64.dmg</code> or <code>-app.zip</code></td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Any Linux x86_64 and aarch64</td>
+<td><code>.AppImage</code> or <code>-linux-x64-portatile.tar.gz</code>, <code>-linux-arm64-portatile.tar.gz</code></td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Raspberry Pi OS 64 and 32 bit, Linux armv7l</td>
+<td><code>-linux-arm64-</code>, <code>-linux-arm-</code>, <code>-linux-armv7l-portatile.tar.gz</code></td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Alpine Linux (musl) x86_64 and aarch64</td>
+<td><code>-alpine-x64-portatile.tar.gz</code>, <code>-alpine-arm64-portatile.tar.gz</code></td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Debian, Ubuntu, Mint, Raspberry Pi OS</td>
+<td><code>_amd64.deb</code>, <code>_arm64.deb</code>, <code>_armhf.deb</code></td>
+<td><strong>no</strong>: install the new <code>.deb</code></td>
+</tr>
+<tr>
+<td>Fedora, openSUSE</td>
+<td><code>.x86_64.rpm</code>, <code>.aarch64.rpm</code>, <code>.armv7hl.rpm</code></td>
+<td><strong>no</strong>: install the new <code>.rpm</code></td>
+</tr>
+<tr>
+<td>Arch, Manjaro, EndeavourOS, Arch Linux ARM</td>
+<td><code>-x86_64.pkg.tar.zst</code>, <code>-aarch64.pkg.tar.zst</code></td>
+<td><strong>no</strong>: install the new package</td>
+</tr>
+<tr>
+<td>Slackware x86_64 and ARM64</td>
+<td><code>-x86_64-1_ic8tem.txz</code>, <code>-aarch64-1_ic8tem.txz</code></td>
+<td><strong>no</strong>: <code>upgradepkg</code> with the new package</td>
+</tr>
+<tr>
+<td>FreeBSD amd64</td>
+<td><code>-freebsd-amd64-sperimentale.tar.gz</code> (<strong>experimental, not tested</strong>)</td>
+<td>yes, if the program starts</td>
+</tr>
+</tbody>
+</table>
+<p>Automatic, silent updates work with every package <strong>except the system package managers' ones</strong> (<code>.deb</code>, <code>.rpm</code>, Arch, Slackware): there the program announces the new version, which you install with the new package, as the first time.
+There are no versions for Linux i686 (32-bit PCs) and OpenBSD, because .NET doesn't exist for those systems.</p>
+<p><a href="https://ko-fi.com/ic8tem"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-ic8tem-FF5E5B?logo=ko-fi&amp;logoColor=white" /></a></p>
+<table>
+<thead>
+<tr>
+<th>Tab</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SPORADIC-E</td>
+<td>azimuthal map (single hop or maximum distance) or rectangular, spots with the first hops of both stations, Es clouds on the Maidenhead squares, IK3XTV's hop table, the 144 MHz rule</td>
+</tr>
+<tr>
+<td>BENCHMARK Es</td>
+<td>a whole ADIF log (also of other stations): QSOs by day and hour, skip by sector, foEs, multi-hop check, cloud movement</td>
+</tr>
+<tr>
+<td>IONOSONDES</td>
+<td>foEs, foF2 and MUF(D) live from the GIRO ionosondes (every 15 minutes), 24-hour chart, sporadic-E MUF at 1000-2400 km with the bands that open, comparison with the foEs derived from the spots</td>
+</tr>
+<tr>
+<td>Es CLOUDS OVER TIME</td>
+<td>Es clouds step by step (5-15 minutes) on 1-4° cells, minimum foEs and NmE with Chartier's 2022 method, from session spots, ADIF log or CSV spots</td>
+</tr>
+<tr>
+<td>FAI</td>
+<td>scatter trail of the scatter points for a pair of stations and iso-reflection curves (IGRF-14)</td>
+</tr>
+<tr>
+<td>METEOR SCATTER</td>
+<td>the complete YA-MS (latest version)</td>
+</tr>
+<tr>
+<td>AURORA</td>
+<td>OVATION oval, Kp, solar wind (NOAA SWPC), auroral scatter trail and iso-reflection, <AU>/<AUR> spots with the calculation</td>
+</tr>
+<tr>
+<td>DATA COLLECTION</td>
+<td>3 telnet sessions (cluster of your choice, RBN, DM4X cluster with PSKReporter), PSKReporter MQTT, WSJT-X UDP, collected spots, CALL3 archive</td>
+</tr>
+<tr>
+<td>SETTINGS</td>
+<td>general options (station, language, colours, font, continent, time, updates) and sorting of the spots among the tabs, with the filters and a one-line test</td>
+</tr>
+<tr>
+<td>ADIF LOG</td>
+<td>worked and confirmed squares, band by band from 28 MHz up</td>
+</tr>
+<tr>
+<td>SOURCES</td>
+<td>sources cited by the program</td>
+</tr>
+<tr>
+<td>SUMMARY OF CALCULATION CHOICES / USER MANUAL / TECHNICAL REPORT</td>
+<td>formulas and calculation choices, in-depth user manual, technical report on the choices (exportable to Word)</td>
+</tr>
+</tbody>
+</table>
+<p>Main sources: G. Cerrotta IC8FAX, C. Cerrotta IC8TEM, "IL F.A.I., quello strano fenomeno del dopo E-sporadico" (FAI, that strange phenomenon after sporadic-E, 2011);
+https://qsl.net/ic8fax/page4.html; Es hop table by F. Egano IK3XTV.</p>
+<h2>Building</h2>
+<p>The installers are produced by GitHub Actions (<code>.github/workflows/build.yml</code>) whenever the <code>release</code> branch is updated (version from the <code>VERSION</code> file). On every push to <code>main</code>: check build on Linux, log on the <code>ci-log</code> branch and screenshots of the tabs on the <code>ci-screenshots</code> branch.
+Locally: <code>dotnet publish E-LAYER-ANALYZER.csproj -c Release -r win-x64|win-x86|win-arm64|linux-x64|linux-arm64|linux-arm|linux-musl-x64|linux-musl-arm64|osx-arm64|osx-x64 --self-contained true</code>; Linux packages with <code>installer/make-deb.sh</code>, <code>make-rpm.sh</code>, <code>make-arch.sh</code>, <code>make-txz.sh</code>, <code>make-appimage.sh</code>.
+Word documents: <code>python3 tools/txt2docx.py data/ela_documento_tecnico.txt data/ela_documento_tecnico.docx</code>.</p>
+<h2>License</h2>
+<p>E-LAYER ANALYZER is free software: you can redistribute and modify it under the terms of the GNU General Public License version 3 (<a href="https://github.com/ic8tem/E-LAYER-ANALYZER/blob/main/COPYING">COPYING</a>), the same as YA-MS, which the program contains. It is distributed without any warranty. The data of external sources belong to their respective bodies, with their own conditions (for example the GIRO ionosonde data, CC BY-NC-SA 4.0, non-commercial use only); the list is in the SOURCES tab.</p>
+<h2>Support the project</h2>
+<p>E-LAYER ANALYZER is free. If you find it useful, you can buy me a coffee on <strong><a href="https://ko-fi.com/ic8tem">Ko-fi</a></strong>.</p>
+  </article>
+</main>
+<footer><div class="wrap"><p>Costantino Cerrotta IC8TEM · Capri, JN70CN · <a href="https://www.facebook.com/groups/1675310160982493">Facebook group</a> · <a href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a> · <a href="https://ko-fi.com/ic8tem">Ko-fi</a> · 73!</p></div></footer>
+</body>
+</html>
