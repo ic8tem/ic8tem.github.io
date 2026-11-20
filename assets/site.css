@@ -94,3 +94,6 @@ table.all th{position:sticky;top:0;background:var(--bg2)}
 table.all td a{word-break:break-all}
 .yes{color:#7ee08a}.no{color:#ff9d7a}
 .scroll{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:10px;margin-top:10px}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hero img{max-height:none;object-fit:contain;background:#000}
