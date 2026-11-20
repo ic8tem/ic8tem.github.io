@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IC8TEM'S SOFTWARE FARM – {{title}}</title>
+<meta name="description" content="{{meta_desc}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ic8tem.github.io/{{path}}">
+<meta property="og:title" content="IC8TEM'S SOFTWARE FARM">
+<meta property="og:description" content="Observe · Calculate · Share – {{meta_desc}}">
+<meta property="og:image" content="https://ic8tem.github.io/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+{{alternates}}
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101a3a'/%3E%3Cpath d='M12 48 L32 14 L52 48' fill='none' stroke='%23f2b233' stroke-width='5'/%3E%3Ccircle cx='32' cy='14' r='5' fill='%23f2b233'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="{{root}}assets/site.css?v=4">
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="{{root}}{{path}}">IC8TEM'S <span>SOFTWARE FARM</span></a>
+  <nav>
+    <a href="#news">{{nav_news}}</a>
+    <a href="#programmi">{{nav_programs}}</a>
+    <a href="#download">Download</a>
+    <a href="#video">{{nav_video}}</a>
+    <a href="#contatti">{{nav_contacts}}</a>
+  </nav>
+  <select class="langsel" aria-label="Language" onchange="pickLang(this.value)">{{langopts}}</select>
+</div></header>
+
+<div class="hero">
+  <img src="{{root}}assets/cover.jpg" onerror="this.style.display='none'" alt="IC8TEM'S SOFTWARE FARM – Observe · Calculate · Share">
+  <div class="cap"><div class="wrap">
+    <h1 class="sr">IC8TEM'S SOFTWARE FARM – Observe · Calculate · Share</h1>
+    <p>{{hero_p}}</p>
+    <div class="btns">
+      <a class="btn pri" href="#programmi">{{btn_download}}</a>
+      <a class="btn" href="https://www.facebook.com/groups/1675310160982493">{{btn_fbgroup}}</a>
+      <a class="btn" href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a>
+      <a class="btn" href="https://ko-fi.com/ic8tem">☕ Ko-fi</a>
+    </div>
+  </div></div>
+</div>
+
+<main class="wrap">
+
+<section id="news">
+  <h2>{{nav_news}}</h2>
+  <p class="sub">{{news_sub}}</p>
+  <div class="news">
+    <article class="item">
+      <time>20/11/2026</time>
+      <h3>🌐 {{n0_t}}</h3>
+      <p>{{n0_p}}</p>
+    </article>
+    <article class="item">
+      <time>20/11/2026</time>
+      <h3>☄️ {{n1_t}}</h3>
+      <p>{{n1_p}}</p>
+      <div class="links"><a href="https://youtu.be/Yop2bzGTiI0">▶ Video (IT)</a><a href="https://youtu.be/LNopcQcj68E">▶ Video (EN)</a><a href="https://github.com/ic8tem/YA-MS/releases/latest">⬇️ YA-MS</a></div>
+    </article>
+    <article class="item">
+      <time>20/11/2026</time>
+      <h3>📡 {{n2_t}}</h3>
+      <p>{{n2_p}}</p>
+      <div class="links"><a href="https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw">▶ {{course_it}}</a><a href="https://www.youtube.com/playlist?list=PLFfXLoSkjiJE">▶ {{course_en}}</a></div>
+    </article>
+    <article class="item">
+      <time>19/11/2026</time>
+      <h3>📡 YA-NEC 1.5.2</h3>
+      <p>{{n3_p}}</p>
+    </article>
+    <article class="item">
+      <time>19/11/2026</time>
+      <h3>🖥️ {{n4_t}}</h3>
+      <p>{{n4_p}} <a href="#sistemi">{{sys_link}}</a></p>
+    </article>
+  </div>
+</section>
+
+<section id="programmi">
+  <h2>{{nav_programs}}</h2>
+  <p class="sub">{{prog_sub}}</p>
+  <div class="grid">
+{{cards}}
+  </div>
+</section>
+
+<section id="download">
+  <h2>{{dl_title}}</h2>
+  <p class="sub">{{dl_sub}}</p>
+  <div class="finder">
+    <label for="f-sys">{{dl_mysys}}</label>
+    <select id="f-sys"></select>
+    <div class="res" id="f-res"></div>
+    <p class="note">{{dl_note}}</p>
+    <h3 style="margin:22px 0 4px">{{dl_all}}</h3>
+    <input id="f-q" type="search" placeholder="{{dl_search}}">
+    <div class="scroll"><table class="all"><thead><tr><th>{{th_prog}}</th><th>{{th_sys}}</th><th>{{th_type}}</th><th>{{th_auto}}</th><th>{{th_file}}</th></tr></thead><tbody id="f-tab"></tbody></table></div>
+    <p class="note" id="f-cnt"></p>
+  </div>
+</section>
+
+<section id="sistemi">
+  <h2>{{sys_title}}</h2>
+  <p class="sub">{{sys_sub}}</p>
+  <div class="sys">
+    <div><b>Windows</b><br>{{sys_win}}</div>
+    <div><b>macOS</b><br>{{sys_mac}}</div>
+    <div><b>Linux</b><br>{{sys_linux}}</div>
+    <div><b>Raspberry Pi</b><br>{{sys_rpi}}</div>
+    <div><b>FreeBSD</b><br>{{sys_bsd}}</div>
+  </div>
+  <p class="note">{{sys_note}}</p>
+</section>
+
+<section id="video">
+  <h2>{{nav_video}}</h2>
+  <p class="sub">{{vid_sub}}</p>
+  <div class="vids">
+{{videos}}
+  </div>
+</section>
+
+<section id="contatti">
+  <h2>{{cont_title}}</h2>
+  <p class="sub">{{cont_sub}}</p>
+  <div class="contacts">
+    <a class="btn" href="https://www.facebook.com/groups/1675310160982493">{{c_group}} IC8TEM'S SOFTWARE FARM</a>
+    <a class="btn" href="https://www.facebook.com/profile.php?id=61596361275998">{{c_page}} Ic8tem Softwares</a>
+    <a class="btn" href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a>
+    <a class="btn" href="https://github.com/ic8tem">GitHub</a>
+    <a class="btn" href="https://www.qrz.com/db/ic8tem">QRZ.com</a>
+    <a class="btn" href="mailto:ic8tem@gmail.com">✉️ ic8tem@gmail.com</a>
+    <a class="btn pri" href="https://ko-fi.com/ic8tem">☕ {{c_kofi}}</a>
+  </div>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+  <p>{{footer}}</p>
+</div></footer>
+
+<script>window.T={{jsT}};window.LANG="{{lang}}";</script>
+<script src="{{root}}assets/downloads.js?v=4"></script>
+<script src="{{root}}assets/site.js?v=4"></script>
+</body>
+</html>

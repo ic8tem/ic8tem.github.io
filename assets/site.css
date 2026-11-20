@@ -97,3 +97,5 @@ table.all td a{word-break:break-all}
 
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .hero img{max-height:none;object-fit:contain;background:#000}
+.langsel{font:inherit;font-size:14px;background:var(--bg2);color:var(--txt);border:1px solid var(--line);border-radius:999px;padding:5px 10px;cursor:pointer}
+.langsel:focus{outline:2px solid var(--acc)}
