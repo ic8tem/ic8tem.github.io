@@ -146,8 +146,8 @@ CARDS = [  # repo, slug, name, tag key or fixed tag, description key, extra link
     ("E-LAYER-ANALYZER", "e-layer-analyzer", "E-LAYER ANALYZER", "@tag_ela", "d_ela", []),
     ("IP-TRX-CTRL", "ip-trx-ctrl", "IP-TRX-CTRL", "@tag_ip", "d_ip", []),
 ]
-VIDS = [("https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw", "V6MMeq1KArc", "YA-NEC – {v_course_it}", "{v_lessons} · playlist"),
-        ("https://www.youtube.com/playlist?list=PLFfXLoSkjiJE", "gtk6b_frEJk", "YA-NEC – {v_course_en}", "{v_lessons} · playlist"),
+VIDS = [("https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw", "93MJEVt-Fps", "YA-NEC – {v_course_it}", "{v_lessons} · playlist"),
+        ("https://www.youtube.com/playlist?list=PLFfXLoSkjiJE", "Vp_egV0WrZ8", "YA-NEC – {v_course_en}", "{v_lessons} · playlist"),
         ("https://youtu.be/Yop2bzGTiI0", "Yop2bzGTiI0", "YA-MS – RA1WU ↔ IW2EQR {v_gem}", "Italiano · 1:30"),
         ("https://youtu.be/LNopcQcj68E", "LNopcQcj68E", "YA-MS – RA1WU ↔ IW2EQR {v_gem}", "English · 1:30"),
         ("https://youtu.be/Bk_fE5unliE", "Bk_fE5unliE", "YA-MS – {v_pres}", "Italiano"),
