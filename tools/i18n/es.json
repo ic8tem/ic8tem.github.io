@@ -1,4 +1,9 @@
 {
+"ngm_t": "YA-MS – Gemínidas 2026 en Japón, Australia y Sudamérica",
+"ngm_p": "Seis vídeos de unos 2 minutos con la previsión en 144 MHz para el 14 de diciembre de 2026 en tres trayectos de 1400-1700 km: Sapporo (JA8) → Fukuoka, mejor hora 09-10 UTC; Brisbane → Melbourne, 12-14 UTC; São Paulo → Buenos Aires, 01-02 UTC. En inglés y en el idioma local. Solo cálculo: la previsión por radar de YA-MS usa Collm (Alemania) y allí no es válida.",
+"ngm_jp": "Japón",
+"ngm_au": "Australia",
+"ngm_sa": "Sudamérica",
 "nvc31_p": "Videocurso de YA-NEC: dos lecciones nuevas. La 30, «Cables y medidas con el VNA», calcula las pérdidas de los cables y la adaptación de cuarto de onda y compara el cálculo NEC con una medida .s1p; la 31, «Otras calculadoras», muestra Loop Skywire, lazo rectangular, HEN, Big Wheel, biquad y antenas en PCB. El curso tiene ahora 32 lecciones, en italiano e inglés.",
 "n154_p": "Sale la 1.5.4: un modelo escrito a mano sin fuente da ahora un aviso en la barra de estado en lugar de una ventana, las ventanas de error se cierran con Intro o Esc, la página de la corrección del boom está traducida al inglés. El videocurso está completo: 30 lecciones grabadas con la 1.5.3-1.5.4.",
 "nvc_t": "Videocurso de YA-NEC rehecho con la 1.5.3", "nvc_p": "Las 30 lecciones del videocurso de YA-NEC se han vuelto a grabar con la versión 1.5.3, en italiano e inglés, con los valores de la versión actual. Nueva la lección 29, Redimensionar y recentrar: la Yagi de 11 elementos de I4GBZ tomada de MMANA pasa de ROE 7,4 a 1,07 con un clic.",
