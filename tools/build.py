@@ -148,6 +148,13 @@ CARDS = [  # repo, slug, name, tag key or fixed tag, description key, extra link
 ]
 VIDS = [("https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw", "93MJEVt-Fps", "YA-NEC – {v_course_it}", "{v_lessons} · playlist"),
         ("https://www.youtube.com/playlist?list=PLFfXLoSkjiJE", "Vp_egV0WrZ8", "YA-NEC – {v_course_en}", "{v_lessons} · playlist"),
+        ("https://www.youtube.com/playlist?list=PLYCyA6fFaT-U", "Bk_fE5unliE", "YA-MS – Yet Another MS", "10 video · playlist"),
+        ("https://youtu.be/NCjFPjtd2Lw", "NCjFPjtd2Lw", "YA-MS – {ngm_jp} {v_gem}", "English · 1:55"),
+        ("https://youtu.be/ZoZTmHIqV_0", "ZoZTmHIqV_0", "YA-MS – {ngm_jp} {v_gem}", "日本語 · 1:47"),
+        ("https://youtu.be/nVS-yigZmJ4", "nVS-yigZmJ4", "YA-MS – {ngm_au} {v_gem}", "English · 1:51"),
+        ("https://youtu.be/QoyncqAoNy0", "QoyncqAoNy0", "YA-MS – {ngm_sa} {v_gem}", "English · 1:54"),
+        ("https://youtu.be/MmRJ0epbVNo", "MmRJ0epbVNo", "YA-MS – {ngm_sa} {v_gem}", "Español · 2:07"),
+        ("https://youtu.be/TqofNfmDh9w", "TqofNfmDh9w", "YA-MS – {ngm_sa} {v_gem}", "Português · 2:06"),
         ("https://youtu.be/Yop2bzGTiI0", "Yop2bzGTiI0", "YA-MS – RA1WU ↔ IW2EQR {v_gem}", "Italiano · 1:30"),
         ("https://youtu.be/LNopcQcj68E", "LNopcQcj68E", "YA-MS – RA1WU ↔ IW2EQR {v_gem}", "English · 1:30"),
         ("https://youtu.be/Bk_fE5unliE", "Bk_fE5unliE", "YA-MS – {v_pres}", "Italiano"),
