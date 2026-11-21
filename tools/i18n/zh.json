@@ -52,7 +52,7 @@
 "sys_bsd": "实验版（E-LAYER ANALYZER 和 YAEC）",
 "sys_note": "基于 .NET 的软件没有 32 位电脑 Linux（i686）和 OpenBSD 版本，因为这些系统没有 .NET；YAEC 也能在 Mono 上运行，因此还有 Linux i686 和 OpenBSD 的软件包（尚未测试）。使用 Windows 安装程序、Mac 应用、便携版和 AppImage 时，软件之后会自动更新。",
 "vid_sub": "YouTube 频道上的视频课程、介绍和演示。",
-"v_course_it": "意大利语视频课程", "v_course_en": "英语视频课程", "v_lessons": "29 课",
+"v_course_it": "意大利语视频课程", "v_course_en": "英语视频课程", "v_lessons": "32 课",
 "v_gem": "双子座流星雨极大期", "v_pres": "介绍", "v_start": "入门", "v_howto": "使用方法",
 "cont_title": "社区与联系",
 "cont_sub": "动态、截图、指南、提问、错误报告和通联成果：请在群组或主页上给我留言。如果在你的系统上无法运行，请告诉我！",

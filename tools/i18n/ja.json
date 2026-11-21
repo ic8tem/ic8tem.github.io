@@ -52,7 +52,7 @@
 "sys_bsd": "実験版（E-LAYER ANALYZER と YAEC）",
 "sys_note": ".NET ベースのソフトウェアは、32 ビット PC の Linux（i686）と OpenBSD にはありません。これらのシステムには .NET がないためです。Mono でも動く YAEC には Linux i686 と OpenBSD のパッケージもあります（未検証）。Windows インストーラー、Mac アプリ、ポータブル版、AppImage では、その後は自動で更新されます。",
 "vid_sub": "YouTube チャンネルの動画講座、紹介動画、デモ。",
-"v_course_it": "イタリア語の動画講座", "v_course_en": "英語の動画講座", "v_lessons": "全 29 回",
+"v_course_it": "イタリア語の動画講座", "v_course_en": "英語の動画講座", "v_lessons": "全 32 回",
 "v_gem": "ふたご座流星群の極大時", "v_pres": "紹介", "v_start": "はじめの一歩", "v_howto": "使い方",
 "cont_title": "コミュニティと連絡先",
 "cont_sub": "お知らせ、スクリーンショット、ガイド、質問、不具合の報告、交信の成果など：グループかページに書き込んでください。お使いのシステムで動かない場合はお知らせください！",

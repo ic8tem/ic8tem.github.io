@@ -52,7 +52,7 @@
 "sys_bsd": "Experimental (E-LAYER ANALYZER and YAEC)",
 "sys_note": "The .NET-based programs don't exist for 32-bit PC Linux (i686) and OpenBSD, because .NET isn't available there; YAEC, which also runs on Mono, has packages for Linux i686 and OpenBSD too (not tested yet). With the Windows installer, the Mac app, the portable versions and the AppImage the program then updates itself.",
 "vid_sub": "Video courses, presentations and demos on the YouTube channel.",
-"v_course_it": "Italian video course", "v_course_en": "English video course", "v_lessons": "29 lessons",
+"v_course_it": "Italian video course", "v_course_en": "English video course", "v_lessons": "32 lessons",
 "v_gem": "at the Geminids peak", "v_pres": "presentation", "v_start": "getting started", "v_howto": "how to use",
 "cont_title": "Community and contacts",
 "cont_sub": "News, screenshots, guides, questions, bug reports and on-air results: write to me in the group or on the Page. If something doesn't work on your system, let me know!",
