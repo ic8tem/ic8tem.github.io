@@ -1,4 +1,5 @@
 {
+"n156_p": "La 1.5.6 est sortie : les calculateurs HF ont une nouvelle fiche Antennes filaires pour les antennes alimentées en bout (EFHW 49:1 et 64:1, avec bobine, fil non résonant 9:1 et 4:1), avec six dispositions du fil, contrepoids, ROS par bande et ajustement de la longueur avec NEC. Des boutons ouvrent déjà remplies les fiches du balun, du choke et du quart d'onde ; la Discone passe en VHF.",
 "n155_p": "La 1.5.5 est sortie : le calculateur HEN indique la polarisation horizontale, comme la vérification NEC, et la page Mesures VNA est traduite (titres, légende et proposition de correction). Le cours vidéo compte désormais 32 leçons.",
 "ngm_t": "YA-MS – Géminides 2026 au Japon, en Australie et en Amérique du Sud",
 "ngm_p": "Six vidéos d'environ 2 minutes avec la prévision à 144 MHz pour le 14 décembre 2026 sur trois trajets de 1400 à 1700 km : Sapporo (JA8) → Fukuoka, meilleure heure 09-10 UTC ; Brisbane → Melbourne, 12-14 UTC ; São Paulo → Buenos Aires, 01-02 UTC. En anglais et dans la langue locale. Calcul seulement : la prévision radar de YA-MS utilise Collm (Allemagne) et n'y est pas valable.",
