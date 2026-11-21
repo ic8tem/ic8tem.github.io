@@ -1,4 +1,5 @@
 {
+"nvc_t": "Videocorso YA-NEC rifatto con la 1.5.3", "nvc_p": "Tutte le 30 lezioni del videocorso di YA-NEC sono state rigirate con la versione 1.5.3, in italiano e in inglese, con i numeri della versione attuale. Nuova la lezione 29, Ridimensiona e ricentra: la Yagi 11 elementi di I4GBZ presa da MMANA passa da ROS 7,4 a 1,07 in un clic.",
 "n153_p": "Novità: Variabili e ottimizzazione › Ridimensiona e ricentra (un modello MMANA o un progetto portato alla frequenza voluta in un clic, con diametri in scala, uguali o commerciali; il ritocco del radiatore azzera la reattanza); nei Diagrammi le voci Lobi e Parametri; passo degli angoli adattato al computer; Ricezione (RDF) sul modello aperto. Corretti la quad a 2-3 elementi in Automatico (ora portata in risonanza dal NEC) e la doppia finestra per un modello senza sorgente. Videocorso rigirato con la 1.5.3, in italiano e in inglese. Chi ha già YA-NEC lo riceve da solo con l'aggiornamento automatico.",
 "name": "Italiano",
 "title": "programmi gratuiti per radioamatori",

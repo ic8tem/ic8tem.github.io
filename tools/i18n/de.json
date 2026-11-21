@@ -1,4 +1,5 @@
 {
+"nvc_t": "YA-NEC-Videokurs mit 1.5.3 neu aufgenommen", "nvc_p": "Alle 30 Lektionen des YA-NEC-Videokurses wurden mit Version 1.5.3 neu aufgenommen, auf Italienisch und Englisch, mit den Werten der aktuellen Version. Neu ist Lektion 29, Skalieren und neu zentrieren: die 11-Element-Yagi von I4GBZ aus MMANA geht mit einem Klick von SWR 7,4 auf 1,07.",
 "n153_p": "Neu: Variablen und Optimierung › Skalieren und neu zentrieren (ein MMANA-Modell oder ein Entwurf mit einem Klick auf die gewünschte Frequenz, mit skalierten, gleichen oder handelsüblichen Durchmessern; die Korrektur des Strahlers setzt die Reaktanz auf null); Keulen und Parameter in den Diagrammen; Winkelschritt an den Rechner angepasst; Empfang (RDF) am geöffneten Modell. Korrigiert: Quad mit 2-3 Elementen in Automatisch (jetzt vom NEC in Resonanz gebracht) und das doppelte Fenster bei einem Modell ohne Quelle. Videokurs mit 1.5.3 neu aufgenommen, auf Italienisch und Englisch. Wer YA-NEC schon hat, erhält das Update automatisch.",
 "name": "Deutsch",
 "title": "kostenlose Software für Funkamateure",

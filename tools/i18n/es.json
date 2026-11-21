@@ -1,4 +1,5 @@
 {
+"nvc_t": "Videocurso de YA-NEC rehecho con la 1.5.3", "nvc_p": "Las 30 lecciones del videocurso de YA-NEC se han vuelto a grabar con la versión 1.5.3, en italiano e inglés, con los valores de la versión actual. Nueva la lección 29, Redimensionar y recentrar: la Yagi de 11 elementos de I4GBZ tomada de MMANA pasa de ROE 7,4 a 1,07 con un clic.",
 "n153_p": "Novedades: Variables y optimización › Redimensionar y recentrar (un modelo MMANA o un diseño llevado a la frecuencia deseada con un clic, con diámetros a escala, iguales o comerciales; el retoque del radiador anula la reactancia); Lóbulos y Parámetros en los Diagramas; paso de los ángulos adaptado al ordenador; Recepción (RDF) sobre el modelo abierto. Corregidas la quad de 2-3 elementos en Automático (ahora llevada a resonancia por el NEC) y la doble ventana con un modelo sin fuente. Videocurso regrabado con la 1.5.3, en italiano e inglés. Quien ya tiene YA-NEC lo recibe solo con la actualización automática.",
 "name": "Español",
 "title": "programas gratuitos para radioaficionados",
