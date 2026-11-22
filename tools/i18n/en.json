@@ -1,4 +1,5 @@
 {
+"n157_p": "1.5.7 is out: on the Wire antennas page the loading coil is optional and «Tune the coil (NEC)» finds the right inductance; the warnings of all calculators are now translated and the 3D structure no longer draws wire insulation as coils.",
 "n156_p": "1.5.6 is out: the HF calculators have a new Wire antennas page for end-fed antennas (EFHW 49:1 and 64:1, with coil, non-resonant wire 9:1 and 4:1), with six wire layouts, counterpoise, SWR per band and length tuning with NEC. Buttons open the balun, choke and quarter-wave pages already filled in; the Discone moves to VHF.",
 "n155_p": "1.5.5 is out: the HEN calculator shows horizontal polarization, as the NEC check does, and the VNA measurements page is translated (titles, legend and correction proposal). The video course now has 32 lessons.",
 "ngm_t": "YA-MS – Geminids 2026 in Japan, Australia and South America",
