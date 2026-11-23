@@ -148,8 +148,8 @@ CARDS = [  # repo, slug, name, tag key or fixed tag, description key, extra link
     ("IP-TRX-CTRL", "ip-trx-ctrl", "IP-TRX-CTRL", "@tag_ip", "d_ip", []),
     ("LIVETROPOVHF", "livetropovhf", "LIVETROPOVHF", "Live VHF/UHF tropo", "d_ltv", [("https://www.youtube.com/playlist?list=PLbNitGQIwVXQ", "ltv_course")]),
 ]
-VIDS = [("https://youtu.be/FShpUCHlcSo", "FShpUCHlcSo", "LIVETROPOVHF – {v_ltv_fc}", "Italiano · 2:36"),
-        ("https://youtu.be/fDde0aklgI4", "fDde0aklgI4", "LIVETROPOVHF – {v_ltv_fc}", "English · 2:36"),
+VIDS = [("https://youtu.be/C9y0GTyjtOs", "C9y0GTyjtOs", "LIVETROPOVHF – {v_ltv_fc}", "Italiano · 3:09"),
+        ("https://youtu.be/7yCzt4ypm2A", "7yCzt4ypm2A", "LIVETROPOVHF – {v_ltv_fc}", "English · 3:09"),
         ("https://youtu.be/9z9CxBhOyMw", "9z9CxBhOyMw", "LIVETROPOVHF – {v_ltv_call3}", "Italiano · 2:13"),
         ("https://youtu.be/NbunEoC6FBY", "NbunEoC6FBY", "LIVETROPOVHF – {v_ltv_call3}", "English · 2:13"),
         ("https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw", "93MJEVt-Fps", "YA-NEC – {v_course_it}", "{v_lessons} · playlist"),
