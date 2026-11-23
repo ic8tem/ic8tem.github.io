@@ -12,7 +12,7 @@ function pickLang(l){ try{ localStorage.setItem('lang', l); }catch(e){} location
   }
   var T = window.T, sel = document.getElementById('f-sys'); if (!sel || !window.DL) return;
   var res = document.getElementById('f-res'), tab = document.getElementById('f-tab'), q = document.getElementById('f-q'), cnt = document.getElementById('f-cnt');
-  var progs = ['YA-NEC','YA-MS','YAEC','E-LAYER ANALYZER','IP-TRX-CTRL'];
+  var progs = ['YA-NEC','YA-MS','YAEC','E-LAYER ANALYZER','IP-TRX-CTRL','LIVETROPOVHF'];
   var pref = ['setup','dmg','appimage','portable','deb','rpm','arch','txz','app','zip'];
   function guess(){
     var u = navigator.userAgent, p = (navigator.userAgentData && navigator.userAgentData.platform) || navigator.platform || '';

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LIVETROPOVHF – Live VHF/UHF tropospheric propagation · IC8TEM'S SOFTWARE FARM</title>
+<meta name="description" content="LIVETROPOVHF – Live VHF/UHF tropospheric propagation. Free ham radio software by Costantino Cerrotta IC8TEM.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ic8tem.github.io/programs/livetropovhf.html">
+<meta property="og:title" content="LIVETROPOVHF – Live VHF/UHF tropospheric propagation">
+<meta property="og:image" content="https://ic8tem.github.io/assets/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101a3a'/%3E%3Cpath d='M12 48 L32 14 L52 48' fill='none' stroke='%23f2b233' stroke-width='5'/%3E%3Ccircle cx='32' cy='14' r='5' fill='%23f2b233'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/site.css?v=2">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="../">IC8TEM'S <span>SOFTWARE FARM</span></a>
+  <nav>
+    <a href="../#news">News</a>
+    <a href="../#programmi">Programs</a>
+    <a href="../#download">Download</a>
+    <a href="../#video">Video</a>
+    <a href="../#contatti">Contacts</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <div class="crumbs"><a href="../">Home</a> › <a href="../#programmi">Programs</a> › LIVETROPOVHF</div>
+  <div class="btns" style="justify-content:flex-start;margin-top:14px">
+    <a class="btn pri" href="../?p=LIVETROPOVHF#download">⬇️ Download for your system</a>
+    <a class="btn" href="https://github.com/ic8tem/LIVETROPOVHF/releases/latest">All files (GitHub Releases)</a>
+    <a class="btn" href="https://github.com/ic8tem/LIVETROPOVHF">GitHub</a>
+    <a class="btn" href="https://ko-fi.com/ic8tem">☕ Ko-fi</a>
+  </div>
+  <p class="note">This page is the English README of the program on GitHub.</p>
+  <article class="md">
+<h1>LIVETROPOVHF</h1>
+<p><strong>Live VHF/UHF tropospheric propagation for radio amateurs — by IC8TEM</strong>
+<em>Propagazione troposferica VHF/UHF in tempo reale per radioamatori</em></p>
+<p>LIVETROPOVHF puts on one map the tropo forecast and what is really happening on the air from 144 MHz up.</p>
+<p><img alt="release" src="https://img.shields.io/github/v/release/ic8tem/LIVETROPOVHF" /> <img alt="platforms" src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20Raspberry%20Pi%20%7C%20Mac-blue" /> <img alt=".NET" src="https://img.shields.io/badge/.NET-10-purple" /></p>
+<p><img alt="LIVETROPOVHF" src="https://raw.githubusercontent.com/ic8tem/LIVETROPOVHF/main/TropoVHF/Assets/splash.jpg" /></p>
+<h2>What it does / Che cosa fa</h2>
+<ul>
+<li><strong>Forecast</strong> – Hepburn and F5LEN tropo maps, merged worldwide; isobars, 850 hPa isotherms and thermal inversion (Open-Meteo).</li>
+<li><strong>Live</strong> – spots from DX clusters (ON0DXK, DXMAPS with RBN skimmer, S50CLX), RBN and DM4X, PSKReporter (MQTT), your own WSJT-X / JTDX / MSHV decodes (UDP), QSOs inferred from RR73/73.</li>
+<li><strong>Clean data</strong> – only 144 MHz and up (GRAVES 143.050 kept); meteor scatter, EME, QO-100 and fake listeners filtered out; paths over 1000 km held until confirmed.</li>
+<li><strong>Locators</strong> – always 6 characters: CALL3.TXT, manual entries, layered files, automatic corrections from DM4X/RBN, MMMonVHF updates and G7VRD as last source.</li>
+<li><strong>Own forecast (experimental, 1.2.0)</strong> – gain map computed from GFS vertical profiles (Bean &amp; Dutton, Kerr), signal prediction between two stations over Copernicus GLO-30 terrain (SRTM1 before 1.3.2) (diffraction, troposcatter, ducts, ITU-R P.372 noise), optional gain contours, isobars and inversion lines. Also in the Windows 7 build from 1.2.3.</li>
+<li><strong>Tabs (five groups)</strong> – Map; Forecasts (own β, Hepburn, F5LEN); GRAVES; Data &amp; sources; Guides. Older list: Map, Hepburn, F5LEN, Forecast (experimental), GRAVES, Suspicious reports (self-learning), Data collection, three technical manuals with sources.</li>
+<li><strong>Portable</strong> – everything next to the program (LIVETROPOVHF.ini, LIVETROPOVHF.db, Dati\): no registry, no AppData. Interface in 36 languages.</li>
+</ul>
+<h2>Download / Scarica</h2>
+<p>Get the latest version from <strong><a href="https://github.com/ic8tem/LIVETROPOVHF/releases/latest">Releases</a></strong>:
+- <strong>Windows 10/11</strong>: <code>LIVETROPOVHF-…-windows-x64-setup.exe</code> (installs in <code>C:\LIVETROPOVHF</code>, no admin rights) or the portable zip; x86 and ARM64 builds too.
+- <strong>Windows 7 SP1 / 8.1</strong>: <code>LIVETROPOVHF-…-windows7-x64-setup.exe</code> (or x86, or the portable zip): a native .NET Framework 4.8 build.
+- <strong>Linux</strong>: <code>.deb</code>, <code>.rpm</code>, Arch <code>.pkg.tar.zst</code>, Slackware <code>.txz</code>, <code>AppImage</code>, <code>tar.gz</code>; <strong>Raspberry Pi</strong> 64/32 bit; <strong>Alpine</strong>.
+- <strong>Mac</strong>: <code>.dmg</code> for Apple Silicon or Intel.</p>
+<p>To build from source on Windows: double-click <code>build-win64.bat</code> (it installs the .NET 10 SDK locally if missing).</p>
+<h2>Windows 7 SP1 / 8.1</h2>
+<p>The standard Windows build uses .NET 10, which does not start on Windows 7 (<em>"Impossibile trovare il punto di ingresso GetSystemTimePreciseAsFileTime…"</em>); the .NET 6 packages of 1.0.1 did not start on every Windows 7 either.
+- From <strong>1.0.2</strong> the <strong><code>-windows7-x64</code></strong> and <strong><code>-windows7-x86</code></strong> packages (setup or portable zip) are a separate program written for <strong>.NET Framework 4.8</strong> with a WinForms window (folder <code>Win7</code> in the sources). Engine, map and GRAVES view are the same code as the standard build; the window and the drawing (GDI+) are rewritten. Same tabs, same 36 languages.
+- It needs <strong>Microsoft .NET Framework 4.8</strong> (included in Windows 10/11, free download for Windows 7 SP1 and 8.1): the setup checks and opens the Microsoft download page if it is missing.
+- Missing on Windows 7: OCR reading of map axes and the manual calibration bench (Hepburn and F5LEN regions have factory extents, so in practice nothing changes).
+- If you installed 1.0.0 or 1.0.1 on Windows 7, download the <code>windows7</code> setup manually and install it over the old one. Settings and data are kept; from then on updates are automatic. Details: <a href="https://github.com/ic8tem/LIVETROPOVHF/wiki/Windows-7-e-8.1">Wiki – Windows 7 e 8.1</a>.</p>
+<h2>Automatic updates</h2>
+<p>Every 30 minutes the program checks the latest Release and, if newer, downloads the portable package for its platform and replaces its own files silently; the new version starts at the next launch. Settings, archive, <code>Dati\</code> and <code>CALL3.TXT</code> are never touched.</p>
+<h2>Documentation</h2>
+<ul>
+<li><a href="https://github.com/ic8tem/LIVETROPOVHF/wiki">Wiki</a> – quick start, discard criteria, map colours.</li>
+<li><a href="https://github.com/ic8tem/LIVETROPOVHF/blob/main/CHANGELOG.md">CHANGELOG.md</a> – version history.</li>
+<li>In the program: tabs <em>Funzionamento</em>, <em>Costruzione della mappa</em>, <em>Come si forma la tropo</em> (Italian, exportable to Word).</li>
+</ul>
+<h2>Credits</h2>
+<p>Tropo maps: W. R. Hepburn (DX Info Centre), F5LEN. Weather: Open-Meteo. Coastlines: Natural Earth. Spots: DX clusters, Reverse Beacon Network, DM4X, PSKReporter. Callsign database: CALL3.TXT / MMMonVHF, G7VRD locator API. GRAVES data: PE1ITR and the YA-MS project.</p>
+<p>Thanks to <strong>I5MZY Massimo Zannoni</strong> for testing on Windows 7 and Windows 8.</p>
+<hr />
+<p><em>Software for amateur radio use. Forecasts are indications, not guarantees.</em></p>
+  </article>
+</main>
+<footer><div class="wrap"><p>Costantino Cerrotta IC8TEM · Capri, JN70CN · <a href="https://www.facebook.com/groups/1675310160982493">Facebook group</a> · <a href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a> · <a href="https://ko-fi.com/ic8tem">Ko-fi</a> · 73!</p></div></footer>
+</body>
+</html>

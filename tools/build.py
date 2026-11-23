@@ -13,6 +13,7 @@ PROGS = [  # file, repo, slug, title, tagline
     ("YAEC", "YAEC", "yaec", "YAEC", "Yet Another EME Calc"),
     ("E-LAYER-ANALYZER", "E-LAYER-ANALYZER", "e-layer-analyzer", "E-LAYER ANALYZER", "VHF propagation via the E layer"),
     ("IP-TRX-CTRL", "IP-TRX-CTRL", "ip-trx-ctrl", "IP-TRX-CTRL", "Remote control of your HF radio"),
+    ("LIVETROPOVHF", "LIVETROPOVHF", "livetropovhf", "LIVETROPOVHF", "Live VHF/UHF tropospheric propagation"),
 ]
 TRANSLATED = {"E-LAYER-ANALYZER", "IP-TRX-CTRL"}
 
@@ -145,8 +146,13 @@ CARDS = [  # repo, slug, name, tag key or fixed tag, description key, extra link
     ("YAEC", "yaec", "YAEC", "Yet Another EME Calc", "d_yaec", [("https://github.com/ic8tem/YAEC/wiki/Manuals", "yaec_manuals")]),
     ("E-LAYER-ANALYZER", "e-layer-analyzer", "E-LAYER ANALYZER", "@tag_ela", "d_ela", []),
     ("IP-TRX-CTRL", "ip-trx-ctrl", "IP-TRX-CTRL", "@tag_ip", "d_ip", []),
+    ("LIVETROPOVHF", "livetropovhf", "LIVETROPOVHF", "Live VHF/UHF tropo", "d_ltv", [("https://www.youtube.com/playlist?list=PLbNitGQIwVXQ", "ltv_course")]),
 ]
-VIDS = [("https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw", "93MJEVt-Fps", "YA-NEC – {v_course_it}", "{v_lessons} · playlist"),
+VIDS = [("https://youtu.be/FShpUCHlcSo", "FShpUCHlcSo", "LIVETROPOVHF – {v_ltv_fc}", "Italiano · 2:36"),
+        ("https://youtu.be/fDde0aklgI4", "fDde0aklgI4", "LIVETROPOVHF – {v_ltv_fc}", "English · 2:36"),
+        ("https://youtu.be/9z9CxBhOyMw", "9z9CxBhOyMw", "LIVETROPOVHF – {v_ltv_call3}", "Italiano · 2:13"),
+        ("https://youtu.be/NbunEoC6FBY", "NbunEoC6FBY", "LIVETROPOVHF – {v_ltv_call3}", "English · 2:13"),
+        ("https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw", "93MJEVt-Fps", "YA-NEC – {v_course_it}", "{v_lessons} · playlist"),
         ("https://www.youtube.com/playlist?list=PLFfXLoSkjiJE", "Vp_egV0WrZ8", "YA-NEC – {v_course_en}", "{v_lessons} · playlist"),
         ("https://www.youtube.com/playlist?list=PLYCyA6fFaT-U", "Bk_fE5unliE", "YA-MS – Yet Another MS", "10 video · playlist"),
         ("https://youtu.be/NCjFPjtd2Lw", "NCjFPjtd2Lw", "YA-MS – {ngm_jp} {v_gem}", "English · 1:55"),
