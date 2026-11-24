@@ -1,4 +1,5 @@
 {
+"news_more": "Berita sebelumnya",
 "nip037_u": "https://github.com/ic8tem/IP-TRX-CTRL/wiki/EN-New-in-0.3.7",
 "nip037_p": "IP-TRX-CTRL 0.3.7 sudah rilis, kendali jarak jauh radio Anda lewat internet. Baru: peredam derau neural HamNoise untuk fonia dan CW; VOX dengan tombol di samping PTT; catatan antara operator dan pendengar, juga dari peramban; pendengar juga mendengar yang sedang memancar (berguna untuk net); squelch suara; rekaman QSO ke WAV; koneksi IPv6 langsung dengan pembukaan port lewat PCP, yang juga menembus CGNAT; server tanpa jendela untuk Raspberry Pi tanpa layar; emulasi WinKeyer untuk N1MM, DXLog, dan QLog. Sejak 0.3.6: audio Opus, beberapa pendengar di satu server, kunci CW USB dan MIDI (VBand, Vail), log QSO ke GridTracker, JTAlert, dan Log4OM dengan ekspor ADIF untuk LoTW, radio Icom berjaringan tanpa PC di sebelahnya. Lisensi GNU AGPL 3.0.",
 "nip037_w": "Yang baru di 0.3.7 (wiki)",

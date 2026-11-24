@@ -1,4 +1,5 @@
 {
+"news_more": "Frühere Neuigkeiten",
 "nip037_u": "https://github.com/ic8tem/IP-TRX-CTRL/wiki/DE-Neu-in-0.3.7",
 "nip037_p": "IP-TRX-CTRL 0.3.7, die Fernsteuerung deines Funkgeräts über das Internet, ist erschienen. Neu: neuronale Rauschunterdrückung HamNoise für Sprache und CW; VOX mit einer Schaltfläche neben dem PTT; Notizen zwischen Operator und Zuhörern, auch im Browser; Zuhörer hören auch den Sendenden (praktisch für Runden); Sprach-Squelch; QSO-Aufnahme als WAV; direkte IPv6-Verbindung mit Portfreigabe per PCP, die auch CGNAT überwindet; Server ohne Fenster für einen Raspberry Pi ohne Bildschirm; WinKeyer-Emulation für N1MM, DXLog und QLog. Seit 0.3.6: Opus-Audio, mehrere Zuhörer am selben Server, CW-Taste über USB und MIDI (VBand, Vail), QSO-Logbuch an GridTracker, JTAlert und Log4OM mit ADIF-Export für LoTW, Icom-Funkgeräte im Netzwerk ohne PC daneben. Lizenz GNU AGPL 3.0.",
 "nip037_w": "Neu in 0.3.7 (Wiki)",

@@ -180,15 +180,21 @@ for l in LANGS:
         dl = "".join(f'<a href="https://github.com/ic8tem/{repo}/releases/download/{rtag}/{f}">⬇️ {lab}</a>' for lab, f in files)
         allsys = e("ela_bsd") if repo == "E-LAYER-ANALYZER" else e("all_sys")
         links = (f'<a href="{root}programs/{slug}.html">{e("full_desc")}</a><a href="?p={repo}#download">{e("all_files")}</a><a href="https://github.com/ic8tem/{repo}">GitHub</a>'
-                 + "".join(f'<a href="{u}">{e(k)}</a>' for u, k in extra))
-        cards.append(f'    <div class="card">\n      <h3>{name} <span class="ver">{rtag.lstrip("v")}</span></h3>\n      <div class="tag">{tg}</div>\n'
-                     f'      <p>{e(dk)}</p>\n      <div class="dl">{dl}<a class="all" href="?p={repo}#download">{allsys}</a></div>\n      <div class="links">{links}</div>\n    </div>')
+                 + "".join(f'<a href="{u}">{e(k)}</a>' for u, k in extra) + '<a class="kofi" href="https://ko-fi.com/ic8tem">☕ Ko-fi</a>')
+        img = f'<img loading="lazy" src="{root}assets/shots/{slug}.jpg" alt="{name}">'
+        cards.append(f'    <article class="show" id="p-{slug}">\n      <figure class="screen">{img}</figure>\n      <div class="txt">\n'
+                     f'        <h3 class="pname">{name}</h3>\n        <div class="tag">{tg} <span class="ver">{rtag.lstrip("v")}</span></div>\n'
+                     f'        <p>{e(dk)}</p>\n        <div class="dl">{dl}<a class="all" href="?p={repo}#download">{allsys}</a></div>\n        <div class="links">{links}</div>\n      </div>\n    </article>')
     vids = "\n".join(f'    <a class="vid" href="{u}"><img loading="lazy" src="https://i.ytimg.com/vi/{vid}/hqdefault.jpg" alt=""><div>{html.escape(a.format(**t))}<small>{html.escape(b.format(**t))}</small></div></a>' for u, vid, a, b in VIDS)
     opts = "".join(f'<option value="{x}"{" selected" if x == l else ""}>{I[x]["name"]}</option>' for x in LANGS)
     alts = "\n".join(f'<link rel="alternate" hreflang="{x}" href="https://ic8tem.github.io/{"" if x == "it" else x + "/"}">' for x in LANGS)
     jsT = json.dumps({"js": t["js"], "sys": t["sys"], "kind": t["kind"]}, ensure_ascii=False)
     out = TPL
-    rep = {"lang": l, "root": root, "path": path, "cards": "\n".join(cards), "videos": vids, "langopts": opts, "alternates": alts, "jsT": jsT}
+    fam = "family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400"
+    fam += {"hi": "&family=Noto+Sans+Devanagari:wght@400;600", "ja": "&family=Noto+Sans+JP:wght@400;700", "zh": "&family=Noto+Sans+SC:wght@400;700"}.get(l, "")
+    fontlink = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
+                f'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?{fam}&display=swap">')
+    rep = {"fontlink": fontlink, "lang": l, "root": root, "path": path, "cards": "\n".join(cards), "videos": vids, "langopts": opts, "alternates": alts, "jsT": jsT}
     for k, v in rep.items(): out = out.replace("{{" + k + "}}", v)
     def sub(m):
         k = m.group(1)

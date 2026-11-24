@@ -1,4 +1,5 @@
 {
+"news_more": "以前のお知らせ",
 "nip037_u": "https://github.com/ic8tem/IP-TRX-CTRL/wiki/EN-New-in-0.3.7",
 "nip037_p": "IP-TRX-CTRL 0.3.7 を公開しました。インターネット経由で無線機をリモート操作するソフトです。新機能：音声と CW 用のニューラルノイズ除去 HamNoise、PTT の横のボタンで使う VOX、オペレーターとリスナーの間のメモ（ブラウザからも）、リスナーにも送信者の声が聞こえる機能（ネットに便利）、音声スケルチ、QSO の WAV 録音、PCP でポートを開く IPv6 直接接続（CGNAT も通過）、画面なしの Raspberry Pi 向けのウィンドウなしサーバー、N1MM・DXLog・QLog 向けの WinKeyer エミュレーション。0.3.6 から：Opus 音声、1 台のサーバーに複数のリスナー、USB・MIDI の CW キー（VBand、Vail）、GridTracker・JTAlert・Log4OM への QSO ログと LoTW 用 ADIF 出力、近くに PC がなくてもネットワーク接続の Icom 無線機。ライセンスは GNU AGPL 3.0。",
 "nip037_w": "0.3.7 の新機能（Wiki）",

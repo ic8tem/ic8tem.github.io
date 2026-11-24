@@ -1,4 +1,5 @@
 {
+"news_more": "更早的消息",
 "nip037_u": "https://github.com/ic8tem/IP-TRX-CTRL/wiki/EN-New-in-0.3.7",
 "nip037_p": "IP-TRX-CTRL 0.3.7 发布，通过互联网远程控制您的电台。新功能：用于话音和 CW 的 HamNoise 神经网络降噪；PTT 旁按钮启用的 VOX；操作员与收听者之间的留言，浏览器中也可用；收听者也能听到正在发射的人（适合网络通联）；话音静噪；QSO 的 WAV 录音；通过 PCP 打开端口的 IPv6 直连，也能穿过 CGNAT；适用于无屏幕树莓派的无窗口服务器；为 N1MM、DXLog 和 QLog 模拟 WinKeyer。自 0.3.6 起：Opus 音频，同一服务器上多位收听者，USB 和 MIDI CW 电键（VBand、Vail），向 GridTracker、JTAlert 和 Log4OM 发送 QSO 日志并导出 LoTW 用 ADIF，电台旁无需电脑的网络 Icom 电台。许可证 GNU AGPL 3.0。",
 "nip037_w": "0.3.7 新功能（Wiki）",

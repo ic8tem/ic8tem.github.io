@@ -1,4 +1,5 @@
 {
+"news_more": "Novidades anteriores",
 "nip037_u": "https://github.com/ic8tem/IP-TRX-CTRL/wiki/EN-New-in-0.3.7",
 "nip037_p": "Saiu a 0.3.7 do IP-TRX-CTRL, o controle remoto do seu rádio pela internet. Novidades: redução de ruído neural HamNoise para fonia e CW; VOX com um botão ao lado do PTT; notas entre quem opera e quem escuta, também pelo navegador; os ouvintes ouvem também quem transmite (útil para as rodadas); squelch de voz; gravação dos QSOs em WAV; ligação IPv6 direta com abertura das portas por PCP, que passa também o CGNAT; servidor sem janela para um Raspberry Pi sem ecrã; emulação WinKeyer para N1MM, DXLog e QLog. Desde a 0.3.6: áudio Opus, vários ouvintes no mesmo servidor, manipulador CW USB e MIDI (VBand, Vail), registo de QSOs para GridTracker, JTAlert e Log4OM com exportação ADIF para o LoTW, rádios Icom em rede sem um PC ao lado. Licença GNU AGPL 3.0.",
 "nip037_w": "Novidades da 0.3.7 (wiki)",

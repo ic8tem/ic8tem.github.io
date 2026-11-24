@@ -13,15 +13,16 @@
 <meta name="twitter:card" content="summary_large_image">
 {{alternates}}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101a3a'/%3E%3Cpath d='M12 48 L32 14 L52 48' fill='none' stroke='%23f2b233' stroke-width='5'/%3E%3Ccircle cx='32' cy='14' r='5' fill='%23f2b233'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="{{root}}assets/site.css?v=4">
+{{fontlink}}
+<link rel="stylesheet" href="{{root}}assets/site.css?v=10">
 </head>
 <body>
 
 <header class="top"><div class="wrap">
   <a class="brand" href="{{root}}{{path}}">IC8TEM'S <span>SOFTWARE FARM</span></a>
   <nav>
-    <a href="#news">{{nav_news}}</a>
     <a href="#programmi">{{nav_programs}}</a>
+    <a href="#news">{{nav_news}}</a>
     <a href="#download">Download</a>
     <a href="#video">{{nav_video}}</a>
     <a href="#contatti">{{nav_contacts}}</a>
@@ -44,6 +45,14 @@
 </div>
 
 <main class="wrap">
+
+<section id="programmi">
+  <h2>{{nav_programs}}</h2>
+  <p class="sub">{{prog_sub}}</p>
+  <div class="shows">
+{{cards}}
+  </div>
+</section>
 
 <section id="news">
   <h2>{{nav_news}}</h2>
@@ -85,6 +94,7 @@
       <p>{{n157_p}}</p>
       <div class="links"><a href="https://github.com/ic8tem/YA-NEC/releases/tag/v1.5.7">⬇️ YA-NEC 1.5.7</a></div>
     </article>
+    <details class="older"><summary>{{news_more}}</summary>
     <article class="item">
       <time>21/11/2026</time>
       <h3>📡 YA-NEC 1.5.6</h3>
@@ -154,14 +164,7 @@
       <h3>🖥️ {{n4_t}}</h3>
       <p>{{n4_p}} <a href="#sistemi">{{sys_link}}</a></p>
     </article>
-  </div>
-</section>
-
-<section id="programmi">
-  <h2>{{nav_programs}}</h2>
-  <p class="sub">{{prog_sub}}</p>
-  <div class="grid">
-{{cards}}
+    </details>
   </div>
 </section>
 
