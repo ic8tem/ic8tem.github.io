@@ -144,5 +144,7 @@
 "v_ltv_fc": "utiliser la prévision",
 "ltv_course": "Leçons vidéo",
 "nyn170_p": "YA-NEC 1.7, le simulateur d'antennes NEC-2, est disponible. Nouveaux calculateurs issus de RadioRivista, RadioKit, QST et de l'ARRL Handbook : Yagi HF 2-3 éléments avec guide de réglage, Yagi bibande entrelacée, verticale multibande à trappes, L inversé / T pour le 160 m, half-sloper sur le pylône, dipôle large bande, dipôle multibande à relais, charge linéaire, fil résonant sur les harmoniques (EFLW), gamma match et adaptation par stub sur l'abaque de Smith. Quad multibande, boucle magnétique rectangulaire, espacement du stack choisi d'un clic, nouvel onglet Conseils. Trois nouvelles leçons (34-36) dans le cours vidéo, en italien et en anglais.",
-"nyn170_w": "Nouveautés de la 1.7 (notes)"
+"nyn170_w": "Nouveautés de la 1.7 (notes)",
+"ny198_p": "YAEC 1.9.8, le calculateur EME, est disponible. Dans l'onglet Mon horizon, la Lune est dessinée à sa taille réelle (environ 0,5°), avec un cercle en pointillés pour la repérer tout de suite. La mise à jour automatique ne se fait plus qu'avec une empreinte SHA-256 du paquet vérifiée ; les liens du programme n'ouvrent que des adresses web et de messagerie ; sous macOS, le lanceur vérifie Mono, Rosetta et la quarantaine et explique les erreurs 126 et 127. Si vous avez déjà YAEC, il se met à jour au démarrage.",
+"ny198_w": "Nouveautés de la 1.9.8 (notes)"
 }

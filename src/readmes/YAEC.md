@@ -1,10 +1,10 @@
 # YAEC – Yet Another EME Calc
 
-*by Costantino IC8TEM*
+*a cura di Costantino IC8TEM*
 
-Moon position, pointing windows, EME link budget, sky and solar noise calculator for radio amateurs, in 37 languages.
-Windows, Linux and macOS (Linux and macOS with Mono).
+Moon position, pointing windows, EME link budget, sky and solar noise calculator for radio amateurs, in 37 languages. Windows, Linux and macOS (Linux and macOS with Mono).
 
+Posizione della Luna, finestre di puntamento, budget del collegamento EME, rumore del cielo e del Sole per radioamatori, in 37 lingue. Windows, Linux e macOS (Linux e macOS con Mono).
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-ic8tem-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/ic8tem)
 
@@ -12,132 +12,97 @@ Windows, Linux and macOS (Linux and macOS with Mono).
 
 | | English | Italiano |
 |---|---|---|
-| [▶ What YAEC calculates](docs/video/YAEC_presentation_en.mp4) (2 min) · [subtitles](docs/video/YAEC_presentation_en.srt) | A tour of the calculation tabs, with English subtitles | Le linguette di calcolo, sottotitoli in inglese |
-| [▶ Getting started](docs/video/YAEC_getting_started_en.mp4) (5 min) · [subtitles](docs/video/YAEC_getting_started_en.srt) | A first EME evening step by step: locator, DX from CALL3.TXT, horizon, Dgrd, budget, Stations to try, manuals | Una prima serata EME passo passo: locator, DX dal CALL3.TXT, orizzonte, Dgrd, budget, Stazioni da provare, manuali |
+| [▶ What YAEC calculates](docs/video/YAEC_presentation_en.mp4) (2 min) · [subtitles](docs/video/YAEC_presentation_en.srt) | A tour of the calculation tabs | Le linguette di calcolo |
+| [▶ Getting started](docs/video/YAEC_getting_started_en.mp4) (5 min) · [subtitles](docs/video/YAEC_getting_started_en.srt) | A first EME evening step by step | Una prima serata EME passo passo |
 
-## Languages
+## README in 37 languages
 
-YAEC, its two manuals (user manual and *Theory and tips on EME*), the licence and the README are available in **37 languages**; the language is chosen at the top of the main screen. Licence and README in every language are in the [`lingue`](lingue) folder.
+[English](lingue/README_en.txt) · [Italiano](lingue/README_it.txt) · [Deutsch](lingue/README_de.txt) · [Français](lingue/README_fr.txt) · [Español](lingue/README_es.txt) · [Português](lingue/README_pt.txt) · [Português (Brasil)](lingue/README_pt-BR.txt) · [Nederlands](lingue/README_nl.txt) · [Svenska](lingue/README_sv.txt) · [Norsk](lingue/README_nb.txt) · [Dansk](lingue/README_da.txt) · [Íslenska](lingue/README_is.txt) · [Eesti](lingue/README_et.txt) · [Latviešu](lingue/README_lv.txt) · [Lietuvių](lingue/README_lt.txt) · [Polski](lingue/README_pl.txt) · [Čeština](lingue/README_cs.txt) · [Slovenčina](lingue/README_sk.txt) · [Magyar](lingue/README_hu.txt) · [Română](lingue/README_ro.txt) · [Ελληνικά](lingue/README_el.txt) · [Русский](lingue/README_ru.txt) · [Українська](lingue/README_uk.txt) · [Türkçe](lingue/README_tr.txt) · [Afrikaans](lingue/README_af.txt) · [العربية](lingue/README_ar.txt) · [עברית](lingue/README_he.txt) · [اردو](lingue/README_ur.txt) · [हिन्दी](lingue/README_hi.txt) · [বাংলা](lingue/README_bn.txt) · [Bahasa Indonesia](lingue/README_id.txt) · [Tagalog](lingue/README_tl.txt) · [ไทย](lingue/README_th.txt) · [中文 (简体)](lingue/README_zh.txt) · [中文 (繁體)](lingue/README_zh-TW.txt) · [日本語](lingue/README_ja.txt) · [한국어](lingue/README_ko.txt)
 
-| | | | |
-|---|---|---|---|
-| English `en` | Italiano `it` | Deutsch `de` | Français `fr` |
-| Español `es` | Português `pt` | Nederlands `nl` | Svenska `sv` |
-| Norsk (bokmål) `nb` | Íslenska `is` | Eesti `et` | Latviešu `lv` |
-| Lietuvių `lt` | Русский `ru` | Українська `uk` | Türkçe `tr` |
-| Afrikaans `af` | العربية `ar` | עברית `he` | اردو `ur` |
-| हिन्दी `hi` | বাংলা `bn` | 中文 (简体) `zh` | 日本語 `ja` |
-| 한국어 `ko` | Bahasa Indonesia `id` | Dansk `da` | Tagalog `tl` |
-| Português (Brasil) `pt-BR` | ไทย `th` | 中文 (繁體) `zh-TW` | Polski `pl` |
-| Čeština `cs` | Română `ro` | Ελληνικά `el` | Magyar `hu` |
-| Slovenčina `sk` | | | |
+The program, its two manuals and the licence are in the same 37 languages; the language is chosen at the top of the main screen.
+
+## Download
+
+Download from the **[Releases](../../releases/latest)** page (x.y = version). Every release has `SHA256SUMS.txt` to check the files.
+
+| System | Package |
+|---|---|
+| **Windows** 64 / 32 bit, ARM64 (Windows 7 SP1 to 11) | `YAEC-x.y-windows-x64-setup.exe` · `-x86-setup.exe` · `-arm64-setup.exe` (or the `-portatile.zip` of each) |
+| **Debian, Ubuntu, Mint, Raspberry Pi OS** | `yaec_x.y_amd64.deb` · `_arm64.deb` · `_armhf.deb` |
+| **Fedora, openSUSE** · **Arch, Manjaro** · **Slackware** | `yaec-x.y.x86_64.rpm` · `yaec-x.y-1-x86_64.pkg.tar.zst` · `yaec-x.y-x86_64-1_ic8tem.txz` |
+| **Any Linux** | `YAEC-x.y-x86_64.AppImage` · `-aarch64.AppImage`, or `YAEC-x.y-linux-x64/-arm64/-armv7l/-x86.tar.gz` |
+| **Alpine, FreeBSD, OpenBSD** | `YAEC-x.y-alpine-x64/-arm64.tar.gz` · `-freebsd-x64.tar.gz` · `-openbsd-x64.tar.gz` |
+| **macOS** Apple Silicon (M1–M4) · Intel | `YAEC-x.y-mac-apple-silicon.dmg` · `YAEC-x.y-mac-intel.dmg` |
+
+Windows 7, ARM64, i686, Slackware, AppImage, Alpine, FreeBSD and OpenBSD are not yet tested: reports are welcome.
 
 ## Installation
 
+**English**
+- **Windows** – run `YAEC-x.y-windows-x64-setup.exe`: it installs into *Documents\YAEC* without administrator rights. SmartScreen: *More info* → *Run anyway*. Without installing: extract the `-portatile.zip` and run `YAEC.exe`.
+- **Debian, Ubuntu, Mint, Raspberry Pi** – `sudo apt install ./yaec_x.y_amd64.deb` (Mono is installed too), then start `yaec`.
+- **Other Linux and BSD** – install Mono (`mono-complete`), extract the `.tar.gz` and run `./install.sh`; or use the AppImage.
+- **macOS (experimental)**
+  1. Install [Mono for macOS](https://www.mono-project.com/download/stable/) and [XQuartz](https://www.xquartz.org).
+  2. Open the `.dmg` and drag YAEC into *Applications*; the first time, right-click YAEC → *Open* (the app is not signed by Apple).
+  3. **Mac with an Apple processor (M1–M4):** Mono runs through **Rosetta 2**. If YAEC does not start (*"Bad CPU type in executable"* in `~/Library/Application Support/YAEC/data/mono-log.txt`), open *Terminal* and run
 
+     ```
+     sudo softwareupdate --install-rosetta --agree-to-license
+     ```
 
-Download the files from the **[Releases](../../releases/latest)** page (x.y = version number).
+     It asks for your Mac password, which is not shown while you type. Then start YAEC again.
+- **Updates** – from 1.9.1 YAEC updates itself at start-up (Windows, AppImage, `.tar.gz`, macOS app), checking SHA-256; `.deb`, `.rpm`, Arch and Slackware packages are updated with the package manager.
 
-| Distribution | Files |
-|---|---|
-| **Windows 64 bit** | `YAEC-x.y-windows-x64-setup.exe`, `YAEC-x.y-windows-x64-portatile.zip` |
-| **Windows 32 bit** | `YAEC-x.y-windows-x86-setup.exe`, `YAEC-x.y-windows-x86-portatile.zip` |
-| **Windows 7 SP1** (with .NET Framework 4.8 and the TLS 1.2 updates) ¹ | the same packages as Windows 64 and 32 bit |
-| **Windows ARM64** (PC with Snapdragon) ¹ | `YAEC-x.y-windows-arm64-setup.exe`, `YAEC-x.y-windows-arm64-portatile.zip` |
-| **Linux x86_64** (64 bit) | `YAEC-x.y-linux-x64.tar.gz` |
-| **Linux i686** (32 bit) ¹ | `YAEC-x.y-linux-x86.tar.gz` |
-| **Linux aarch64** (ARM 64-bit, PCs and mini PCs other than Raspberry Pi) | `YAEC-x.y-linux-arm64.tar.gz` |
-| **Debian / Ubuntu / Mint** (.deb package) | `yaec_x.y_amd64.deb` |
-| **Fedora / openSUSE** (.rpm package) | `yaec-x.y.x86_64.rpm` |
-| **Arch Linux / Manjaro** (.pkg.tar.zst package) | `yaec-x.y-1-x86_64.pkg.tar.zst` |
-| **Slackware** (.txz package) ¹ | `yaec-x.y-x86_64-1_ic8tem.txz` |
-| **AppImage** (any Linux) ¹ | `YAEC-x.y-x86_64.AppImage`, `YAEC-x.y-aarch64.AppImage` |
-| **Alpine Linux** (musl) ¹ | `YAEC-x.y-alpine-x64.tar.gz`, `YAEC-x.y-alpine-arm64.tar.gz` |
-| **Raspberry Pi (ARM)** → Raspberry Pi OS 32 bit (armhf) ¹ | `yaec_x.y_armhf.deb`, `YAEC-x.y-linux-armv7l.tar.gz` |
-| **Raspberry Pi OS 64 bit** (arm64) | `yaec_x.y_arm64.deb`, `YAEC-x.y-linux-arm64.tar.gz` |
-| **Raspberry Pi Slackware ARM64** ¹ | `YAEC-x.y-linux-arm64.tar.gz` |
-| **Linux armv7l** | `YAEC-x.y-linux-armv7l.tar.gz` |
-| **FreeBSD amd64** ¹ | `YAEC-x.y-freebsd-x64.tar.gz` |
-| **OpenBSD amd64** ¹ | `YAEC-x.y-openbsd-x64.tar.gz` |
-| **macOS** → macOS Apple Silicon (M1-M4) | `YAEC-x.y-mac-apple-silicon.dmg`, `YAEC-x.y-mac-apple-silicon-app.zip` |
-| **macOS Intel** | `YAEC-x.y-mac-intel.dmg`, `YAEC-x.y-mac-intel-app.zip` |
+**Italiano**
+- **Windows** – avvia `YAEC-x.y-windows-x64-setup.exe`: installa in *Documenti\YAEC* senza diritti di amministratore. SmartScreen: *Ulteriori informazioni* → *Esegui comunque*. Senza installare: estrai il `-portatile.zip` e avvia `YAEC.exe`.
+- **Debian, Ubuntu, Mint, Raspberry Pi** – `sudo apt install ./yaec_x.y_amd64.deb` (installa anche Mono), poi avvia `yaec`.
+- **Altri Linux e BSD** – installa Mono (`mono-complete`), estrai il `.tar.gz` e lancia `./install.sh`; oppure usa l'AppImage.
+- **macOS (sperimentale)**
+  1. Installa [Mono per macOS](https://www.mono-project.com/download/stable/) e [XQuartz](https://www.xquartz.org).
+  2. Apri il `.dmg` e trascina YAEC in *Applicazioni*; la prima volta clic destro su YAEC → *Apri* (l'app non è firmata da Apple).
+  3. **Mac con processore Apple (M1–M4):** Mono funziona tramite **Rosetta 2**. Se YAEC non parte (*«Bad CPU type in executable»* in `~/Library/Application Support/YAEC/data/mono-log.txt`), apri *Terminale* e scrivi
 
-¹ Not yet tested on this platform: reports from users are welcome.
+     ```
+     sudo softwareupdate --install-rosetta --agree-to-license
+     ```
 
-**Automatic updates** — from 1.9.1: at start-up YAEC checks GitHub for a new version and updates itself with the Windows installer or zip, the portable .tar.gz archives (Linux, Raspberry Pi, FreeBSD, OpenBSD, Alpine), the AppImage and the macOS app; every package is checked against SHA256SUMS.txt. The .deb, .rpm, Arch (.pkg.tar.zst) and Slackware (.txz) packages are updated with the system package manager instead: YAEC announces the new version and opens the GitHub page.
+     Chiede la password del Mac, che non si vede mentre la scrivi. Poi riavvia YAEC.
+- **Aggiornamenti** – dalla 1.9.1 YAEC si aggiorna da solo all'avvio (Windows, AppImage, `.tar.gz`, app per macOS), con il controllo SHA-256; i pacchetti `.deb`, `.rpm`, Arch e Slackware si aggiornano con il gestore dei pacchetti.
 
-- **Windows** – download `YAEC-x.y-windows-x64-setup.exe` and run it. It installs YAEC into *Documents\YAEC* without administrator rights, with Start menu and desktop shortcuts and an uninstaller. If SmartScreen warns you: *More info* → *Run anyway*. No installation wanted? Extract `YAEC-x.y-windows-x64-portatile.zip` into a folder where you can write and run `YAEC.exe`.
-- **Linux – Debian, Ubuntu, Mint** – download `yaec_x.y_amd64.deb` and run `sudo apt install ./yaec_x.y_amd64.deb` (Mono is installed too); start YAEC from the applications menu or with `yaec`.
-- **Windows 32-bit** – `YAEC-x.y-windows-x86-setup.exe` or `YAEC-x.y-windows-x86-portatile.zip`.
-- **Raspberry Pi** (Raspberry Pi OS 64-bit, Pi 4/5) – download `yaec_x.y_arm64.deb` and run `sudo apt install ./yaec_x.y_arm64.deb`.
-- **Linux – other distributions** – install Mono (`sudo dnf install mono-complete`, `sudo pacman -S mono`, `sudo zypper install mono-complete`), extract `YAEC-x.y-linux-x64.tar.gz` (ARM: `YAEC-x.y-linux-arm64.tar.gz`, `YAEC-x.y-linux-armv7l.tar.gz`; Linux i686: `YAEC-x.y-linux-x86.tar.gz`; FreeBSD amd64: `YAEC-x.y-freebsd-x64.tar.gz`; OpenBSD amd64: `YAEC-x.y-openbsd-x64.tar.gz`) and run `./install.sh`.
-- **macOS (experimental)** – install Mono for macOS and XQuartz, open `YAEC-x.y-mac-apple-silicon.dmg` (Apple Silicon) / `YAEC-x.y-mac-intel.dmg` (Intel) and drag YAEC into Applications; the first time, right-click → *Open*.
-- Every release has `SHA256SUMS.txt` to check the downloaded files.
+Other languages: the README of each language in the [`lingue`](lingue) folder (links above).
 
 ## Features
 
-
-
 <table><tr><td width="33%" align="center"><a href="docs/screenshots/en-1.jpg"><img src="docs/screenshots/en-1.jpg" alt="Live position and +- 24h"></a><br><sub>Live position and +- 24h</sub></td><td width="33%" align="center"><a href="docs/screenshots/en-2.jpg"><img src="docs/screenshots/en-2.jpg" alt="EME budget Yagi"></a><br><sub>EME budget Yagi</sub></td><td width="33%" align="center"><a href="docs/screenshots/en-3.jpg"><img src="docs/screenshots/en-3.jpg" alt="Distance and Dgrd"></a><br><sub>Distance and Dgrd</sub></td></tr></table>
 
-YAEC puts in one program everything you need to run an EME (Earth–Moon–Earth) station on 50, 70, 144, 222, 432 and 902 MHz and 23 cm (1296 MHz), especially when the station has limits: an antenna without elevation, a rotator with limited travel, obstacles that hide part of the sky. It tells you not only where the Moon is, but whether **your** antenna can really reach it, when, and under which conditions. The bands above 432 MHz are still being completed, but the DGRD is already computed correctly at every frequency; more advice for newcomers above 900 MHz will follow.
+- **Live** – Moon position every second with your antenna limits and the DX's, common window and countdown; map of your obstacles; your horizon from SRTM1 terrain data; sky view with sky-noise colours.
+- **Planning** – Dgrd and distance for 7 to 61 days with the best days; Dgrd at your frequency; antenna temperature with the Skynoise method; stations to try from the N0UK chat and the PA0PLY directory; Moon tables and Moon over the world.
+- **Link** – EME budget for Yagis and dishes (50 MHz to 23 cm) with an interactive station diagram, polarization risk, GRAVES radar, solar noise, Excel export and step-by-step calculation check.
+- **Log, help and tools** – WWL map from ADIF or LoTW; user manual and *Theory and tips on EME*; database of coaxial cables.
+- CALL3.TXT from W7GJ and WSJT-X Improved, merged and kept up to date; Moon positions to about 0.01° (Meeus, ELP-2000/82); all data in one `data` folder.
 
-**Live**
-- **Live position and +- 24h** – main screen updated every second: your locator and the DX's (4 to 14 characters), frequency, UTC, local and DX clocks, a status band (pointable, outside the limits, below the horizon, common window) with countdown, compass and elevation arc. Typing the DX callsign fills in its locator from CALL3.TXT.
-- **Reconnaissance of my obstacles** – aerial or topographic map centred on your station with the sky drawn on it: Moon position, its path over the next 24 hours, rise and set, antenna limits that you drag with the mouse.
-- **My horizon** – *Horizon from terrain*: panorama of the terrain around your station from SRTM1 elevation data (about 30 m), with Earth curvature and refraction, over the sky view (three colour scales) or a light-blue sky; Moon path, rise and set above the terrain, main obstacles named from OpenStreetMap and minutes of Moon lost. One checkbox makes the terrain the minimum elevation in the whole program. *Local noise map (NJ9R)*: azimuth × elevation grid where you type the noise seen in WSJT-X while turning the antenna; the hours with the Moon in a noisy direction get a ⚠.
-- **Sky view** – the sky seen from your QTH with the sky-noise colours at your frequency, antenna limits, the DX horizon, radio sources, the Sun and the Moon path.
+<table><tr><td width="33%" align="center"><a href="docs/screenshots/it-1.jpg"><img src="docs/screenshots/it-1.jpg" alt="Posizione live e +- 24h"></a><br><sub>Posizione live e +- 24h</sub></td><td width="33%" align="center"><a href="docs/screenshots/it-2.jpg"><img src="docs/screenshots/it-2.jpg" alt="Budget EME yagi"></a><br><sub>Budget EME yagi</sub></td><td width="33%" align="center"><a href="docs/screenshots/it-3.jpg"><img src="docs/screenshots/it-3.jpg" alt="Distanza e Dgrd"></a><br><sub>Distanza e Dgrd</sub></td></tr></table>
 
-**Planning**
-- **Distance and Dgrd** – 7 to 61 days of Dgrd and mean Moon distance, with the declination overlaid, perigee, apogee, new Moon, the three best days (in date order), a possible fourth useful day and a warning for the days when the Moon is close to the Sun. Only the hours in which the Moon is really pointable with your limits are counted.
-- **DGRD by frequency** – the Dgrd at your working frequency with the real noise of your station and the sky averaged over the antenna beam, compared with the usual WSJT-X calculation; the choice applies to the whole program.
-- **Sky noise (Skynoise)** – Antenna temperature computed with the Skynoise method (G8ONH, G4SWX): the full antenna pattern (NEC .out file, YA-NEC file or Gaussian beam of the EME budget) is pointed at the Moon and each direction reads the sky map at the chosen band (Remazeilles, Haslam, GSM 2008 or LFmap); below the horizon it is 290 K or the terrain of My horizon. It shows the map with the Moon path over the month (click a day for its pass), the antenna temperature during the pass for you and for the DX, the sky behind the Moon, the check average gain, the effect on the EME budget Yagi and the comparison with the Gaussian beam and with the DJ9BV method.
-- **Stations to try** – for the chosen day, the stations active in the N0UK EME chat (144 MHz) with a common window with you, the best per locator field, ranked by an index from 0 to 100 from the S/N in both directions; the DX setup is read from what it writes in the chat. A rough example calculation, idea by Matteo IW5DHN.
-- **Moon position** – table for the chosen period, coloured by pointability, with the common windows for you and the DX; CSV export for Excel.
-- **Moon over the world** – world map coloured by the Moon elevation seen from every place; one click makes that point the DX.
+- **Live** – posizione della Luna ogni secondo con i limiti della tua antenna e di quella del DX, finestra comune e conto alla rovescia; mappa dei tuoi ostacoli; il tuo orizzonte dai dati SRTM1; volta celeste con i colori del rumore del cielo.
+- **Pianificazione** – Dgrd e distanza da 7 a 61 giorni con i giorni migliori; Dgrd alla tua frequenza; temperatura d'antenna con il metodo Skynoise; stazioni da provare dalla chat N0UK e dall'elenco PA0PLY; tabelle della Luna e Luna sul mondo.
+- **Collegamento** – budget EME per yagi e dischi (da 50 MHz ai 23 cm) con lo schema interattivo della stazione, rischio di polarizzazione, radar GRAVES, rumore solare, esportazione in Excel e controllo dei calcoli passo passo.
+- **Log, aiuto e strumenti** – mappa WWL da ADIF o LoTW; manuale d'uso e *Teoria e consigli sull'EME*; banca dati dei cavi coassiali.
+- CALL3.TXT di W7GJ e WSJT-X Improved, uniti e aggiornati; posizioni della Luna a circa 0,01° (Meeus, ELP-2000/82); tutti i dati in una sola cartella `data`.
 
-**Link**
-- **EME budget Yagi** – link budget for every band, stored band by band: six indicators (link possible, my EIRP, DX EIRP, path loss, S/N me → DX and DX → me, also with the Sun and in 2500 Hz), the full table of steps and an interactive diagram of the station (antenna, cables, relay, preamplifier, transverter, radio). Ground gain for antennas without elevation. Modes with a 60 s period: JT65, Q65-60A, Q65-60B, Q65-60C and custom. Echo mode (*I transmit and receive my own echo*): echo level, delay and Doppler.
-- **EME budget dishes** – the same budget, echo included, for dish antennas at 432, 902 and 1296 MHz, prime focus or offset (W2IMU): gain with the PE1RKI formula, beamwidth 70·λ/D, single- or two-stage preamplifier, transverter and PA drive; on 23 cm, circular polarization with 0.4 dB of loss (KA1GT).
-- **GRAVES radar** – the French GRAVES radar (143.050 MHz) as a test bench: when the Moon is in its beam and within your antenna limits, with Doppler and echo delay.
-- **Solar noise** – downloads the solar fluxes measured by the RSTN network (NOAA) and estimates how much the Sun raises the receiver noise near new Moon.
-- **Export calculations to Excel** and **Calculation check** – the budget as an Excel sheet, and every formula with the substituted values, step by step, for the Yagi or the dish budget.
+## Latest versions
 
-**Log, help and tools**
-- **WWL map and ADIF** – Maidenhead grid with worked and confirmed squares from your ADIF file or downloaded directly from LoTW, also by band and EME only.
-- **USER MANUAL** and **THEORY AND TIPS ON EME** – full manuals inside the program in every language, with clickable index, search, formulas and sources; exportable to Word. The theory manual includes the advice of experienced EME operators, a section on internet chats and the VE7BQH antenna tables.
-- **COAXIAL CABLES** – database of 50 Ω cables with attenuation from 50 to 1296 MHz (data-sheet values and the formula α = k1·√f + k2·f) and the source of every value; sortable, filterable, with a loss calculator and a button that sends the cable to the EME budget. You can add your own cables.
+**English**
+- **1.9.8** – My horizon: the Moon is drawn at its true size (about 0.5°), with a dashed circle as a marker; automatic update only with a verified SHA-256 fingerprint (it is cancelled if the fingerprint list is missing or does not contain the package); links open only web and e-mail addresses; macOS: the launcher checks Mono (architecture, Rosetta, quarantine) and explains errors 126 and 127.
+- **1.9.7** – Translations completed in Bengali, Arabic and Turkish (62 missing texts: losses and gains of the RX/TX chain, Friis formula, main screen, description of the tabs); Windows 7, 8 and 8.1 declared in the program manifest.
+- **1.9.6** – Polarization risk: in the two station boxes you choose the antenna polarization (H, V, H and V (XPOL), circular; for the DX also «by band»); YAEC flags when the contact is at risk without the second polarization (MNR up to 432 MHz, spatial offset higher up) with a strip in Common window, a row on the DX card, the ⇄ symbol in the calendar and a tag in Stations to try; the pop-up warning appears only when the risk is red; new paragraph in the manual; PA0PLY EME directory (432 and 1296 MHz) updated every day: Stations to try also on 432 and 1296 MHz with the station of the band's EME budget, new EME station lists tab (N0UK chat and PA0PLY directory, with source, credits and thanks) and DX setup taken from the lists when its callsign is written.
 
-**Also**
-- CALL3.TXT downloaded from W7GJ and WSJT-X Improved, merged, refreshed every 7 days and copied into WSJT-X on request.
-- Warnings for polar-cap and auroral absorption (PCA) when a station is beyond the polar circles or in the auroral zone.
-- 37 languages; light, night (blue), black and eight pastel and three IP-TRX-CTRL (blue, violet, green) colour schemes.
-- Moon positions accurate to about 0.01° (Meeus, ELP-2000/82), all calculations on your computer; data in a single `data` folder.
+**Italiano**
+- **1.9.8** – Il mio orizzonte: la Luna è disegnata in scala vera (circa 0,5°), con un cerchio tratteggiato come segnaposto; aggiornamento automatico solo con l'impronta SHA-256 verificata (si annulla se l'elenco delle impronte manca o non contiene il pacchetto); i collegamenti aprono solo indirizzi web e di posta; macOS: il lanciatore controlla Mono (architettura, Rosetta, quarantena) e spiega gli errori 126 e 127.
+- **1.9.7** – Traduzioni completate in bengalese, arabo e turco (62 testi mancanti: perdite e guadagni della catena RX/TX, formula di Friis, schermata principale, descrizione delle linguette); Windows 7, 8 e 8.1 dichiarati nel manifesto del programma.
+- **1.9.6** – Rischio di polarizzazione: nei riquadri delle due stazioni si sceglie la polarizzazione dell'antenna (H, V, H e V (XPOL), circolare; per il DX anche «secondo la banda»); YAEC segnala quando il collegamento è a rischio senza la seconda polarizzazione (MNR fino a 432 MHz, spostamento spaziale più in alto) con una striscia in Finestra comune, una riga nella scheda del DX, il simbolo ⇄ nel calendario e un'etichetta in Stazioni da provare; l'avviso a comparsa scatta solo con il rischio rosso; nuovo paragrafo nel manuale; elenco EME di PA0PLY (432 e 1296 MHz) aggiornato ogni giorno: Stazioni da provare anche a 432 e 1296 MHz con la stazione del Budget EME della banda, nuova linguetta Elenchi delle stazioni EME (chat di N0UK ed elenco di PA0PLY, con fonte, crediti e ringraziamenti) e impianto del DX preso dagli elenchi quando se ne scrive il nominativo.
 
-## Version history
-
-
-From the first stable version (1.0) to the current one; the full history, including the beta versions, is in the program (*Help and tools*) and in the README of every language in the [`lingue`](lingue) folder.
-
-
-
-- **1.9.5** – EME budget yagi and dishes: cost of 0.1 dB more loss ahead of the preamp (PA3CSG) and new Station test section with G/T on cold sky and the predicted Y-factor on the Sun, Moon, Cas A and ground (G3LTF, VK3UM's EMECalc); EME budget dishes: illumination drop at the edge and dish mesh, with Tant estimated from sky, spillover and mesh, and G3LTF's measured G/T for comparison; new paragraph in the manual; DX terrain: SRTM1 horizon around its locator in the My horizon tab, taken into account by common windows, the 24-hour bar, the Sky view and Stations to try (locator of at least 6 characters); antenna SWR in the station test (AEH eq. 41-19); Sun diameter from 0.524° to 0.542° with the Earth–Sun distance; note «YAEC computes, it does not design equipment» in the sources and tips.
-- **1.9.3** – Package names the same as YA-MS (-windows-x64/-x86/-arm64, -windows7-x64/-x86, -mac-apple-silicon, -mac-intel, -linux-x64/-arm64/-armv7l/-x86, -raspberry-pi-64bit/-32bit, -alpine-x64/-arm64); .rpm, Arch and Slackware packages for ARM too; the release notes have a table with a link to each package for each system. This version also contains the files with the old names, only for the automatic update from 1.9.1 and 1.9.2.
-- **1.9.2** – New tab Sky noise (Skynoise) in Planning: antenna temperature computed with the G8ONH and G4SWX method from the full antenna pattern (NEC .out file, YA-NEC or Gaussian beam) and the sky map (Remazeilles, Haslam, GSM 2008 or LFmap) at 50, 144, 432 MHz and 23 cm, with the Moon path over the month, the temperature during the pass for you and for the DX, the effect on the EME budget Yagi and the comparison with DJ9BV; automatic test in compila.bat; in the THEORY AND TIPS ON EME manual: sky noise with the sources compared, dish gain (PE1RKI or itemised calculation, Ruze), prime focus above 2320 MHz, feed rotation and the Moon illuminated by the beam (BWF).
-- **1.9.1** – Automatic update from GitHub, with SHA-256 fingerprint check, on Windows, with the portable archives (Linux, FreeBSD, OpenBSD, Alpine), the AppImage and the macOS app (the .deb, .rpm, Arch, Slackware packages are updated with the package manager), and warning about missing files; new packages for Windows ARM64, Fedora/openSUSE (.rpm), Arch Linux, Slackware, Raspberry Pi OS 32 bit, Alpine, FreeBSD, OpenBSD, Linux i686, AppImage; CORRECT button to correct a station's locator in CALL3.TXT; Distance and Dgrd with the classic Dgrd at 144 MHz, while the per-band Dgrd stays in DGRD by frequency; My horizon with the violet boxes of Sky view and the time taken from the planning table; Stations to try with the time from the table, a scroll bar and the option to leave out the stations of your own country (cty.dat); Yagi gain from the DL6WU table (G3SEK), with the formula attributed to W8IO only below 10 elements; drop-down lists and numeric boxes in the YA-MS style; 144 MHz transverters in the manual.
-- **1.9** – New tab My horizon (Live): horizon from the terrain computed from SRTM1 data with Earth curvature and refraction, over the Sky view background in one of the three colour scales, Moon path, main obstacles with OpenStreetMap names and minutes of Moon lost; checkbox to use the terrain as minimum elevation throughout the program; local noise map after NJ9R, with ⚠ in the hours when the Moon is in a noisy direction; new tab Stations to try (Planning), idea by Matteo IW5DHN: the active stations of the N0UK chat ranked by an index from 0 to 100; numeric boxes with side-by-side arrows, pill-shaped tabs and three new colour schemes taken from IP-TRX-CTRL.
-- **1.8** – New Slovak language (37 in total), with the manuals, the README and the licence; one beamwidth throughout the program: 0.93·√(41253/G) for Yagis (Kraus's rule corrected with W4RNL's NEC simulations, as in YA-MS) and 70·λ/D for dishes (IZ0JNY), replacing the unsourced √(32000/G) in DGRD by frequency; manual updated with the new formula and the pointing example; on macOS the launcher starts XQuartz by itself, writes the Mono version to the log and warns if YAEC does not start; README presentation also in Portuguese, Turkish, Czech, Slovak, Chinese, Japanese and Korean; translations corrected in Thai, Romanian, Greek, Brazilian Portuguese, Polish, Czech and Hungarian.
-- **1.7** – Eight new languages: Brazilian Portuguese, Thai, Traditional Chinese, Polish, Czech, Romanian, Greek and Hungarian (36 in all), with the manuals and the READMEs; in EME budget Yagi and EME budget dishes, the echo calculation for your own station (I transmit and receive my own echo); prime-focus or offset dish (W2IMU); at 1296 MHz with dishes, the circular polarization loss of real feeds (KA1GT); in Calculation check, the choice between EME budget Yagi and EME budget dishes; formulas of DGRD by frequency written as in an equation editor; manual: Faraday rotation at 1296 MHz according to ITU-R P.531, depolarization at 23 cm (Hagfors) and circular polarization on 23 cm.
-- **1.6** – 902 MHz and 23 cm (1296 and 1298 MHz) bands throughout the program, with all the bands in the MHz drop-down list; the EME budget tab becomes EME budget Yagi and there is the new EME budget dishes tab (prime-focus dish, gain with the PE1RKI formula, preamplifier also with two stages, transverter and PA drive); new DGRD by frequency tab, with the real noise of the station and the sky averaged over the beam, used throughout the program; coaxial cables calculated with the formula α = k1·√f + k2·f from the datasheet data, also at 902 and 1296 MHz; new style of the controls in all tabs; in Live position and +- 24h, the tooltip on the red cursor and the red DX lines at the cursor time; manual revised after comparing the sources (path loss band by band, thresholds of Q65-60B and Q65-60C, ground gain according to IK1UWL's measurements, connectors, Dgrd of other programs, dishes above 432 MHz); packages for every architecture (Windows x64 and x86, Linux x64, arm64 and arm, macOS Apple Silicon and Intel); thanks to Robert HA5OLA. The bands above 432 MHz are still being completed.
-- **1.5** – New GRAVES radar tab in the Link group: Moon in the radar beam with sector and step, common window with you, Doppler and delay of the echo, next beam pass on the Moon, sky seen from GRAVES, reconstruction of the 24 UTC hours with the detail of the next 10 seconds, tips for hearing the echo and sources; list of active stations also in JSON and text for LunaCalc Mobile; two new languages, Danish and Tagalog (28 in all), with the manuals.
-- **1.4** – Active stations: the DX callsign box gets an orange border if the station has written in the N0UK EME chat in the last 90 days, with the date of the last message in the tooltip; Font type with 10 recommended fonts for Windows, Linux and macOS, tested tab by tab; packages for 32-bit Windows and for Raspberry Pi (arm64); Sky view with dashed purple boxes around the area you can point at; Distance and Dgrd with the fourth useful day and the chosen day also selectable with a click in the chart; number boxes with a rounded frame and the arrows one above the other; dialog buttons at the edges (left, centre, right); acknowledgements box at full width; in narrow windows IN-DEPTH CALCULATIONS goes on two lines and no text ends up under the buttons.
-- **1.3** – Nine new languages: Dutch, Estonian, Latvian, Lithuanian, Swedish, Norwegian, Icelandic, Hebrew and Urdu (26 in all), with the manuals; licence and README in all languages, licence in the installer's language; GRAVES button; TX connectors and RX connectors in the EME budget (advice from NJ9R); draggable splitter between the left column and the EME budget diagram; Grey veil checkbox in Reconnaissance of my obstacles; FORMULA DEBUG becomes Calculation check and ABOUT & CREDITS is now translated in every language; technical chapters of the user manual in Bengali, Arabic and Turkish; pastel schemes fixed; the CALL3.TXT window closes by itself after the update; dialog box buttons spaced out.
-- **1.2.1** – The AUTHOR CONTACTS AND ACKNOWLEDGEMENTS page opens correctly again on Linux and macOS; the reference for the transverters points to § 1.7.1.
-- **1.2** – EME budget with the indicators My EIRP, DX EIRP, path loss and S/N in both directions (with the Sun); Word document formulas in a single size, within the margins; filled buttons and flat drop-down lists with rounded borders in all schemes; eight pastel colour schemes; value boxes with side-by-side arrows; the three best days in date order; blurred sky background; FORMULA DEBUG translated; THEORY AND TIPS ON EME manual with the advice of Relu NJ9R (GRAVES, pointing, connectors, antenna gain, JT65B and MAP65, polarization relay), the new sections on the first reception and on internet chats, and the VE7BQH tables in the preface; thanks to NJ9R, the memory of IK1UWL and the authors of articles, hardware and software, with a tooltip on their works.
-- **1.1** – Live position and +- 24h (formerly Tracking) also in the past and in the future: day from the calendar and time by dragging the red line, frequency in the Echo and frequencies box; DX callsign box with CALL3.TXT downloaded from W7GJ and WSJT-X Improved and merged, suggested locator and copy into the WSJT-X folder; Distance and Dgrd without the ranking, with the declination overlaid, rows colored like the chart and optional green usable hours; tickboxes in the program's style; cables sorted by diameter in the drop-down lists and by name, manufacturer and type in the table, with translated sources; EME budget with only the 60 s modes (JT65, Q65-60A, Q65-60B, Q65-60C) and a station diagram that adapts to the texts; USER MANUAL reviewing every screen; THEORY AND TIPS ON EME with the author's preface, numbering from 1 and the solar noise formulas; HTTPS on Linux and macOS with the system certificates.
-- **1.0.1** – The GitHub release page now has the file SHA256SUMS.txt with the SHA-256 fingerprints of all the packages: use them to check that the downloaded files are the original ones (instructions in the README).
-- **1.0** – First stable version, for Windows, Linux and macOS (Linux and macOS with Mono; data in ~/.local/share/YAEC/data or in ~/Library/Application Support/YAEC/data); Windows installer and Linux and macOS packages built on GitHub; earlier versions are called beta. New Moon over the world tab (Moon elevation over the land areas of the whole world, DX station with one click, status of your antenna); manual split into IN-DEPTH USER MANUAL and THEORY AND TIPS ON EME; Help and tools and Credits and thanks groups; Export calculations to Excel tab; no more mode margin: S/N in 2500 Hz with the typical threshold as reference and the JT65 limits in the manual; the manual also has the Q65 table for TX1 – TX6, Faraday rotation and the summary of the SM5BSZ article; cable table sortable by loss, with new Messi & Paoloni, SSB (SeaTex for marine environments, Aircom Premium), Belden and Tasker cables; boxes with a unit no longer show leftover text.
-
+Full history in every README language: [CHANGELOG.md](CHANGELOG.md); in the program: *Help and tools*.
 
 ## For developers
 
