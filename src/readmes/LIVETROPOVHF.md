@@ -43,9 +43,15 @@ Every 30 minutes the program checks the latest Release and, if newer, downloads 
 - In the program: tabs *Funzionamento*, *Costruzione della mappa*, *Come si forma la tropo* (Italian, exportable to Word).
 
 ## Credits
-Tropo maps: W. R. Hepburn (DX Info Centre), F5LEN. Weather: Open-Meteo. Coastlines: Natural Earth. Spots: DX clusters, Reverse Beacon Network, DM4X, PSKReporter. Callsign database: CALL3.TXT / MMMonVHF, G7VRD locator API. GRAVES data: PE1ITR and the YA-MS project.
+Tropo maps: W. R. Hepburn (DX Info Centre), F5LEN. Weather: NOAA GFS (NOMADS) and Open-Meteo; radio climate from ECMWF ERA5 via Open-Meteo (Copernicus Climate Change Service, CC BY 4.0). Terrain: Copernicus DEM GLO-30 (© DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018, provided under COPERNICUS by the European Union and ESA). Propagation models: NTIA/ITS Irregular Terrain Model (U.S. Government work), ITU-R P.452, P.617, P.453, NBS TN101. Coastlines: Natural Earth. Spots: DX clusters, Reverse Beacon Network, DM4X, PSKReporter. Callsign database: CALL3.TXT / MMMonVHF, G7VRD locator API. GRAVES data: PE1ITR and the YA-MS project.
 
 Thanks to **I5MZY Massimo Zannoni** for testing on Windows 7 and Windows 8.
+
+## License / Licenza
+LIVETROPOVHF is free software under the **GNU General Public License v3.0** ([LICENSE](LICENSE)): you may use, study, share and modify it; modified versions you distribute must stay under GPL-3.0 with their source code. No warranty.
+LIVETROPOVHF è software libero con licenza **GNU GPL v3.0**: si può usare, studiare, condividere e modificare; le versioni modificate distribuite restano GPL-3.0, con il codice sorgente. Nessuna garanzia.
+
+Third-party components (all GPL-3.0 compatible): Avalonia (MIT), MQTTnet (MIT), Microsoft.Data.Sqlite and System.Text.Json (MIT), SQLite (public domain), ITM port from NTIA/ITS code (U.S. Government work). Data are downloaded at run time from their providers and are not redistributed here (ITU-R data, Copernicus DEM, GFS, ERA5, maps and spot networks keep their own terms).
 
 ---
 *Software for amateur radio use. Forecasts are indications, not guarantees.*

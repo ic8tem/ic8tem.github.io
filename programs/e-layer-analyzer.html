@@ -119,11 +119,11 @@ There are no versions for Linux i686 (32-bit PCs) and OpenBSD, because .NET does
 <tbody>
 <tr>
 <td>SPORADIC-E</td>
-<td>azimuthal map (single hop or maximum distance) or rectangular, spots with the first hops of both stations, Es clouds on the Maidenhead squares, IK3XTV's hop table, the 144 MHz rule</td>
+<td>azimuthal map (single hop or maximum distance) or rectangular map, spots with the first hops of both stations, Es clouds on the Maidenhead squares, IK3XTV's hop table, 144 MHz rule</td>
 </tr>
 <tr>
 <td>BENCHMARK Es</td>
-<td>a whole ADIF log (also of other stations): QSOs by day and hour, skip by sector, foEs, multi-hop check, cloud movement</td>
+<td>a whole ADIF log (also of other stations): QSOs by day and hour, skip by sector, foEs, multi-hop check, movement of the clouds</td>
 </tr>
 <tr>
 <td>IONOSONDES</td>
@@ -131,7 +131,11 @@ There are no versions for Linux i686 (32-bit PCs) and OpenBSD, because .NET does
 </tr>
 <tr>
 <td>Es CLOUDS OVER TIME</td>
-<td>Es clouds step by step (5-15 minutes) on 1-4° cells, minimum foEs and NmE with Chartier's 2022 method, from session spots, ADIF log or CSV spots</td>
+<td>Es clouds step by step (5-15 minutes) on 1-4° cells, minimum foEs and NmE with the Chartier 2022 method, from session spots, an ADIF log or CSV spots</td>
+</tr>
+<tr>
+<td>50 MHz multi-hop chains</td>
+<td>inside SPORADIC-E, Multi-hop precursors: first and last short hop with a MUF around 50 MHz and central hops (IC8TEM's conditions), chains from your QTH, corridors all over the world and «find the cloud» (only where there are stations), projection of your own signal (pink dots), warning at the top, check in the 50 MHz BENCHMARK with CSV spots; equal double hop up to about 4700 km («2 =» hops, ITU-R P.534-6)</td>
 </tr>
 <tr>
 <td>FAI</td>
@@ -151,7 +155,7 @@ There are no versions for Linux i686 (32-bit PCs) and OpenBSD, because .NET does
 </tr>
 <tr>
 <td>SETTINGS</td>
-<td>general options (station, language, colours, font, continent, time, updates) and sorting of the spots among the tabs, with the filters and a one-line test</td>
+<td>general options (station, language, colours, font, continent, time, updates) and sorting of the spots between the tabs, with the filters and a one-line test</td>
 </tr>
 <tr>
 <td>ADIF LOG</td>
@@ -163,20 +167,35 @@ There are no versions for Linux i686 (32-bit PCs) and OpenBSD, because .NET does
 </tr>
 <tr>
 <td>SUMMARY OF CALCULATION CHOICES / USER MANUAL / TECHNICAL REPORT</td>
-<td>formulas and calculation choices, in-depth user manual, technical report on the choices (exportable to Word)</td>
+<td>formulas and calculation choices, detailed user manual, technical report on the choices (exportable to Word)</td>
+</tr>
+<tr>
+<td>HOP TABLE</td>
+<td>how many hops are needed on 50 MHz from 500 to 12000 km (100 km steps), with the foEs of each hop and the sources (exportable to Word)</td>
 </tr>
 </tbody>
 </table>
-<p>Main sources: G. Cerrotta IC8FAX, C. Cerrotta IC8TEM, "IL F.A.I., quello strano fenomeno del dopo E-sporadico" (FAI, that strange phenomenon after sporadic-E, 2011);
+<p>Main sources: G. Cerrotta IC8FAX, C. Cerrotta IC8TEM, "IL F.A.I., quello strano fenomeno del dopo E-sporadico" (2011);
 https://qsl.net/ic8fax/page4.html; Es hop table by F. Egano IK3XTV.</p>
 <h2>Building</h2>
-<p>The installers are produced by GitHub Actions (<code>.github/workflows/build.yml</code>) whenever the <code>release</code> branch is updated (version from the <code>VERSION</code> file). On every push to <code>main</code>: check build on Linux, log on the <code>ci-log</code> branch and screenshots of the tabs on the <code>ci-screenshots</code> branch.
+<p>The installers are produced by GitHub Actions (<code>.github/workflows/build.yml</code>) at every update of the <code>release</code> branch
+(version from the <code>VERSION</code> file). At every push to <code>main</code>: check build on Linux, log on the <code>ci-log</code> branch
+and screenshots of the tabs on the <code>ci-screenshots</code> branch.
 Locally: <code>dotnet publish E-LAYER-ANALYZER.csproj -c Release -r win-x64|win-x86|win-arm64|linux-x64|linux-arm64|linux-arm|linux-musl-x64|linux-musl-arm64|osx-arm64|osx-x64 --self-contained true</code>; Linux packages with <code>installer/make-deb.sh</code>, <code>make-rpm.sh</code>, <code>make-arch.sh</code>, <code>make-txz.sh</code>, <code>make-appimage.sh</code>.
 Word documents: <code>python3 tools/txt2docx.py data/ela_documento_tecnico.txt data/ela_documento_tecnico.docx</code>.</p>
+<h2>Thanks</h2>
+<p>For the development of 50 MHz sporadic-E: Johan IW2DNI and Fabio IZ7NLJ.</p>
 <h2>License</h2>
-<p>E-LAYER ANALYZER is free software: you can redistribute and modify it under the terms of the GNU General Public License version 3 (<a href="https://github.com/ic8tem/E-LAYER-ANALYZER/blob/main/COPYING">COPYING</a>), the same as YA-MS, which the program contains. It is distributed without any warranty. The data of external sources belong to their respective bodies, with their own conditions (for example the GIRO ionosonde data, CC BY-NC-SA 4.0, non-commercial use only); the list is in the SOURCES tab.</p>
+<p>E-LAYER ANALYZER is free software: you can redistribute it and modify it under the terms of the GNU General Public License version 3 (<a href="https://github.com/ic8tem/E-LAYER-ANALYZER/blob/main/COPYING">COPYING</a>), the same as YA-MS, which the program contains. It is distributed without any warranty. The data of external sources remain the property of their respective bodies, under their own terms (for example the GIRO ionosonde data, CC BY-NC-SA 4.0, non-commercial use only); the list is in the SOURCES tab.</p>
+<h3>License check (23/11/2026)</h3>
+<ul>
+<li><strong>Code</strong>: GNU GPL-3.0; <code>COPYING</code> is the official, unaltered Free Software Foundation text, and GitHub recognises the license.</li>
+<li><strong>Included libraries</strong>: Avalonia 11.2.3 (MIT), Inter font (SIL Open Font License 1.1), .NET runtime (MIT): all compatible with GPL-3.0.</li>
+<li><strong>Data included in the package</strong>: IGRF-14 coefficients (IAGA, distributed by NOAA NCEI as government material not subject to copyright); JTDX <code>call3.txt</code> (callsign → locator archive, source [21]).</li>
+<li><strong>Data downloaded while the program runs</strong> (not included in the package): Natural Earth (public domain); NOAA SWPC (US government data, public domain); GIRO ionosondes (CC BY-NC-SA 4.0, non-commercial use only); APRS-IS read-only, without a password and without sending packets; public DX cluster, RBN and PSKReporter spots. The spot archive stays on the user's computer.</li>
+</ul>
 <h2>Support the project</h2>
-<p>E-LAYER ANALYZER is free. If you find it useful, you can buy me a coffee on <strong><a href="https://ko-fi.com/ic8tem">Ko-fi</a></strong>.</p>
+<p>E-LAYER ANALYZER is free. If you find it useful you can buy me a coffee on <strong><a href="https://ko-fi.com/ic8tem">Ko-fi</a></strong>.</p>
   </article>
 </main>
 <footer><div class="wrap"><p>Costantino Cerrotta IC8TEM · Capri, JN70CN · <a href="https://www.facebook.com/groups/1675310160982493">Facebook group</a> · <a href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a> · <a href="https://ko-fi.com/ic8tem">Ko-fi</a> · 73!</p></div></footer>

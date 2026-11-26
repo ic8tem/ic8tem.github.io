@@ -36,13 +36,11 @@
   <p class="note">This page is an English translation of the program's README, which on GitHub is in Italian.</p>
   <article class="md">
 <h1>IP-TRX-CTRL</h1>
-<p>Remote control of an HF radio over the internet: two-way 8 kHz audio with AES-256 encryption, CAT control with Hamlib or TCI (also the radio audio via TCI, with no sound cards or cables), PTT (CAT, RTS, DTR, VOX, TCI), keyer with WAV messages in SSB and text macros in CW, CW waterfall and decoder, VFO B with split, TX power, access also from the browser of a phone, tablet or PC without installing anything (from 0.3.1), SWR protection (warning and transmit lock), maximum transmit time, priority to whoever is at the radio, listen-only clients, radio controls (NR, NB, Notch, ATT, preamplifier, AGC, compressor, squelch, ALC), bands, step and memories, the radio's panadapter (Icom via CI-V, SDR via TCI), mute of the server's sound cards. On the client: digital-mode programs (WSJT-X, JTDX, fldigi…) with a local rigctld and virtual audio cables, PTT pedal and mechanical CW key on a serial port. Ports opened with UPnP and checked from outside, reverse connection and audio over UDP when possible.</p>
-<p>Since 0.3.6: Opus audio between two programs, several listen-only clients while one operator transmits, USB and MIDI CW key (VBand, Vail) with iambic keyer also in the web page, QSO log sent to GridTracker, JTAlert and Log4OM with the WSJT-X UDP protocol and ADIF export for LoTW, networked Icom radios (IC-7610, IC-9700, IC-705…) with no PC next to the radio, like wfview. Licence: GNU AGPL 3.0 or later.</p>
-<p>Since 0.3.7, with the best solutions of other remote-control projects: HamNoise neural noise reduction for voice and CW, VOX turned on with a button next to PTT, voice squelch, notes between operator and listeners, listeners also hear the transmitting operator, QSO audio recording, direct IPv6 connection with ports opened by PCP, server without a window (systemd service for a headless Raspberry Pi) and WinKeyer emulation for N1MM, DXLog, TR4W, Win-Test and QLog. See <a href="https://github.com/ic8tem/IP-TRX-CTRL/wiki/EN-New-in-0.3.7">New in 0.3.7</a>.</p>
-<p>One program for both PCs: <strong>server</strong> (the radio is connected here) and <strong>client</strong> (the operator). The roles are chosen at the first start and can be swapped.</p>
+<p>Remote control of an HF radio over the internet: two-way audio with AES-256 encryption (Opus from 0.3.6, 8 kHz PCM with earlier versions and the browser), CAT control with Hamlib or TCI (also the radio's audio over TCI, without sound cards or cables), PTT (CAT, RTS, DTR, VOX, TCI), keyer with WAV messages in SSB and text macros in CW, CW waterfall and decoder, VFO B with split, TX power, access also from the browser of a phone, tablet or PC without installing anything (from 0.3.1), SWR protection (warning and transmit lock), maximum transmit time, priority to whoever is at the radio, listen-only clients, radio controls (NR, NB, Notch, ATT, preamp, AGC, compressor, squelch, ALC), bands, step and memories, the radio's panadapter (Icom via CI-V, SDR via TCI), mute of the server's sound cards. On the client: digital programs (WSJT-X, JTDX, fldigi…) with a local rigctld and virtual audio cables, PTT foot switch and mechanical CW key on a serial port, USB and MIDI CW keys (VBand, Vail) with an iambic keyer, QSO log sent over UDP to logging programs (GridTracker, JTAlert, Log4OM) and ADIF export. On the server: several listeners at the same time while one operates, and network-connected Icom radios (IC-7610, IC-9700, IC-705…) without USB cables, like wfview (from 0.3.6). From 0.3.8: encrypted (TLS) link to the MQTT brokers, ephemeral keys for every session and a global limit on code attempts. From 0.3.7: neural noise reduction (HamNoise) for voice and CW, VOX with the button next to PTT, voice squelch, notes between operator and listeners, QSO recording, direct IPv6 connection with PCP, windowless server (headless Raspberry Pi, systemd service) and WinKeyer emulation for logging programs. Ports opened with UPnP and checked from outside, reverse connection and audio over UDP when possible.</p>
+<p>A single program for both PCs: <strong>server</strong> (the radio is connected here) and <strong>client</strong> (the operator). The roles are chosen at first start and can be swapped.</p>
 <p>Versions: Windows 10/11 64 and 32 bit and ARM, Windows 7 SP1, 8 and 8.1 (64 and 32 bit), Linux (Debian and derivatives, Fedora, openSUSE, Arch, Slackware, Alpine, AppImage for all), Raspberry Pi 64 and 32 bit, macOS Apple Silicon and Intel.</p>
 <h2>Download</h2>
-<p>The files are on the <strong>Releases</strong> page; at the top of every release there is the table «Download the version for your system» with a direct link to each package.</p>
+<p>The files are on the <strong>Releases</strong> page; at the top of every release there is the table «Download the version for your system» with a direct link to every package.</p>
 <table>
 <thead>
 <tr>
@@ -57,7 +55,7 @@
 <td><strong>Windows 64 bit</strong></td>
 <td><code>IP-TRX-CTRL-…-win-x64-setup.exe</code> (portable: <code>…-win-x64-portatile.zip</code>)</td>
 <td>yes</td>
-<td>Hamlib included; the setup also offers the VB-CABLE virtual audio cable for digital modes</td>
+<td>Hamlib included; the setup also offers the VB-CABLE virtual audio cable for digital programs</td>
 </tr>
 <tr>
 <td><strong>Windows 32 bit</strong></td>
@@ -75,30 +73,30 @@
 <td><strong>Windows ARM</strong> (Snapdragon)</td>
 <td><code>IP-TRX-CTRL-…-win-arm64-setup.exe</code> (portable: <code>…-win-arm64-portatile.zip</code>)</td>
 <td>yes</td>
-<td>Hamlib included (x64 rigctld, run by the Windows 11 emulation)</td>
+<td>Hamlib included (x64 rigctld, run by Windows 11 emulation)</td>
 </tr>
 <tr>
 <td><strong>Debian, Ubuntu, Mint</strong> (x86_64)</td>
 <td><code>ip-trx-ctrl_…_amd64.deb</code></td>
-<td>no, it warns</td>
+<td>no, it notifies</td>
 <td><code>sudo apt install ./&lt;file&gt;.deb</code> also installs Hamlib</td>
 </tr>
 <tr>
 <td><strong>Fedora, openSUSE, RHEL</strong></td>
 <td><code>ip-trx-ctrl-….x86_64.rpm</code> (or <code>.aarch64.rpm</code>, <code>.armv7hl.rpm</code>)</td>
-<td>no, it warns</td>
+<td>no, it notifies</td>
 <td><code>sudo dnf install ./&lt;file&gt;.rpm</code> or <code>sudo zypper install ./&lt;file&gt;.rpm</code>; Hamlib recommended (<code>hamlib</code>)</td>
 </tr>
 <tr>
 <td><strong>Arch, Manjaro, EndeavourOS, Arch Linux ARM</strong></td>
 <td><code>ip-trx-ctrl-…-x86_64.pkg.tar.zst</code> (or <code>-aarch64</code>)</td>
-<td>no, it warns</td>
+<td>no, it notifies</td>
 <td><code>sudo pacman -U ./&lt;file&gt;.pkg.tar.zst</code> also installs Hamlib</td>
 </tr>
 <tr>
 <td><strong>Slackware</strong> (x86_64 and ARM64)</td>
 <td><code>ip-trx-ctrl-…-x86_64-1_ic8tem.txz</code> (or <code>-aarch64-</code>)</td>
-<td>no, it warns</td>
+<td>no, it notifies</td>
 <td>as root <code>installpkg &lt;file&gt;.txz</code> (later versions: <code>upgradepkg</code>); Hamlib from SlackBuilds</td>
 </tr>
 <tr>
@@ -108,16 +106,16 @@
 <td>a single file: make it executable and run it; Hamlib and ALSA from the system</td>
 </tr>
 <tr>
-<td><strong>Portable Linux x86_64</strong></td>
+<td><strong>Linux x86_64 portable</strong></td>
 <td><code>IP-TRX-CTRL-…-linux-x64-portatile.tar.gz</code></td>
 <td>yes</td>
-<td>extract and run; Hamlib from the package manager</td>
+<td>unpack and run; Hamlib from the package manager</td>
 </tr>
 <tr>
 <td><strong>Linux i686</strong> (32 bit)</td>
 <td>—</td>
 <td>—</td>
-<td>not available: .NET 8, on which the program is built, doesn't exist for 32-bit PC Linux</td>
+<td>not available: .NET 8, on which the program is built, does not exist for 32-bit Linux on PCs</td>
 </tr>
 <tr>
 <td><strong>Alpine Linux</strong> (musl, x86_64 and ARM64)</td>
@@ -128,8 +126,8 @@
 <tr>
 <td><strong>Raspberry Pi (ARM)</strong></td>
 <td><code>ip-trx-ctrl_…_arm64.deb</code> (Raspberry Pi OS 64 bit) or <code>…_armhf.deb</code> (32 bit)</td>
-<td>no, it warns</td>
-<td><code>sudo apt install ./&lt;file&gt;.deb</code> also installs Hamlib; for automatic updates use the portable <code>…-linux-arm64-</code> / <code>…-linux-arm-portatile.tar.gz</code></td>
+<td>no, it notifies</td>
+<td><code>sudo apt install ./&lt;file&gt;.deb</code> also installs Hamlib; for automatic updates there is the portable <code>…-linux-arm64-</code> / <code>…-linux-arm-portatile.tar.gz</code></td>
 </tr>
 <tr>
 <td><strong>Raspberry Pi Slackware ARM64</strong></td>
@@ -153,15 +151,15 @@
 <td><strong>macOS</strong></td>
 <td><code>…-osx-arm64.dmg</code> (Apple Silicon) or <code>…-osx-x64.dmg</code> (Intel); app only: <code>…-app.zip</code></td>
 <td>yes, if the app is in Applications or another writable folder</td>
-<td>Hamlib with <code>brew install hamlib</code>; at the first start right-click the app › Open</td>
+<td>Hamlib with <code>brew install hamlib</code>; at first start right-click the app › Open</td>
 </tr>
 </tbody>
 </table>
 <h2>Automatic updates</h2>
-<p>From <strong>0.3.2</strong> the program updates itself. At start-up and then every 6 hours it checks the latest version published here on GitHub; if it is newer, it downloads the right package for the PC, checks its size and SHA-256 fingerprint and restarts in the new version. It does so <strong>only when no session is running and nobody is transmitting</strong>: if a session is open, the new version stays ready and is installed as soon as it ends. A server left on updates and restarts by itself, with the same settings. Settings, keys, pairings and logs are not touched.</p>
-<p>These update themselves: the Windows installer and portable zip, the portable tar.gz (Linux, Raspberry Pi, Alpine), the AppImage, IP-TRX-CTRL.app on the Mac (moved to Applications or another folder the user can write to).</p>
-<p>The system package managers' packages do <strong>not</strong> update themselves: <strong>.deb</strong> (Debian, Ubuntu, Mint, Raspberry Pi OS), <strong>.rpm</strong> (Fedora, openSUSE), <strong>Arch</strong> and <strong>Slackware</strong>. They are installed by root in <code>/opt</code> and belong to the package manager: the program only shows the new-version warning, and you install it with the same command as the first time. If you want automatic updates, use the AppImage or the portable tar.gz.</p>
-<p>They can be switched off in <strong>Settings › Main window</strong> («Automatic updates» checkbox): the warning stays, with the «Update now» button. 0.3.0 and 0.3.1 don't update themselves: install 0.3.2 by hand once, and the following ones arrive by themselves. New versions of the same protocol talk to the previous ones; if one day the protocol changes, the two PCs align themselves at the first check (at start-up or within 6 hours).</p>
+<p>From <strong>0.3.2</strong> the program updates itself. At start-up and then every 6 hours it checks the latest version published here on GitHub; if it is newer, it downloads the package for the PC, checks its size and SHA-256 fingerprint and restarts in the new version. It does so <strong>only when no session is running and nothing is being transmitted</strong>: if a session is open, the new version waits and is installed as soon as it ends. A server left on updates and restarts by itself, with the same settings. Settings, keys, pairings and logs are not touched.</p>
+<p>These update themselves: the Windows installer and portable zip, the portable tar.gz archives (Linux, Raspberry Pi, Alpine), the AppImage, IP-TRX-CTRL.app on the Mac (moved to Applications or another folder the user can write to).</p>
+<p>The system package managers' packages do <strong>not</strong> update themselves: <strong>.deb</strong> (Debian, Ubuntu, Mint, Raspberry Pi OS), <strong>.rpm</strong> (Fedora, openSUSE), <strong>Arch</strong> and <strong>Slackware</strong>. They are installed by root in <code>/opt</code> and belong to the package manager: the program only shows the new-version notice, and you install it with the same command as the first time. If you want automatic updates, use the AppImage or the portable tar.gz.</p>
+<p>They can be turned off in <strong>Settings › Main window</strong> («Automatic updates» box): the notice stays, with the «Update now» button. 0.3.0 and 0.3.1 do not update themselves: install 0.3.2 by hand once, and later versions arrive by themselves. New versions of the same protocol talk to earlier ones; if one day the protocol changes, the two PCs align themselves at the first check (at start-up or within 6 hours).</p>
 <p>You can also use the <strong>browser</strong> without installing anything (from 0.3.1): see <a href="https://github.com/ic8tem/IP-TRX-CTRL/blob/main/docs/Accesso-dal-browser.md">docs/Accesso-dal-browser.md</a>.</p>
 <h2>Errors and logs</h2>
 <p>The program writes errors to <code>errori.log</code> and the connection log to <code>sessioni.log</code>, in the data folder:</p>
@@ -170,8 +168,8 @@
 <li>Linux and Raspberry Pi: <code>~/.config/IP-TRX-CTRL</code></li>
 <li>macOS: <code>~/.config/IP-TRX-CTRL</code></li>
 </ul>
-<p>From the program: <strong>Settings › Open data folder</strong>. To report a problem, open an <strong>Issue</strong> and attach <code>errori.log</code> (and <code>sessioni.log</code> for connection problems). Details in <code>docs/Registri-e-risoluzione-problemi.md</code>.</p>
-<p>The documentation is in the <code>docs</code> folder. The licence notes of third-party components are in <code>THIRD-PARTY-NOTICES.txt</code> and in the program's «About and licences» window.</p>
+<p>From the program: <strong>Settings › Open data folder</strong>. To report a problem open an <strong>Issue</strong> and attach <code>errori.log</code> (and <code>sessioni.log</code> for connection problems). Details in <code>docs/Registri-e-risoluzione-problemi.md</code>.</p>
+<p>The documentation is in the <code>docs</code> folder. The license notes of third-party components are in <code>THIRD-PARTY-NOTICES.txt</code> and in the program's «About and licenses» window.</p>
 <p>Declared use: amateur radio activity.</p>
 <h2>Compatible versions</h2>
 <p>Server and client must have versions of the same protocol:</p>
@@ -192,10 +190,10 @@
 <tr>
 <td>0.2.0 – 0.2.8</td>
 <td>2</td>
-<td>all 0.2.x (some functions need a minimum version on both PCs)</td>
+<td>all 0.2.x (some functions require a minimum version on both PCs)</td>
 </tr>
 <tr>
-<td>0.3.0 – 0.3.5</td>
+<td>0.3.0 – 0.3.8</td>
 <td>3</td>
 <td>only 0.3.x (10-digit number, fixed server code, several clients on the server, transmit safety, panadapter; from 0.3.1 browser access; from 0.3.2 automatic updates)</td>
 </tr>
@@ -205,7 +203,7 @@
 <h2>Support the project</h2>
 <p>IP-TRX-CTRL is free. If you find it useful and want to support its development: <a href="https://ko-fi.com/ic8tem">ko-fi.com/ic8tem</a>.</p>
 <h2>License</h2>
-<p>IP-TRX-CTRL is free software, Copyright (C) 2026 IC8TEM, distributed under the <strong>GNU General Public License version 3 or later</strong> (<a href="https://github.com/ic8tem/IP-TRX-CTRL/blob/main/LICENSE"><code>LICENSE</code></a>), without any warranty. The licences of third-party components are in <code>THIRD-PARTY-NOTICES.txt</code>.</p>
+<p>IP-TRX-CTRL is free software, Copyright (C) 2026 Costantino Cerrotta IC8TEM, distributed under the <strong>GNU Affero General Public License version 3 or later</strong> (AGPL-3.0-or-later, file <a href="https://github.com/ic8tem/IP-TRX-CTRL/blob/main/LICENSE"><code>LICENSE</code></a>), without any warranty. It is the GPL 3 with one more clause for programs used over a network: whoever modifies the program and lets others use their version over the network (for example the «Browser access» page) must offer them the source code too. From 0.3.6; versions up to 0.3.5 remain under GPL 3.0 or later. GPL 3 code from other projects (for example wfview) can still be used, because the two licenses can be combined. The licenses of third-party components are in <code>THIRD-PARTY-NOTICES.txt</code>.</p>
   </article>
 </main>
 <footer><div class="wrap"><p>Costantino Cerrotta IC8TEM · Capri, JN70CN · <a href="https://www.facebook.com/groups/1675310160982493">Facebook group</a> · <a href="https://www.youtube.com/channel/UCja9zUYk73P9ylNqtt8h73Q">YouTube</a> · <a href="https://ko-fi.com/ic8tem">Ko-fi</a> · 73!</p></div></footer>

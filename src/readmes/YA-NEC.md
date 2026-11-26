@@ -17,6 +17,20 @@ Features: impedance, SWR, gain, 2D and 3D patterns, frequency sweep and Smith ch
 
 <table><tr><td width="50%" align="center"><a href="docs/screenshots/struttura-3d.png"><img src="docs/screenshots/struttura-3d.png" alt="3D structure with currents and lobe"></a><br><sub>3D structure with currents and lobe</sub></td><td width="50%" align="center"><a href="docs/screenshots/terreno-reale.png"><img src="docs/screenshots/terreno-reale.png" alt="HFTA-style real terrain on the DEM profile"></a><br><sub>HFTA-style real terrain on the DEM profile</sub></td></tr><tr><td width="50%" align="center"><a href="docs/screenshots/ricezione-rdf.png"><img src="docs/screenshots/ricezione-rdf.png" alt="Reception: RDF, DMF and noise"></a><br><sub>Reception: RDF, DMF and noise</sub></td><td width="50%" align="center"><a href="docs/screenshots/tolleranze.png"><img src="docs/screenshots/tolleranze.png" alt="Build tolerances (Monte Carlo)"></a><br><sub>Build tolerances (Monte Carlo)</sub></td></tr><tr><td width="50%" align="center"><a href="docs/screenshots/cavo-balun.png"><img src="docs/screenshots/cavo-balun.png" alt="Cable and balun: common-mode current"></a><br><sub>Cable and balun: common-mode current</sub></td><td width="50%" align="center"><a href="docs/screenshots/yagi-incrociate.png"><img src="docs/screenshots/yagi-incrociate.png" alt="Crossed Yagis: RHCP, LHCP, axial ratio"></a><br><sub>Crossed Yagis: RHCP, LHCP, axial ratio</sub></td></tr><tr><td width="50%" align="center"><a href="docs/screenshots/vento.png"><img src="docs/screenshots/vento.png" alt="Mechanical calculations: wind (NTC 2018)"></a><br><sub>Mechanical calculations: wind (NTC 2018)</sub></td><td width="50%" align="center"><a href="docs/screenshots/divisori.png"><img src="docs/screenshots/divisori.png" alt="Power dividers and phasing lines"></a><br><sub>Power dividers and phasing lines</sub></td></tr><tr><td width="50%" align="center"><a href="docs/screenshots/carichi-hf.png"><img src="docs/screenshots/carichi-hf.png" alt="HF loads: traps and coils"></a><br><sub>HF loads: traps and coils</sub></td><td width="50%" align="center"><a href="docs/screenshots/smith.png"><img src="docs/screenshots/smith.png" alt="Smith chart"></a><br><sub>Smith chart</sub></td></tr></table>
 
+## What's new in 1.7
+
+- **New calculators**: 2-3 element HF Yagi with tuning guide, interlaced dual-band Yagi, trap multiband vertical, inverted L / T for 160 m, half-sloper on the tower, broadband dipole, relay multiband dipole, linear loading, wire resonant on harmonics, gamma match and stub matching with the Smith chart.
+- **Multiband quad** with the lines of the unfed bands and decoupling lines; **magnetic loop** rectangular, with turns in parallel, with transformer and L network; **Wire antennas** with wire material and FT-82-43.
+- **Stack** with the effective area; **SWR** showing on which side R lies; **Real terrain** with take-off angles toward a locator; efficiency in calculators with coils and traps; new **Tips** tab.
+
+## What's new in 1.6
+
+- **Calculators › Suggestions**: from frequency, height, ground and size, the possible antennas calculated with NEC and sorted by gain, uniformity, low angle or NVIS; «open» goes to the calculator.
+- **Optimizer**: **direct match to Z0** of a Yagi (driven element and first director, no matching network) and the **differential evolution** method, which searches the whole range of the variables.
+- **Pin this result** in Patterns, Frequency and Smith (up to 4 dashed curves for comparison); 3D structure with **currents coloured by phase**.
+- **Cable and balun**: the shield all the way to the shack (height and direction of the run), current at the shack and power radiated by the cable.
+- **EZNEC importer**: Laplace loads, stubs, lossy lines and L networks; NEC-2 **SP/SM/SC surfaces**, animated currents, input checks; licence **GPL-3.0-or-later**.
+
 ## What's new in 1.5.8
 
 - **Calculators > HF > Wire antennas**: **Chart ›** button with NEC-computed tables (EFHW 49:1 and 64:1 with and without counterpoise, 9:1 with the best counterpoise, average or perfect ground); a row is copied into the page and free calculation stays available. Counterpoise «none» = coax shield down to the radio.
@@ -147,7 +161,7 @@ Every 30 minutes the program silently checks for a new version here. If there is
 
 ## Credits and license
 
-**GPL-3.0** ([LICENSE](LICENSE), [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt)), like nec2c and xnec2c from which the engine derives. YA-NEC exists thanks to the work of fellow radio amateurs and researchers: the full list is in [CREDITI.txt](CREDITI.txt) and in the **Credits** tab. Thanks to Luis IV3PRK for the free publications on his website.
+**GPL-3.0-or-later** ([LICENSE](LICENSE), [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt)), like nec2c and xnec2c from which the engine derives. YA-NEC exists thanks to the work of fellow radio amateurs and researchers: the full list is in [CREDITI.txt](CREDITI.txt) and in the **Credits** tab. Thanks to Luis IV3PRK for the free publications on his website.
 
 ## Contacts
 
