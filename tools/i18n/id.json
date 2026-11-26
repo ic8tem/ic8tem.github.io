@@ -142,5 +142,7 @@
 "d_ltv": "Propagasi troposfer VHF/UHF secara langsung mulai 144 MHz: peta prakiraan Hepburn dan F5LEN, spot langsung dari DX cluster, RBN, PSKReporter dan dekode WSJT-X/JTDX/MSHV milik Anda, prakiraan sendiri dengan anggaran tautan antara dua stasiun (medan, difraksi, troposcatter, duct, derau, mode digital). Juga untuk Windows 7.",
 "v_ltv_call3": "basis data callsign CALL3",
 "v_ltv_fc": "cara memakai prakiraan",
-"ltv_course": "Pelajaran video"
+"ltv_course": "Pelajaran video",
+"nyn170_p": "YA-NEC 1.7, simulator antena NEC-2, telah rilis. Kalkulator baru dari RadioRivista, RadioKit, QST, dan ARRL Handbook: Yagi HF 2-3 elemen dengan panduan penyetelan, Yagi dwiband interlaced, vertikal multiband dengan trap, inverted L / T untuk 160 m, half-sloper di menara, dipol pita lebar, dipol multiband dengan relai, linear loading, kawat resonan pada harmonik (EFLW), gamma match dan pencocokan stub dengan diagram Smith. Quad multiband, loop magnetik persegi panjang, jarak stack dipilih dengan satu klik, tab Tips baru. Tiga pelajaran baru (34-36) di kursus video, dalam bahasa Italia dan Inggris.",
+"nyn170_w": "Yang baru di 1.7 (catatan)"
 }

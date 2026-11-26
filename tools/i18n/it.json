@@ -142,5 +142,7 @@
 "d_ltv": "Propagazione troposferica VHF/UHF in tempo reale da 144 MHz in su: mappe di previsione Hepburn e F5LEN, spot in diretta da DX cluster, RBN, PSKReporter e dai tuoi decodificatori WSJT-X/JTDX/MSHV, previsione propria con calcolo del collegamento tra due stazioni (terreno, diffrazione, troposcatter, condotti, rumore, modi digitali). Anche per Windows 7.",
 "v_ltv_call3": "database nominativi CALL3",
 "v_ltv_fc": "come usare la previsione",
-"ltv_course": "Videolezioni"
+"ltv_course": "Videolezioni",
+"nyn170_p": "Uscita la 1.7 di YA-NEC, il simulatore d'antenne NEC-2. Nuovi calcolatori nati dalla lettura di RadioRivista, RadioKit, QST e ARRL Handbook: Yagi HF 2-3 elementi con la guida di taratura, Yagi bibanda interlacciata, verticale trappolata multibanda, L invertita / T per i 160 m, half-sloper sul traliccio, dipolo a banda larga, dipolo multibanda a relè, carico lineare, filo risonante in armonica (EFLW), gamma match e adattamento a stub con la carta di Smith. Quad multibanda, loop magnetica rettangolare, stack con la distanza scelta con un clic, linguetta Consigli. Nel videocorso tre lezioni nuove (34-36) sulle novità della 1.6 e della 1.7, in italiano e in inglese.",
+"nyn170_w": "Novità della 1.7 (note)"
 }
