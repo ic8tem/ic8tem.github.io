@@ -148,27 +148,10 @@ CARDS = [  # repo, slug, name, tag key or fixed tag, description key, extra link
     ("IP-TRX-CTRL", "ip-trx-ctrl", "IP-TRX-CTRL", "@tag_ip", "d_ip", []),
     ("LIVETROPOVHF", "livetropovhf", "LIVETROPOVHF", "Live VHF/UHF tropo", "d_ltv", [("https://www.youtube.com/playlist?list=PLbNitGQIwVXQ", "ltv_course")]),
 ]
-VIDS = [("https://youtu.be/C9y0GTyjtOs", "C9y0GTyjtOs", "LIVETROPOVHF – {v_ltv_fc}", "Italiano · 3:09"),
-        ("https://youtu.be/7yCzt4ypm2A", "7yCzt4ypm2A", "LIVETROPOVHF – {v_ltv_fc}", "English · 3:09"),
-        ("https://youtu.be/9z9CxBhOyMw", "9z9CxBhOyMw", "LIVETROPOVHF – {v_ltv_call3}", "Italiano · 2:13"),
-        ("https://youtu.be/NbunEoC6FBY", "NbunEoC6FBY", "LIVETROPOVHF – {v_ltv_call3}", "English · 2:13"),
-        ("https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw", "93MJEVt-Fps", "YA-NEC – {v_course_it}", "{v_lessons} · playlist"),
-        ("https://www.youtube.com/playlist?list=PLFfXLoSkjiJE", "Vp_egV0WrZ8", "YA-NEC – {v_course_en}", "{v_lessons} · playlist"),
-        ("https://www.youtube.com/playlist?list=PLYCyA6fFaT-U", "Bk_fE5unliE", "YA-MS – Yet Another MS", "10 video · playlist"),
-        ("https://youtu.be/NCjFPjtd2Lw", "NCjFPjtd2Lw", "YA-MS – {ngm_jp} {v_gem}", "English · 1:55"),
-        ("https://youtu.be/ZoZTmHIqV_0", "ZoZTmHIqV_0", "YA-MS – {ngm_jp} {v_gem}", "日本語 · 1:47"),
-        ("https://youtu.be/nVS-yigZmJ4", "nVS-yigZmJ4", "YA-MS – {ngm_au} {v_gem}", "English · 1:51"),
-        ("https://youtu.be/QoyncqAoNy0", "QoyncqAoNy0", "YA-MS – {ngm_sa} {v_gem}", "English · 1:54"),
-        ("https://youtu.be/MmRJ0epbVNo", "MmRJ0epbVNo", "YA-MS – {ngm_sa} {v_gem}", "Español · 2:07"),
-        ("https://youtu.be/TqofNfmDh9w", "TqofNfmDh9w", "YA-MS – {ngm_sa} {v_gem}", "Português · 2:06"),
-        ("https://youtu.be/Yop2bzGTiI0", "Yop2bzGTiI0", "YA-MS – RA1WU ↔ IW2EQR {v_gem}", "Italiano · 1:30"),
-        ("https://youtu.be/LNopcQcj68E", "LNopcQcj68E", "YA-MS – RA1WU ↔ IW2EQR {v_gem}", "English · 1:30"),
-        ("https://youtu.be/Bk_fE5unliE", "Bk_fE5unliE", "YA-MS – {v_pres}", "Italiano"),
-        ("https://youtu.be/VsdnUz_-e-U", "VsdnUz_-e-U", "YA-MS – {v_pres}", "English"),
-        ("https://youtu.be/uvewuHTyw3k", "uvewuHTyw3k", "YAEC – {v_pres}", "Italiano"),
-        ("https://youtu.be/n9ag5MjpoEU", "n9ag5MjpoEU", "YAEC – {v_pres}", "English"),
-        ("https://youtu.be/1mjVjKD4O9w", "1mjVjKD4O9w", "YAEC – {v_start}", "Italiano"),
-        ("https://youtu.be/tTEs9VY3sEA", "tTEs9VY3sEA", "YAEC – {v_howto}", "English")]
+VID = json.load(open("src/videos.json", encoding="utf-8"))
+VIDS = ([(f"https://youtu.be/{v['id']}", v["id"], v["title"].replace("{", "{{").replace("}", "}}"), v.get("sub", "").replace("{", "{{").replace("}", "}}"))
+         for v in VID["auto"] if v["id"] not in VID["ignore"]]
+        + [(v["url"], v["id"], v["title"], v["sub"]) for v in VID["manual"] if v["id"] not in VID["ignore"]])
 TPL = open("tools/index.tpl.html", encoding="utf-8").read()
 for l in LANGS:
     t = I[l]; root = "" if l == "it" else "../"; path = "" if l == "it" else f"{l}/"

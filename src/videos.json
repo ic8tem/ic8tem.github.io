@@ -1,0 +1,133 @@
+{
+ "_note": "Video del sito. 'manual': scritti a mano (i {segnaposto} vengono da tools/i18n). 'auto': aggiunti da tools/update.py dal canale YouTube. Per nascondere un video aggiungere il suo ID a 'ignore'.",
+ "auto": [],
+ "manual": [
+  {
+   "url": "https://youtu.be/C9y0GTyjtOs",
+   "id": "C9y0GTyjtOs",
+   "title": "LIVETROPOVHF – {v_ltv_fc}",
+   "sub": "Italiano · 3:09"
+  },
+  {
+   "url": "https://youtu.be/7yCzt4ypm2A",
+   "id": "7yCzt4ypm2A",
+   "title": "LIVETROPOVHF – {v_ltv_fc}",
+   "sub": "English · 3:09"
+  },
+  {
+   "url": "https://youtu.be/9z9CxBhOyMw",
+   "id": "9z9CxBhOyMw",
+   "title": "LIVETROPOVHF – {v_ltv_call3}",
+   "sub": "Italiano · 2:13"
+  },
+  {
+   "url": "https://youtu.be/NbunEoC6FBY",
+   "id": "NbunEoC6FBY",
+   "title": "LIVETROPOVHF – {v_ltv_call3}",
+   "sub": "English · 2:13"
+  },
+  {
+   "url": "https://www.youtube.com/playlist?list=PLdpN-XKt6Gxw",
+   "id": "93MJEVt-Fps",
+   "title": "YA-NEC – {v_course_it}",
+   "sub": "{v_lessons} · playlist"
+  },
+  {
+   "url": "https://www.youtube.com/playlist?list=PLFfXLoSkjiJE",
+   "id": "Vp_egV0WrZ8",
+   "title": "YA-NEC – {v_course_en}",
+   "sub": "{v_lessons} · playlist"
+  },
+  {
+   "url": "https://www.youtube.com/playlist?list=PLYCyA6fFaT-U",
+   "id": "Bk_fE5unliE",
+   "title": "YA-MS – Yet Another MS",
+   "sub": "10 video · playlist"
+  },
+  {
+   "url": "https://youtu.be/NCjFPjtd2Lw",
+   "id": "NCjFPjtd2Lw",
+   "title": "YA-MS – {ngm_jp} {v_gem}",
+   "sub": "English · 1:55"
+  },
+  {
+   "url": "https://youtu.be/ZoZTmHIqV_0",
+   "id": "ZoZTmHIqV_0",
+   "title": "YA-MS – {ngm_jp} {v_gem}",
+   "sub": "日本語 · 1:47"
+  },
+  {
+   "url": "https://youtu.be/nVS-yigZmJ4",
+   "id": "nVS-yigZmJ4",
+   "title": "YA-MS – {ngm_au} {v_gem}",
+   "sub": "English · 1:51"
+  },
+  {
+   "url": "https://youtu.be/QoyncqAoNy0",
+   "id": "QoyncqAoNy0",
+   "title": "YA-MS – {ngm_sa} {v_gem}",
+   "sub": "English · 1:54"
+  },
+  {
+   "url": "https://youtu.be/MmRJ0epbVNo",
+   "id": "MmRJ0epbVNo",
+   "title": "YA-MS – {ngm_sa} {v_gem}",
+   "sub": "Español · 2:07"
+  },
+  {
+   "url": "https://youtu.be/TqofNfmDh9w",
+   "id": "TqofNfmDh9w",
+   "title": "YA-MS – {ngm_sa} {v_gem}",
+   "sub": "Português · 2:06"
+  },
+  {
+   "url": "https://youtu.be/Yop2bzGTiI0",
+   "id": "Yop2bzGTiI0",
+   "title": "YA-MS – RA1WU ↔ IW2EQR {v_gem}",
+   "sub": "Italiano · 1:30"
+  },
+  {
+   "url": "https://youtu.be/LNopcQcj68E",
+   "id": "LNopcQcj68E",
+   "title": "YA-MS – RA1WU ↔ IW2EQR {v_gem}",
+   "sub": "English · 1:30"
+  },
+  {
+   "url": "https://youtu.be/Bk_fE5unliE",
+   "id": "Bk_fE5unliE",
+   "title": "YA-MS – {v_pres}",
+   "sub": "Italiano"
+  },
+  {
+   "url": "https://youtu.be/VsdnUz_-e-U",
+   "id": "VsdnUz_-e-U",
+   "title": "YA-MS – {v_pres}",
+   "sub": "English"
+  },
+  {
+   "url": "https://youtu.be/uvewuHTyw3k",
+   "id": "uvewuHTyw3k",
+   "title": "YAEC – {v_pres}",
+   "sub": "Italiano"
+  },
+  {
+   "url": "https://youtu.be/n9ag5MjpoEU",
+   "id": "n9ag5MjpoEU",
+   "title": "YAEC – {v_pres}",
+   "sub": "English"
+  },
+  {
+   "url": "https://youtu.be/1mjVjKD4O9w",
+   "id": "1mjVjKD4O9w",
+   "title": "YAEC – {v_start}",
+   "sub": "Italiano"
+  },
+  {
+   "url": "https://youtu.be/tTEs9VY3sEA",
+   "id": "tTEs9VY3sEA",
+   "title": "YAEC – {v_howto}",
+   "sub": "English"
+  }
+ ],
+ "ignore": []
+}

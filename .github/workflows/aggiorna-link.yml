@@ -1,0 +1,67 @@
+name: Aggiornamento automatico dei link
+
+# Ogni 3 ore controlla le release dei programmi, i README, i videocorsi e il canale YouTube,
+# rigenera il sito e lo pubblica se c'è qualcosa di nuovo.
+# Si può lanciare anche a mano: Actions → "Aggiornamento automatico dei link" → Run workflow.
+on:
+  schedule:
+    - cron: "23 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: aggiorna-link
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install markdown
+
+      - name: Legge release, README, videocorsi e canale YouTube
+        id: upd
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT: ${{ runner.temp }}/report.md
+        run: python3 tools/update.py
+
+      - name: Rigenera le pagine
+        run: python3 tools/build.py
+
+      - name: Pubblica le modifiche
+        run: |
+          git add -A
+          if git diff --cached --quiet; then echo "Nessuna modifica"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Aggiornamento automatico: ${{ steps.upd.outputs.summary }}"
+          git push
+
+      - name: Riepilogo
+        if: always()
+        run: cat "${{ runner.temp }}/report.md" >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Segnala i link non funzionanti in una issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROBLEMS: ${{ steps.upd.outputs.problems }}
+        run: |
+          T="Link del sito da controllare"
+          N=$(gh issue list --state open --search "\"$T\" in:title" --json number -q '.[0].number')
+          if [ "${PROBLEMS:-0}" != "0" ]; then
+            if [ -n "$N" ]; then gh issue edit "$N" --body-file "${{ runner.temp }}/report.md"
+            else gh issue create --title "$T" --body-file "${{ runner.temp }}/report.md"; fi
+          elif [ -n "$N" ]; then
+            gh issue close "$N" --comment "Tutti i link funzionano di nuovo."
+          fi
