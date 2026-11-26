@@ -154,5 +154,7 @@
 "nip038_p": "IP-TRX-CTRL 0.3.8, per la sicurezza: il collegamento ai broker MQTT è cifrato con TLS e certificato verificato (con ritorno automatico alla porta 1883 sulle reti o sui PC vecchi che non ci riescono); tra due programmi 0.3.8 ogni sessione ha chiavi effimere (segretezza futura); un limite su tutti i tentativi di codice (abbinamento e pagina web) ferma chi prova a indovinarlo.",
 "nip038_w": "Novità della 0.3.8 (note)",
 "nyn172_p": "YA-NEC 1.7.1 e 1.7.2: nella Struttura 3D le quote (h, Δ e quote dei livelli) si cliccano e si cambiano; nei Diagrammi la distanza di uno stack di antenne uguali si cambia in diretta, con il lobo di partenza tratteggiato. Sicurezza: l'aggiornamento automatico installa solo pacchetti con la firma di YA-NEC e i file preparati apposta non chiudono più il programma. Nel videocorso la lezione 37, in italiano e in inglese.",
-"nyn172_w": "Novità della 1.7.2 (note)"
+"nyn172_w": "Novità della 1.7.2 (note)",
+"nyagt101_p": "Nuovo programma: YA-GT 1.0.1. Su una mappa del mondo (Mercatore o azimutale centrata sul tuo locatore) mostra chi riceve il tuo nominativo e chi ricevi tu, con un fumetto con l'SNR per ogni stazione: PSKReporter, Reverse Beacon Network, cluster DM4X e DXMAPS con skimmer. Livelli attivabili a scelta: le tue decodifiche FT8 via UDP (con ritrasmissione), quadrati LoTW, QSO di QLog, greyline, propagazione KC2G e aurora NOAA. Per Windows 10/11, Windows 7 e Linux.",
+"nyagt101_w": "Novità della versione"
 }

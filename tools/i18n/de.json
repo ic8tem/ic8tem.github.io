@@ -154,5 +154,7 @@
 "nip038_p": "IP-TRX-CTRL 0.3.8, für die Sicherheit: Die Verbindung zu den MQTT-Brokern ist mit TLS und geprüftem Zertifikat verschlüsselt (mit Rückfall auf Port 1883 in Netzen oder auf alten PCs, die es nicht schaffen); zwischen zwei 0.3.8-Programmen hat jede Sitzung kurzlebige Schlüssel (Forward Secrecy); eine Grenze für alle Codeversuche (Kopplung und Webseite) stoppt jeden, der ihn zu erraten versucht.",
 "nip038_w": "Neu in 0.3.8 (Hinweise)",
 "nyn172_p": "YA-NEC 1.7.1 und 1.7.2: in der 3D-Struktur lassen sich die Höhenangaben (h, Δ, Höhen der Ebenen) anklicken und ändern; in den Diagrammen ändert sich der Abstand eines Stocks gleicher Antennen live, mit der Ausgangskeule gestrichelt. Sicherheit: die automatische Aktualisierung installiert nur von YA-NEC signierte Pakete, präparierte Dateien beenden das Programm nicht mehr. Lektion 37 des Videokurses, auf Italienisch und Englisch.",
-"nyn172_w": "Neu in 1.7.2 (Hinweise)"
+"nyn172_w": "Neu in 1.7.2 (Hinweise)",
+"nyagt101_p": "Neues Programm: YA-GT 1.0.1. Auf einer Weltkarte (Mercator oder azimutal um Ihren Locator) zeigt es, wer Ihr Rufzeichen hört und wen Sie hören, mit einer SNR-Sprechblase für jede Station: PSKReporter, Reverse Beacon Network, DM4X- und DXMAPS-Cluster mit Skimmern. Zuschaltbare Ebenen: Ihre FT8-Dekodierungen per UDP (mit Weiterleitung), LoTW-Felder, QLog-QSOs, Greyline, KC2G-Ausbreitung und NOAA-Polarlicht. Für Windows 10/11, Windows 7 und Linux.",
+"nyagt101_w": "Versionshinweise"
 }
