@@ -1,20 +1,42 @@
 {
  "_note": "Configurazione dell'aggiornamento automatico (tools/update.py, lanciato da .github/workflows/aggiorna-link.yml). readme: file del README inglese da copiare nel sito (null = README tradotto a mano, non si tocca).",
  "programs": {
-  "YA-NEC": {"readme": "README.en.md"},
-  "YA-MS": {"readme": "README.en.md"},
-  "YAEC": {"readme": "README.md"},
-  "E-LAYER-ANALYZER": {"readme": null},
-  "IP-TRX-CTRL": {"readme": null},
-  "LIVETROPOVHF": {"readme": "README.md"}
+  "YA-NEC": {
+   "readme": "README.en.md"
+  },
+  "YA-MS": {
+   "readme": "README.en.md"
+  },
+  "YAEC": {
+   "readme": "README.md"
+  },
+  "E-LAYER-ANALYZER": {
+   "readme": null
+  },
+  "IP-TRX-CTRL": {
+   "readme": null
+  },
+  "LIVETROPOVHF": {
+   "readme": "README.md"
+  }
  },
  "youtube": {
-  "channel_id": null,
+  "channel_id": "UCja9zUYk73P9ylNqtt8h73Q",
   "seed_video": "C9y0GTyjtOs",
   "skip_title_regex": "(?i)\\b(lezione|lesson|lekt?ion|le[cç]on|lecci[oó]n|li[cç][aã]o)\\s*\\d+",
-  "playlists": ["PLdpN-XKt6Gxw", "PLFfXLoSkjiJE", "PLYCyA6fFaT-U", "PLbNitGQIwVXQ"]
+  "playlists": [
+   "PLdpN-XKt6Gxw",
+   "PLFfXLoSkjiJE",
+   "PLYCyA6fFaT-U",
+   "PLbNitGQIwVXQ"
+  ]
  },
  "courses": [
-  {"repo": "YA-NEC", "page": "Videocorso.md", "heading": "^### Lezione", "i18n_key": "v_lessons"}
+  {
+   "repo": "YA-NEC",
+   "page": "Videocorso.md",
+   "heading": "^### Lezione",
+   "i18n_key": "v_lessons"
+  }
  ]
 }
