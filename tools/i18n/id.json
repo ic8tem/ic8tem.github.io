@@ -153,6 +153,6 @@
 "nyms126_w": "Yang baru di 1.8.26 (catatan)",
 "nip038_p": "IP-TRX-CTRL 0.3.8, untuk keamanan: koneksi ke broker MQTT dienkripsi dengan TLS dan sertifikat terverifikasi (kembali ke port 1883 pada jaringan atau PC lama yang tidak mampu); antara dua program 0.3.8 setiap sesi memakai kunci sementara (forward secrecy); batas untuk semua percobaan kode (pemasangan dan halaman web) menghentikan siapa pun yang mencoba menebaknya.",
 "nip038_w": "Yang baru di 0.3.8 (catatan)",
-"nyn172_p": "YA-NEC 1.7.2, untuk keamanan: pembaruan otomatis hanya memasang paket yang ditandatangani YA-NEC (ECDSA P-256), selain sidik SHA-256; berkas dan model yang sengaja dirusak tidak lagi menutup program; pemeriksaan pembaruan ke GitHub lebih ringan.",
+"nyn172_p": "YA-NEC 1.7.1 dan 1.7.2: di Struktur 3D ketinggian (h, Δ dan ketinggian tingkat) bisa diklik dan diubah; di Pola jarak stack antena yang sama berubah langsung, dengan lobus awal putus-putus. Keamanan: pembaruan otomatis hanya memasang paket bertanda tangan YA-NEC dan file yang sengaja dibuat tidak lagi menutup program. Pelajaran 37 kursus video, dalam bahasa Italia dan Inggris.",
 "nyn172_w": "Yang baru di 1.7.2 (catatan)"
 }

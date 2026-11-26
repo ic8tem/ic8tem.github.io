@@ -153,6 +153,6 @@
 "nyms126_w": "What's new in 1.8.26 (notes)",
 "nip038_p": "IP-TRX-CTRL 0.3.8, for security: the link to the MQTT brokers is encrypted with TLS and a verified certificate (falling back to port 1883 on networks or old PCs that cannot manage it); between two 0.3.8 programs every session has ephemeral keys (forward secrecy); a limit on all code attempts (pairing and web page) stops anyone trying to guess it.",
 "nip038_w": "What's new in 0.3.8 (notes)",
-"nyn172_p": "YA-NEC 1.7.2, for security: the automatic update installs only packages signed by YA-NEC (ECDSA P-256), on top of the SHA-256 fingerprint; specially crafted files and models no longer crash the program; lighter update check on GitHub.",
+"nyn172_p": "YA-NEC 1.7.1 and 1.7.2: in the 3D structure the heights (h, Δ and level heights) can be clicked and changed; in Patterns the spacing of a stack of identical antennas changes live, with the starting lobe dashed. Security: the automatic update installs only packages signed by YA-NEC and files prepared on purpose no longer close the program. Lesson 37 of the video course, in Italian and English.",
 "nyn172_w": "What's new in 1.7.2 (notes)"
 }
