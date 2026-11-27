@@ -156,5 +156,7 @@
 "nyn172_p": "YA-NEC 1.7.1 y 1.7.2: en la Estructura 3D las cotas (h, Δ y cotas de los niveles) se pulsan y se cambian; en Diagramas la separación de un stack de antenas iguales cambia en directo, con el lóbulo inicial discontinuo. Seguridad: la actualización automática instala solo paquetes firmados por YA-NEC y los archivos preparados a propósito ya no cierran el programa. Lección 37 del videocurso, en italiano e inglés.",
 "nyn172_w": "Novedades de la 1.7.2 (notas)",
 "nyagt101_p": "Nuevo programa: YA-GT 1.0.1. En un mapa del mundo (Mercator o azimutal centrado en tu locator) muestra quién recibe tu indicativo y a quién recibes tú, con un globo con la SNR de cada estación: PSKReporter, Reverse Beacon Network, clusters DM4X y DXMAPS con skimmers. Capas activables: tus decodificaciones FT8 por UDP (con retransmisión), cuadrículas LoTW, QSO de QLog, línea gris, propagación KC2G y aurora NOAA. Para Windows 10/11, Windows 7 y Linux.",
-"nyagt101_w": "Novedades de la versión"
+"nyagt101_w": "Novedades de la versión",
+"nvpol_p": "Nuevo vídeo: por qué la Luna no está inclinada igual para todos. Cada estación ve la Luna desde su propio horizonte, y en el mismo instante la misma Luna aparece girada de forma distinta desde Capri, Boston y Ciudad del Cabo: la diferencia es el desfase de polarización espacial Dpol, que con polarización lineal cuesta 20·log|cos Dpol|. El vídeo explica también por qué la Luna aparece invertida entre los dos hemisferios y por qué algunas estaciones de microondas giran el alimentador de la parábola. YAEC 1.9.9 muestra la Luna con su fase e inclinación reales y el nuevo recuadro «La Luna vista desde las dos estaciones» en la pestaña Mi horizonte.",
+"nvpol_w": "Vídeo en YouTube"
 }

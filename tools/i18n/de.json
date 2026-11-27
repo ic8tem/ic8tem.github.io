@@ -156,5 +156,7 @@
 "nyn172_p": "YA-NEC 1.7.1 und 1.7.2: in der 3D-Struktur lassen sich die Höhenangaben (h, Δ, Höhen der Ebenen) anklicken und ändern; in den Diagrammen ändert sich der Abstand eines Stocks gleicher Antennen live, mit der Ausgangskeule gestrichelt. Sicherheit: die automatische Aktualisierung installiert nur von YA-NEC signierte Pakete, präparierte Dateien beenden das Programm nicht mehr. Lektion 37 des Videokurses, auf Italienisch und Englisch.",
 "nyn172_w": "Neu in 1.7.2 (Hinweise)",
 "nyagt101_p": "Neues Programm: YA-GT 1.0.1. Auf einer Weltkarte (Mercator oder azimutal um Ihren Locator) zeigt es, wer Ihr Rufzeichen hört und wen Sie hören, mit einer SNR-Sprechblase für jede Station: PSKReporter, Reverse Beacon Network, DM4X- und DXMAPS-Cluster mit Skimmern. Zuschaltbare Ebenen: Ihre FT8-Dekodierungen per UDP (mit Weiterleitung), LoTW-Felder, QLog-QSOs, Greyline, KC2G-Ausbreitung und NOAA-Polarlicht. Für Windows 10/11, Windows 7 und Linux.",
-"nyagt101_w": "Versionshinweise"
+"nyagt101_w": "Versionshinweise",
+"nvpol_p": "Neues Video: Warum der Mond nicht für alle gleich geneigt ist. Jede Station sieht den Mond von ihrem eigenen Horizont aus, und im selben Augenblick erscheint derselbe Mond von Capri, Boston und Kapstadt aus unterschiedlich gedreht: Der Unterschied ist der räumliche Polarisationsversatz Dpol, der bei linearer Polarisation 20·log|cos Dpol| kostet. Das Video erklärt auch, warum der Mond zwischen den Hemisphären auf dem Kopf steht und warum manche Mikrowellenstationen das Speisesystem drehen. YAEC 1.9.9 zeigt den Mond mit wahrer Phase und Neigung und das neue Feld «Der Mond, wie ihn die beiden Stationen sehen» im Reiter Mein Horizont.",
+"nvpol_w": "Video auf YouTube"
 }

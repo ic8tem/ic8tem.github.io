@@ -156,5 +156,7 @@
 "nyn172_p": "YA-NEC 1.7.1 e 1.7.2: nella Struttura 3D le quote (h, Δ e quote dei livelli) si cliccano e si cambiano; nei Diagrammi la distanza di uno stack di antenne uguali si cambia in diretta, con il lobo di partenza tratteggiato. Sicurezza: l'aggiornamento automatico installa solo pacchetti con la firma di YA-NEC e i file preparati apposta non chiudono più il programma. Nel videocorso la lezione 37, in italiano e in inglese.",
 "nyn172_w": "Novità della 1.7.2 (note)",
 "nyagt101_p": "Nuovo programma: YA-GT 1.0.1. Su una mappa del mondo (Mercatore o azimutale centrata sul tuo locatore) mostra chi riceve il tuo nominativo e chi ricevi tu, con un fumetto con l'SNR per ogni stazione: PSKReporter, Reverse Beacon Network, cluster DM4X e DXMAPS con skimmer. Livelli attivabili a scelta: le tue decodifiche FT8 via UDP (con ritrasmissione), quadrati LoTW, QSO di QLog, greyline, propagazione KC2G e aurora NOAA. Per Windows 10/11, Windows 7 e Linux.",
-"nyagt101_w": "Novità della versione"
+"nyagt101_w": "Novità della versione",
+"nvpol_p": "Nuovo video: perché la Luna non è inclinata uguale per tutti. Ogni stazione vede la Luna rispetto al proprio orizzonte, e nello stesso istante la stessa Luna appare girata in modo diverso da Capri, da Boston e da Città del Capo: la differenza è l'offset di polarizzazione spaziale Dpol, che con la polarizzazione lineare costa 20·log|cos Dpol|. Il video spiega anche perché tra i due emisferi la Luna appare capovolta e perché in microonde alcune stazioni ruotano l'illuminatore. YAEC 1.9.9 mostra la Luna con fase e inclinazione vere e il nuovo riquadro «La Luna vista dalle due stazioni» nella linguetta Il mio orizzonte.",
+"nvpol_w": "Video su YouTube"
 }
