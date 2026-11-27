@@ -158,5 +158,7 @@
 "nyagt101_p": "Neues Programm: YA-GT 1.0.1. Auf einer Weltkarte (Mercator oder azimutal um Ihren Locator) zeigt es, wer Ihr Rufzeichen hört und wen Sie hören, mit einer SNR-Sprechblase für jede Station: PSKReporter, Reverse Beacon Network, DM4X- und DXMAPS-Cluster mit Skimmern. Zuschaltbare Ebenen: Ihre FT8-Dekodierungen per UDP (mit Weiterleitung), LoTW-Felder, QLog-QSOs, Greyline, KC2G-Ausbreitung und NOAA-Polarlicht. Für Windows 10/11, Windows 7 und Linux.",
 "nyagt101_w": "Versionshinweise",
 "nvpol_p": "Neues Video: Warum der Mond nicht für alle gleich geneigt ist. Jede Station sieht den Mond von ihrem eigenen Horizont aus, und im selben Augenblick erscheint derselbe Mond von Capri, Boston und Kapstadt aus unterschiedlich gedreht: Der Unterschied ist der räumliche Polarisationsversatz Dpol, der bei linearer Polarisation 20·log|cos Dpol| kostet. Das Video erklärt auch, warum der Mond zwischen den Hemisphären auf dem Kopf steht und warum manche Mikrowellenstationen das Speisesystem drehen. YAEC 1.9.9 zeigt den Mond mit wahrer Phase und Neigung und das neue Feld «Der Mond, wie ihn die beiden Stationen sehen» im Reiter Mein Horizont.",
-"nvpol_w": "Video auf YouTube"
+"nvpol_w": "Video auf YouTube",
+"nyaec1910_p": "YAEC 1.9.10: neuer Reiter Polarisation über der Welt in Planung. Die Weltkarte färbt die Landflächen nach dem räumlichen Polarisationsversatz Dpol zwischen deiner Station und jedem Ort, der den Mond sieht: grün, wo die linearen Polarisationen übereinstimmen, gelb bei 45° (3 dB), rot bei 90°. Mit der Maus liest man Dpol und Verlust, ein Klick macht den Punkt zur DX-Station. Faraday ist nicht enthalten.",
+"nyaec1910_w": "Neuerungen"
 }

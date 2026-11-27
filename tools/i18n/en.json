@@ -158,5 +158,7 @@
 "nyagt101_p": "New program: YA-GT 1.0.1. On a world map (Mercator or azimuthal centred on your locator) it shows who hears your callsign and who you hear, with an SNR bubble for every station: PSKReporter, Reverse Beacon Network, DM4X and DXMAPS clusters with skimmers. Switchable layers: your FT8 decodes via UDP (with re-transmission), LoTW squares, QLog QSOs, greyline, KC2G propagation and NOAA aurora. For Windows 10/11, Windows 7 and Linux.",
 "nyagt101_w": "Release notes",
 "nvpol_p": "New video: why the Moon is not tilted the same for everyone. Every station sees the Moon from its own horizon, and at the same moment the same Moon appears rotated differently from Capri, Boston and Cape Town: the difference is the spatial polarization offset Dpol, which with linear polarization costs 20·log|cos Dpol|. The video also explains why the Moon appears upside down between the hemispheres and why some microwave stations rotate the dish feed. YAEC 1.9.9 shows the Moon with its true phase and tilt and the new box «The Moon as seen by the two stations» in the My horizon tab.",
-"nvpol_w": "Video on YouTube"
+"nvpol_w": "Video on YouTube",
+"nyaec1910_p": "YAEC 1.9.10: new tab Polarization over the world in Planning. The world map colours the land by the spatial polarization offset Dpol between your station and every place that sees the Moon: green where the linear polarizations match, yellow at 45° (3 dB), red at 90°. Hover to read Dpol and loss, click to make the point the DX station. Faraday rotation is not included.",
+"nyaec1910_w": "What's new"
 }

@@ -158,5 +158,7 @@
 "nyagt101_p": "Program baru: YA-GT 1.0.1. Di peta dunia (Mercator atau azimutal berpusat di lokator Anda) menampilkan siapa yang menerima callsign Anda dan siapa yang Anda terima, dengan balon SNR untuk setiap stasiun: PSKReporter, Reverse Beacon Network, cluster DM4X dan DXMAPS dengan skimmer. Lapisan yang bisa diaktifkan: dekode FT8 Anda lewat UDP (dengan penerusan), kotak LoTW, QSO QLog, greyline, propagasi KC2G, dan aurora NOAA. Untuk Windows 10/11, Windows 7, dan Linux.",
 "nyagt101_w": "Catatan rilis",
 "nvpol_p": "Video baru: mengapa Bulan tidak miring sama bagi semua orang. Setiap stasiun melihat Bulan dari cakrawalanya sendiri, dan pada saat yang sama Bulan yang sama tampak berputar berbeda dari Capri, Boston, dan Cape Town: selisihnya adalah offset polarisasi spasial Dpol, yang pada polarisasi linier merugikan 20·log|cos Dpol|. Video ini juga menjelaskan mengapa Bulan tampak terbalik di antara kedua belahan bumi dan mengapa sebagian stasiun gelombang mikro memutar feed parabola. YAEC 1.9.9 menampilkan Bulan dengan fase dan kemiringan sebenarnya serta kotak baru «Bulan dilihat dari kedua stasiun» di tab Cakrawala saya.",
-"nvpol_w": "Video di YouTube"
+"nvpol_w": "Video di YouTube",
+"nyaec1910_p": "YAEC 1.9.10: tab baru Polarisasi di seluruh dunia di Perencanaan. Peta dunia mewarnai daratan menurut offset polarisasi spasial Dpol antara stasiunmu dan setiap tempat yang melihat Bulan: hijau di mana polarisasi linear sama, kuning pada 45° (3 dB), merah pada 90°. Arahkan mouse untuk membaca Dpol dan rugi, klik untuk menjadikan titik itu stasiun DX. Rotasi Faraday tidak termasuk.",
+"nyaec1910_w": "Yang baru"
 }

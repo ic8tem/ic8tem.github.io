@@ -158,5 +158,7 @@
 "nyagt101_p": "Novo programa: YA-GT 1.0.1. Num mapa do mundo (Mercator ou azimutal centrado no seu locator) mostra quem recebe o seu indicativo e quem você recebe, com um balão com a SNR de cada estação: PSKReporter, Reverse Beacon Network, clusters DM4X e DXMAPS com skimmers. Camadas ativáveis: as suas descodificações FT8 por UDP (com retransmissão), quadrículas LoTW, QSO do QLog, linha cinzenta, propagação KC2G e aurora NOAA. Para Windows 10/11, Windows 7 e Linux.",
 "nyagt101_w": "Novidades da versão",
 "nvpol_p": "Novo vídeo: porque é que a Lua não está inclinada da mesma forma para todos. Cada estação vê a Lua a partir do seu próprio horizonte, e no mesmo instante a mesma Lua aparece rodada de forma diferente a partir de Capri, Boston e da Cidade do Cabo: a diferença é o desvio de polarização espacial Dpol, que em polarização linear custa 20·log|cos Dpol|. O vídeo explica também porque é que a Lua aparece invertida entre os dois hemisférios e porque é que algumas estações de micro-ondas rodam o alimentador da parábola. O YAEC 1.9.9 mostra a Lua com a sua fase e inclinação reais e o novo quadro «A Lua vista pelas duas estações» no separador O meu horizonte.",
-"nvpol_w": "Vídeo no YouTube"
+"nvpol_w": "Vídeo no YouTube",
+"nyaec1910_p": "YAEC 1.9.10: novo separador Polarização sobre o mundo em Planeamento. O mapa do mundo colore as terras segundo o desvio de polarização espacial Dpol entre a tua estação e cada local que vê a Lua: verde onde as polarizações lineares coincidem, amarelo a 45° (3 dB), vermelho a 90°. Passando o rato lê-se Dpol e perda, com um clique o ponto passa a ser a estação DX. Faraday não está incluído.",
+"nyaec1910_w": "Novidades"
 }
