@@ -160,5 +160,7 @@
 "nvpol_p": "New video: why the Moon is not tilted the same for everyone. Every station sees the Moon from its own horizon, and at the same moment the same Moon appears rotated differently from Capri, Boston and Cape Town: the difference is the spatial polarization offset Dpol, which with linear polarization costs 20·log|cos Dpol|. The video also explains why the Moon appears upside down between the hemispheres and why some microwave stations rotate the dish feed. YAEC 1.9.9 shows the Moon with its true phase and tilt and the new box «The Moon as seen by the two stations» in the My horizon tab.",
 "nvpol_w": "Video on YouTube",
 "nyaec1910_p": "YAEC 1.9.10: new tab Polarization over the world in Planning. The world map colours the land by the spatial polarization offset Dpol between your station and every place that sees the Moon: green where the linear polarizations match, yellow at 45° (3 dB), red at 90°. Hover to read Dpol and loss, click to make the point the DX station. Faraday rotation is not included.",
-"nyaec1910_w": "What's new"
+"nyaec1910_w": "What's new",
+"nyaec1911_p": "YAEC 1.9.11: silent automatic update, as in YA-NEC. YAEC checks GitHub at start-up and every 30 minutes, downloads the new version in the background and checks its SHA-256 fingerprint: on Windows it installs when you close the program, on Linux, BSD and macOS it starts at the next launch. In My horizon the pointable-area box now has a stepped minimum, degree by degree of azimuth, for you and for the DX.",
+"nyaec1911_w": "What's new"
 }

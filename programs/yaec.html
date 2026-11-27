@@ -118,7 +118,7 @@
  It asks for your Mac password, which is not shown while you type. Then start YAEC again.
 </code></pre>
 <ul>
-<li><strong>Updates</strong> – from 1.9.1 YAEC updates itself at start-up (Windows, AppImage, <code>.tar.gz</code>, macOS app), checking SHA-256; <code>.deb</code>, <code>.rpm</code>, Arch and Slackware packages are updated with the package manager.</li>
+<li><strong>Updates</strong> – from 1.9.11 YAEC updates itself silently (Windows, AppImage, <code>.tar.gz</code>, macOS app): it checks GitHub at start-up and every 30 minutes, downloads in the background and checks SHA-256; on Windows the new version installs when you close YAEC, elsewhere it starts at the next launch; <code>.deb</code>, <code>.rpm</code>, Arch and Slackware packages are updated with the package manager.</li>
 </ul>
 <p><strong>Italiano</strong>
 - <strong>Windows</strong> – avvia <code>YAEC-x.y-windows-x64-setup.exe</code>: installa in <em>Documenti\YAEC</em> senza diritti di amministratore. SmartScreen: <em>Ulteriori informazioni</em> → <em>Esegui comunque</em>. Senza installare: estrai il <code>-portatile.zip</code> e avvia <code>YAEC.exe</code>.
@@ -135,7 +135,7 @@
  Chiede la password del Mac, che non si vede mentre la scrivi. Poi riavvia YAEC.
 </code></pre>
 <ul>
-<li><strong>Aggiornamenti</strong> – dalla 1.9.1 YAEC si aggiorna da solo all'avvio (Windows, AppImage, <code>.tar.gz</code>, app per macOS), con il controllo SHA-256; i pacchetti <code>.deb</code>, <code>.rpm</code>, Arch e Slackware si aggiornano con il gestore dei pacchetti.</li>
+<li><strong>Aggiornamenti</strong> – dalla 1.9.11 YAEC si aggiorna da solo in silenzio (Windows, AppImage, <code>.tar.gz</code>, app per macOS): controlla GitHub all'avvio e ogni 30 minuti, scarica in background e controlla lo SHA-256; su Windows la nuova versione si installa quando chiudi YAEC, altrove parte al prossimo avvio; i pacchetti <code>.deb</code>, <code>.rpm</code>, Arch e Slackware si aggiornano con il gestore dei pacchetti.</li>
 </ul>
 <p>Other languages: the README of each language in the <a href="https://github.com/ic8tem/YAEC/blob/main/lingue"><code>lingue</code></a> folder (links above).</p>
 <h2>Features</h2>
@@ -159,13 +159,13 @@
 </ul>
 <h2>Latest versions</h2>
 <p><strong>English</strong>
+- <strong>1.9.11</strong> – Silent automatic update, as in YA-NEC: YAEC checks GitHub at start-up and every 30 minutes, downloads the package in the background and checks its SHA-256 fingerprint; on Windows it installs itself when you close the program, on Linux, BSD and macOS the new version starts at the next launch, and a message tells you which version it was updated from (.deb, .rpm, Arch and Slackware packages stay with the package manager). My horizon: the violet box of the pointable area has a stepped minimum, degree by degree of azimuth (the higher of the antenna limit and the terrain), for your station and for the DX.
 - <strong>1.9.10</strong> – New tab Polarization over the world (Planning): world map coloured by the spatial polarization offset (Dpol) between your station and every place that sees the Moon, with the dashed 45° (3 dB) line; Dpol and loss on mouse hover and on the DX label.
-- <strong>1.9.9</strong> – My horizon: the Moon has its true phase and tilt, and the new box «The Moon as seen by the two stations» shows it as you see it and as the DX sees it, with the spatial polarization offset Dpol and the loss; closing window and messages: the buttons no longer have light corners on the grey bar.
-- <strong>1.9.8</strong> – My horizon: the Moon is drawn at its true size (about 0.5°), with a dashed circle as a marker; automatic update only with a verified SHA-256 fingerprint (it is cancelled if the fingerprint list is missing or does not contain the package); links open only web and e-mail addresses; macOS: the launcher checks Mono (architecture, Rosetta, quarantine) and explains errors 126 and 127.</p>
+- <strong>1.9.9</strong> – My horizon: the Moon has its true phase and tilt, and the new box «The Moon as seen by the two stations» shows it as you see it and as the DX sees it, with the spatial polarization offset Dpol and the loss; closing window and messages: the buttons no longer have light corners on the grey bar.</p>
 <p><strong>Italiano</strong>
+- <strong>1.9.11</strong> – Aggiornamento automatico silenzioso, come in YA-NEC: YAEC controlla GitHub all'avvio e ogni 30 minuti, scarica il pacchetto in background e ne controlla l'impronta SHA-256; su Windows si installa da solo quando chiudi il programma, su Linux, BSD e macOS la nuova versione parte al prossimo avvio, e un avviso dice da quale versione è stato aggiornato (i pacchetti .deb, .rpm, Arch e Slackware restano al gestore dei pacchetti). Il mio orizzonte: il riquadro viola della zona puntabile ha il minimo a scalini, grado per grado di azimut (il più alto fra il limite dell'antenna e il terreno), per la tua stazione e per il DX.
 - <strong>1.9.10</strong> – Nuova linguetta Polarizzazione sul mondo (Pianificazione): mappa del mondo colorata secondo l'offset di polarizzazione spaziale (Dpol) tra la tua stazione e ogni località che vede la Luna, con la linea tratteggiata dei 45° (3 dB); Dpol e perdita al passaggio del mouse e sull'etichetta del DX.
-- <strong>1.9.9</strong> – Il mio orizzonte: la Luna ha la fase e l'inclinazione vere e il nuovo riquadro «La Luna vista dalle due stazioni» la mostra come la vedi tu e come la vede il DX, con l'offset di polarizzazione spaziale Dpol e la perdita; finestra di chiusura e avvisi: i pulsanti non hanno più gli angoli chiari sul fondo grigio.
-- <strong>1.9.8</strong> – Il mio orizzonte: la Luna è disegnata in scala vera (circa 0,5°), con un cerchio tratteggiato come segnaposto; aggiornamento automatico solo con l'impronta SHA-256 verificata (si annulla se l'elenco delle impronte manca o non contiene il pacchetto); i collegamenti aprono solo indirizzi web e di posta; macOS: il lanciatore controlla Mono (architettura, Rosetta, quarantena) e spiega gli errori 126 e 127.</p>
+- <strong>1.9.9</strong> – Il mio orizzonte: la Luna ha la fase e l'inclinazione vere e il nuovo riquadro «La Luna vista dalle due stazioni» la mostra come la vedi tu e come la vede il DX, con l'offset di polarizzazione spaziale Dpol e la perdita; finestra di chiusura e avvisi: i pulsanti non hanno più gli angoli chiari sul fondo grigio.</p>
 <p>Full history in every README language: <a href="https://github.com/ic8tem/YAEC/blob/main/CHANGELOG.md">CHANGELOG.md</a>; in the program: <em>Help and tools</em>.</p>
 <h2>For developers</h2>
 <p>You do not need to compile anything to use YAEC: the installer and the packages above are built automatically. If you want to build it yourself on Windows, <code>compila.bat</code> compiles <code>YAEC.cs</code> with the C# compiler included in Windows (.NET Framework 4, C# 5). Every push is compiled by GitHub Actions on Windows and started on Linux with Mono; when the <code>VERSION</code> file on <code>main</code> holds a new version, the workflow publishes the release with the Windows installer (Inno Setup) and the Linux and macOS packages (<code>.github/workflows/build.yml</code>).</p>

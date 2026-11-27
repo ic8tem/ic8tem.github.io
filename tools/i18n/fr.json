@@ -160,5 +160,7 @@
 "nvpol_p": "Nouvelle vidéo : pourquoi la Lune n'est pas inclinée de la même façon pour tous. Chaque station voit la Lune depuis son propre horizon, et au même instant la même Lune apparaît tournée différemment depuis Capri, Boston et Le Cap : la différence est le décalage de polarisation spatiale Dpol, qui en polarisation linéaire coûte 20·log|cos Dpol|. La vidéo explique aussi pourquoi la Lune apparaît à l'envers entre les deux hémisphères et pourquoi certaines stations hyperfréquences font tourner la source de la parabole. YAEC 1.9.9 montre la Lune avec sa phase et son inclinaison réelles et le nouveau cadre « La Lune vue par les deux stations » dans l'onglet Mon horizon.",
 "nvpol_w": "Vidéo sur YouTube",
 "nyaec1910_p": "YAEC 1.9.10 : nouvel onglet Polarisation sur le monde dans Planification. La carte du monde colore les terres selon le décalage de polarisation spatiale Dpol entre ta station et chaque lieu qui voit la Lune : vert là où les polarisations linéaires coïncident, jaune à 45° (3 dB), rouge à 90°. Au survol on lit Dpol et la perte, un clic fait du point la station DX. Faraday n'est pas compris.",
-"nyaec1910_w": "Nouveautés"
+"nyaec1910_w": "Nouveautés",
+"nyaec1911_p": "YAEC 1.9.11 : mise à jour automatique silencieuse, comme dans YA-NEC. YAEC interroge GitHub au démarrage et toutes les 30 minutes, télécharge la nouvelle version en arrière-plan et vérifie son empreinte SHA-256 : sous Windows elle s'installe à la fermeture du programme, sous Linux, BSD et macOS elle démarre au lancement suivant. Dans Mon horizon le cadre de la zone pointable a maintenant un minimum en escalier, degré par degré d'azimut, pour toi et pour le DX.",
+"nyaec1911_w": "Nouveautés"
 }

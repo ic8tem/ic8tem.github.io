@@ -160,5 +160,7 @@
 "nvpol_p": "Video baru: mengapa Bulan tidak miring sama bagi semua orang. Setiap stasiun melihat Bulan dari cakrawalanya sendiri, dan pada saat yang sama Bulan yang sama tampak berputar berbeda dari Capri, Boston, dan Cape Town: selisihnya adalah offset polarisasi spasial Dpol, yang pada polarisasi linier merugikan 20·log|cos Dpol|. Video ini juga menjelaskan mengapa Bulan tampak terbalik di antara kedua belahan bumi dan mengapa sebagian stasiun gelombang mikro memutar feed parabola. YAEC 1.9.9 menampilkan Bulan dengan fase dan kemiringan sebenarnya serta kotak baru «Bulan dilihat dari kedua stasiun» di tab Cakrawala saya.",
 "nvpol_w": "Video di YouTube",
 "nyaec1910_p": "YAEC 1.9.10: tab baru Polarisasi di seluruh dunia di Perencanaan. Peta dunia mewarnai daratan menurut offset polarisasi spasial Dpol antara stasiunmu dan setiap tempat yang melihat Bulan: hijau di mana polarisasi linear sama, kuning pada 45° (3 dB), merah pada 90°. Arahkan mouse untuk membaca Dpol dan rugi, klik untuk menjadikan titik itu stasiun DX. Rotasi Faraday tidak termasuk.",
-"nyaec1910_w": "Yang baru"
+"nyaec1910_w": "Yang baru",
+"nyaec1911_p": "YAEC 1.9.11: pembaruan otomatis senyap, seperti di YA-NEC. YAEC memeriksa GitHub saat mulai dan setiap 30 menit, mengunduh versi baru di latar belakang dan memeriksa sidik jari SHA-256-nya: di Windows terpasang saat program ditutup, di Linux, BSD dan macOS berjalan pada peluncuran berikutnya. Di Cakrawala saya kotak area yang dapat diarahkan kini memiliki minimum bertingkat, derajat demi derajat azimut, untukmu dan untuk DX.",
+"nyaec1911_w": "Yang baru"
 }

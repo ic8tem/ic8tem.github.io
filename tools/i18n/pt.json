@@ -160,5 +160,7 @@
 "nvpol_p": "Novo vídeo: porque é que a Lua não está inclinada da mesma forma para todos. Cada estação vê a Lua a partir do seu próprio horizonte, e no mesmo instante a mesma Lua aparece rodada de forma diferente a partir de Capri, Boston e da Cidade do Cabo: a diferença é o desvio de polarização espacial Dpol, que em polarização linear custa 20·log|cos Dpol|. O vídeo explica também porque é que a Lua aparece invertida entre os dois hemisférios e porque é que algumas estações de micro-ondas rodam o alimentador da parábola. O YAEC 1.9.9 mostra a Lua com a sua fase e inclinação reais e o novo quadro «A Lua vista pelas duas estações» no separador O meu horizonte.",
 "nvpol_w": "Vídeo no YouTube",
 "nyaec1910_p": "YAEC 1.9.10: novo separador Polarização sobre o mundo em Planeamento. O mapa do mundo colore as terras segundo o desvio de polarização espacial Dpol entre a tua estação e cada local que vê a Lua: verde onde as polarizações lineares coincidem, amarelo a 45° (3 dB), vermelho a 90°. Passando o rato lê-se Dpol e perda, com um clique o ponto passa a ser a estação DX. Faraday não está incluído.",
-"nyaec1910_w": "Novidades"
+"nyaec1910_w": "Novidades",
+"nyaec1911_p": "YAEC 1.9.11: atualização automática silenciosa, como no YA-NEC. O YAEC consulta o GitHub no arranque e a cada 30 minutos, descarrega a nova versão em segundo plano e verifica a sua impressão SHA-256: no Windows instala-se ao fechar o programa, no Linux, BSD e macOS arranca no próximo início. Em O meu horizonte o quadro da zona apontável tem agora o mínimo em degraus, grau a grau de azimute, para ti e para o DX.",
+"nyaec1911_w": "Novidades"
 }

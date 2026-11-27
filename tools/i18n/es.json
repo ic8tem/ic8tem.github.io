@@ -160,5 +160,7 @@
 "nvpol_p": "Nuevo vídeo: por qué la Luna no está inclinada igual para todos. Cada estación ve la Luna desde su propio horizonte, y en el mismo instante la misma Luna aparece girada de forma distinta desde Capri, Boston y Ciudad del Cabo: la diferencia es el desfase de polarización espacial Dpol, que con polarización lineal cuesta 20·log|cos Dpol|. El vídeo explica también por qué la Luna aparece invertida entre los dos hemisferios y por qué algunas estaciones de microondas giran el alimentador de la parábola. YAEC 1.9.9 muestra la Luna con su fase e inclinación reales y el nuevo recuadro «La Luna vista desde las dos estaciones» en la pestaña Mi horizonte.",
 "nvpol_w": "Vídeo en YouTube",
 "nyaec1910_p": "YAEC 1.9.10: nueva pestaña Polarización sobre el mundo en Planificación. El mapa del mundo colorea las tierras según el desfase de polarización espacial Dpol entre tu estación y cada lugar que ve la Luna: verde donde las polarizaciones lineales coinciden, amarillo a 45° (3 dB), rojo a 90°. Al pasar el ratón se leen Dpol y pérdida, con un clic el punto pasa a ser la estación DX. Faraday no está incluido.",
-"nyaec1910_w": "Novedades"
+"nyaec1910_w": "Novedades",
+"nyaec1911_p": "YAEC 1.9.11: actualización automática silenciosa, como en YA-NEC. YAEC consulta GitHub al arrancar y cada 30 minutos, descarga la nueva versión en segundo plano y comprueba su huella SHA-256: en Windows se instala al cerrar el programa, en Linux, BSD y macOS arranca en el próximo inicio. En Mi horizonte el recuadro de la zona apuntable tiene ahora el mínimo escalonado, grado a grado de acimut, para ti y para el DX.",
+"nyaec1911_w": "Novedades"
 }
