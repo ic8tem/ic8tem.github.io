@@ -1,6 +1,13 @@
 {
  "_note": "Video del sito. 'manual': scritti a mano (i {segnaposto} vengono da tools/i18n). 'auto': aggiunti da tools/update.py dal canale YouTube. Per nascondere un video aggiungere il suo ID a 'ignore'.",
- "auto": [],
+ "auto": [
+  {
+   "id": "J3N5HvMeeSc",
+   "title": "Perché la Luna è inclinata diversamente? Polarizzazione spaziale EME · YAEC 1.9.9",
+   "sub": "2026-11-27",
+   "published": "2026-11-27T06:59:37+00:00"
+  }
+ ],
  "manual": [
   {
    "url": "https://youtu.be/C9y0GTyjtOs",
