@@ -162,5 +162,7 @@
 "nyaec1910_p": "YAEC 1.9.10: new tab Polarization over the world in Planning. The world map colours the land by the spatial polarization offset Dpol between your station and every place that sees the Moon: green where the linear polarizations match, yellow at 45° (3 dB), red at 90°. Hover to read Dpol and loss, click to make the point the DX station. Faraday rotation is not included.",
 "nyaec1910_w": "What's new",
 "nyaec1911_p": "YAEC 1.9.11: silent automatic update, as in YA-NEC. YAEC checks GitHub at start-up and every 30 minutes, downloads the new version in the background and checks its SHA-256 fingerprint: on Windows it installs when you close the program, on Linux, BSD and macOS it starts at the next launch. In My horizon the pointable-area box now has a stepped minimum, degree by degree of azimuth, for you and for the DX.",
-"nyaec1911_w": "What's new"
+"nyaec1911_w": "What's new",
+"nyaec1912_p": "YAEC 1.9.12: less CPU and less memory, with the same calculations. The Live page is redrawn only when a visible value changes and only the language in use is loaded into memory: measured on Windows, the CPU of the Live page drops by about 60% and the memory peak at start-up from about 350 to about 155 MB. With the silent update of 1.9.11 it arrives on its own.",
+"nyaec1912_w": "What's new"
 }

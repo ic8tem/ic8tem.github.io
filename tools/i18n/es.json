@@ -162,5 +162,7 @@
 "nyaec1910_p": "YAEC 1.9.10: nueva pestaña Polarización sobre el mundo en Planificación. El mapa del mundo colorea las tierras según el desfase de polarización espacial Dpol entre tu estación y cada lugar que ve la Luna: verde donde las polarizaciones lineales coinciden, amarillo a 45° (3 dB), rojo a 90°. Al pasar el ratón se leen Dpol y pérdida, con un clic el punto pasa a ser la estación DX. Faraday no está incluido.",
 "nyaec1910_w": "Novedades",
 "nyaec1911_p": "YAEC 1.9.11: actualización automática silenciosa, como en YA-NEC. YAEC consulta GitHub al arrancar y cada 30 minutos, descarga la nueva versión en segundo plano y comprueba su huella SHA-256: en Windows se instala al cerrar el programa, en Linux, BSD y macOS arranca en el próximo inicio. En Mi horizonte el recuadro de la zona apuntable tiene ahora el mínimo escalonado, grado a grado de acimut, para ti y para el DX.",
-"nyaec1911_w": "Novedades"
+"nyaec1911_w": "Novedades",
+"nyaec1912_p": "YAEC 1.9.12: menos CPU y menos memoria, con los mismos cálculos. La página En directo se redibuja solo cuando cambia un valor visible y solo se carga el idioma en uso: medido en Windows, la CPU de la página En directo baja alrededor de un 60 % y el pico de memoria al arrancar pasa de unos 350 a unos 155 MB. Con la actualización silenciosa de la 1.9.11 llega sola.",
+"nyaec1912_w": "Novedades"
 }

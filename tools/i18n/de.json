@@ -162,5 +162,7 @@
 "nyaec1910_p": "YAEC 1.9.10: neuer Reiter Polarisation über der Welt in Planung. Die Weltkarte färbt die Landflächen nach dem räumlichen Polarisationsversatz Dpol zwischen deiner Station und jedem Ort, der den Mond sieht: grün, wo die linearen Polarisationen übereinstimmen, gelb bei 45° (3 dB), rot bei 90°. Mit der Maus liest man Dpol und Verlust, ein Klick macht den Punkt zur DX-Station. Faraday ist nicht enthalten.",
 "nyaec1910_w": "Neuerungen",
 "nyaec1911_p": "YAEC 1.9.11: stille automatische Aktualisierung wie in YA-NEC. YAEC prüft GitHub beim Start und alle 30 Minuten, lädt die neue Version im Hintergrund und prüft ihren SHA-256-Fingerabdruck: unter Windows wird sie beim Schließen installiert, unter Linux, BSD und macOS startet sie beim nächsten Aufruf. In Mein Horizont hat der Rahmen des anpeilbaren Bereichs jetzt ein gestuftes Minimum, Grad für Grad im Azimut, für dich und für den DX.",
-"nyaec1911_w": "Neuerungen"
+"nyaec1911_w": "Neuerungen",
+"nyaec1912_p": "YAEC 1.9.12: weniger CPU und weniger Speicher bei gleichen Berechnungen. Die Seite Live wird nur neu gezeichnet, wenn sich ein sichtbarer Wert ändert, und nur die verwendete Sprache wird geladen: unter Windows gemessen sinkt die CPU der Seite Live um etwa 60 % und die Speicherspitze beim Start von etwa 350 auf etwa 155 MB. Mit der stillen Aktualisierung der 1.9.11 kommt sie von selbst.",
+"nyaec1912_w": "Neuerungen"
 }

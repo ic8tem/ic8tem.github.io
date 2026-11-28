@@ -162,5 +162,7 @@
 "nyaec1910_p": "YAEC 1.9.10: tab baru Polarisasi di seluruh dunia di Perencanaan. Peta dunia mewarnai daratan menurut offset polarisasi spasial Dpol antara stasiunmu dan setiap tempat yang melihat Bulan: hijau di mana polarisasi linear sama, kuning pada 45° (3 dB), merah pada 90°. Arahkan mouse untuk membaca Dpol dan rugi, klik untuk menjadikan titik itu stasiun DX. Rotasi Faraday tidak termasuk.",
 "nyaec1910_w": "Yang baru",
 "nyaec1911_p": "YAEC 1.9.11: pembaruan otomatis senyap, seperti di YA-NEC. YAEC memeriksa GitHub saat mulai dan setiap 30 menit, mengunduh versi baru di latar belakang dan memeriksa sidik jari SHA-256-nya: di Windows terpasang saat program ditutup, di Linux, BSD dan macOS berjalan pada peluncuran berikutnya. Di Cakrawala saya kotak area yang dapat diarahkan kini memiliki minimum bertingkat, derajat demi derajat azimut, untukmu dan untuk DX.",
-"nyaec1911_w": "Yang baru"
+"nyaec1911_w": "Yang baru",
+"nyaec1912_p": "YAEC 1.9.12: CPU dan memori lebih sedikit, dengan perhitungan yang sama. Halaman Langsung hanya digambar ulang saat nilai yang terlihat berubah dan hanya bahasa yang dipakai yang dimuat: diukur di Windows, CPU halaman Langsung turun sekitar 60% dan puncak memori saat mulai dari sekitar 350 menjadi sekitar 155 MB. Dengan pembaruan senyap 1.9.11 versi ini datang sendiri.",
+"nyaec1912_w": "Yang baru"
 }

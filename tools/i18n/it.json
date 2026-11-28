@@ -162,5 +162,7 @@
 "nyaec1910_p": "YAEC 1.9.10: nuova linguetta Polarizzazione sul mondo in Pianificazione. La mappa del mondo colora le terre secondo l'offset di polarizzazione spaziale Dpol tra la tua stazione e ogni località che vede la Luna: verde dove le polarizzazioni lineari coincidono, giallo a 45° (3 dB), rosso a 90°. Passando il mouse si leggono Dpol e perdita, con un clic il punto diventa la stazione DX. Faraday non è compreso.",
 "nyaec1910_w": "Novità della versione",
 "nyaec1911_p": "YAEC 1.9.11: aggiornamento automatico silenzioso, come in YA-NEC. YAEC controlla GitHub all'avvio e ogni 30 minuti, scarica la nuova versione in background e ne controlla l'impronta SHA-256: su Windows si installa da sola quando chiudi il programma, su Linux, BSD e macOS parte al prossimo avvio. In Il mio orizzonte il riquadro della zona puntabile ha ora il minimo a scalini, grado per grado di azimut, per te e per il DX.",
-"nyaec1911_w": "Novità della versione"
+"nyaec1911_w": "Novità della versione",
+"nyaec1912_p": "YAEC 1.9.12: meno CPU e meno memoria, con gli stessi calcoli. La pagina In diretta si ridisegna solo quando cambia un valore visibile e in memoria si carica solo la lingua in uso: misurato su Windows, la CPU della pagina In diretta scende di circa il 60% e il picco di memoria all'avvio da circa 350 a circa 155 MB. Con l'aggiornamento silenzioso della 1.9.11 arriva da sola.",
+"nyaec1912_w": "Novità della versione"
 }
